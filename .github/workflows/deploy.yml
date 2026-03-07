@@ -27,27 +27,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Fetch GitHub Contributions
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node scripts/fetch-contributions.js
-
-      - name: Inject stats into index.html
-        run: node scripts/inject-stats.js
-
-      - name: Commit updated data
-        run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add data/ index.html
-          git diff --staged --quiet || git commit -m "chore: auto-update contributions [skip ci]"
-          git push
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
