@@ -1,35 +1,127 @@
 {
-  "lastUpdated": "2026-03-07T00:00:00Z",
+  "lastUpdated": "2026-03-07T14:44:07.492Z",
   "username": "Adarshkumar0509",
   "totalCommits": 10,
-  "totalPRs": 6,
+  "totalPRs": 10,
   "mergedPRs": 3,
-  "openPRs": 3,
+  "openPRs": 4,
   "totalIssues": 14,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: pin outdated GitHub Actions versions in CI workflows",
+      "url": "https://github.com/OWASP/cornucopia/pull/2552",
+      "date": "2026-03-07T08:26:12Z",
+      "state": "open",
+      "ref": "#2552"
+    },
+    {
+      "type": "issue",
+      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
+      "url": "https://github.com/OWASP/cornucopia/issues/2542",
+      "date": "2026-03-06T13:29:48Z",
+      "state": "open",
+      "ref": "#2542"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: last_round? ends game prematurely when any player runs out of cards instead of all players",
+      "url": "https://github.com/OWASP/cornucopia/issues/2527",
+      "date": "2026-03-05T15:06:48Z",
+      "state": "closed",
+      "ref": "#2527"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: add authorization check in toggle_vote to prevent cross-game voting",
+      "url": "https://github.com/OWASP/cornucopia/pull/2523",
+      "date": "2026-03-05T11:45:34Z",
+      "state": "open",
+      "ref": "#2523"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
+      "url": "https://github.com/OWASP/cornucopia/issues/2520",
+      "date": "2026-03-05T09:16:32Z",
+      "state": "open",
+      "ref": "#2520"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
+      "url": "https://github.com/OWASP/cornucopia/issues/2505",
+      "date": "2026-03-04T09:15:02Z",
+      "state": "open",
+      "ref": "#2505"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
+      "url": "https://github.com/OWASP/cornucopia/issues/2499",
+      "date": "2026-03-03T19:00:19Z",
+      "state": "open",
+      "ref": "#2499"
+    },
+    {
+      "type": "pull_request",
       "title": "fix: remove incomplete delete game test from GameLiveTest",
       "url": "https://github.com/OWASP/cornucopia/pull/2480",
-      "date": "2026-03-03",
+      "date": "2026-03-02T22:11:02Z",
       "state": "merged",
       "ref": "#2480"
     },
     {
-      "type": "pull_request",
-      "title": "Add framed privacy notices to game and player forms",
-      "url": "https://github.com/OWASP/cornucopia/pull/2262",
-      "date": "2026-02-26",
-      "state": "merged",
-      "ref": "#2262"
+      "type": "commit",
+      "title": "fix: remove incomplete delete game test from GameLiveTest",
+      "url": "https://github.com/OWASP/cornucopia/commit/5b05985c2444232526a810c921b371371b6aa021",
+      "date": "2026-03-02T22:08:14Z",
+      "ref": "#5b05985"
     },
     {
       "type": "pull_request",
-      "title": "PR #2402",
+      "title": "fix: correct game summary link in player live view",
+      "url": "https://github.com/OWASP/cornucopia/pull/2460",
+      "date": "2026-03-01T18:46:13Z",
+      "state": "open",
+      "ref": "#2460"
+    },
+    {
+      "type": "commit",
+      "title": "Merge branch 'master' of https://github.com/OWASP/cornucopia",
+      "url": "https://github.com/OWASP/cornucopia/commit/ef66a9d630638586a45dcf017337c70cf485fc4c",
+      "date": "2026-03-01T18:34:24Z",
+      "ref": "#ef66a9d"
+    },
+    {
+      "type": "pull_request",
+      "title": "Upgrade to Python 3.13 and install Python 3.13 in ClusterFuzzLite",
+      "url": "https://github.com/OWASP/cornucopia/pull/2403",
+      "date": "2026-02-26T17:41:48Z",
+      "state": "open",
+      "ref": "#2403"
+    },
+    {
+      "type": "commit",
+      "title": "Resolve merge conflict in about page",
+      "url": "https://github.com/OWASP/cornucopia/commit/ac1bb58188607713616dfd4cb7620d30ed2cc930",
+      "date": "2026-02-26T17:25:18Z",
+      "ref": "#ac1bb58"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add Adarsh Kumar to acknowledgements",
       "url": "https://github.com/OWASP/cornucopia/pull/2402",
-      "date": "2026-02-20",
+      "date": "2026-02-26T15:30:52Z",
       "state": "merged",
       "ref": "#2402"
+    },
+    {
+      "type": "commit",
+      "title": "Add Adarsh Kumar to acknowledgements",
+      "url": "https://github.com/OWASP/cornucopia/commit/c53e8cf6338ff30166dc11284c9bfbed95e09439",
+      "date": "2026-02-26T15:27:43Z",
+      "ref": "#c53e8cf"
     }
   ]
 }
