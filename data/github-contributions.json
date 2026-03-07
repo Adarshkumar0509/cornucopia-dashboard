@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-07T14:44:07.492Z",
+  "lastUpdated": "2026-03-07T15:02:45.549Z",
   "username": "Adarshkumar0509",
   "totalCommits": 10,
-  "totalPRs": 10,
+  "totalPRs": 7,
   "mergedPRs": 3,
   "openPRs": 4,
   "totalIssues": 14,
@@ -11,31 +11,39 @@
       "type": "pull_request",
       "title": "fix: pin outdated GitHub Actions versions in CI workflows",
       "url": "https://github.com/OWASP/cornucopia/pull/2552",
-      "date": "2026-03-07T08:26:12Z",
+      "date": "2026-03-07T08:27:26Z",
       "state": "open",
       "ref": "#2552"
     },
     {
-      "type": "issue",
-      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
-      "url": "https://github.com/OWASP/cornucopia/issues/2542",
-      "date": "2026-03-06T13:29:48Z",
+      "type": "pull_request",
+      "title": "Upgrade to Python 3.13 and install Python 3.13 in ClusterFuzzLite",
+      "url": "https://github.com/OWASP/cornucopia/pull/2403",
+      "date": "2026-03-07T07:58:30Z",
       "state": "open",
-      "ref": "#2542"
+      "ref": "#2403"
     },
     {
       "type": "issue",
       "title": "Bug: last_round? ends game prematurely when any player runs out of cards instead of all players",
       "url": "https://github.com/OWASP/cornucopia/issues/2527",
-      "date": "2026-03-05T15:06:48Z",
+      "date": "2026-03-06T15:07:18Z",
       "state": "closed",
       "ref": "#2527"
+    },
+    {
+      "type": "issue",
+      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
+      "url": "https://github.com/OWASP/cornucopia/issues/2542",
+      "date": "2026-03-06T13:44:50Z",
+      "state": "open",
+      "ref": "#2542"
     },
     {
       "type": "pull_request",
       "title": "fix: add authorization check in toggle_vote to prevent cross-game voting",
       "url": "https://github.com/OWASP/cornucopia/pull/2523",
-      "date": "2026-03-05T11:45:34Z",
+      "date": "2026-03-05T13:38:18Z",
       "state": "open",
       "ref": "#2523"
     },
@@ -43,7 +51,7 @@
       "type": "issue",
       "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
       "url": "https://github.com/OWASP/cornucopia/issues/2520",
-      "date": "2026-03-05T09:16:32Z",
+      "date": "2026-03-05T13:37:42Z",
       "state": "open",
       "ref": "#2520"
     },
@@ -51,7 +59,7 @@
       "type": "issue",
       "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
       "url": "https://github.com/OWASP/cornucopia/issues/2505",
-      "date": "2026-03-04T09:15:02Z",
+      "date": "2026-03-04T09:28:19Z",
       "state": "open",
       "ref": "#2505"
     },
@@ -59,7 +67,7 @@
       "type": "issue",
       "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
       "url": "https://github.com/OWASP/cornucopia/issues/2499",
-      "date": "2026-03-03T19:00:19Z",
+      "date": "2026-03-03T19:05:15Z",
       "state": "open",
       "ref": "#2499"
     },
@@ -67,7 +75,7 @@
       "type": "pull_request",
       "title": "fix: remove incomplete delete game test from GameLiveTest",
       "url": "https://github.com/OWASP/cornucopia/pull/2480",
-      "date": "2026-03-02T22:11:02Z",
+      "date": "2026-03-03T07:39:27Z",
       "state": "merged",
       "ref": "#2480"
     },
@@ -82,7 +90,7 @@
       "type": "pull_request",
       "title": "fix: correct game summary link in player live view",
       "url": "https://github.com/OWASP/cornucopia/pull/2460",
-      "date": "2026-03-01T18:46:13Z",
+      "date": "2026-03-01T18:50:10Z",
       "state": "open",
       "ref": "#2460"
     },
@@ -92,14 +100,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/ef66a9d630638586a45dcf017337c70cf485fc4c",
       "date": "2026-03-01T18:34:24Z",
       "ref": "#ef66a9d"
-    },
-    {
-      "type": "pull_request",
-      "title": "Upgrade to Python 3.13 and install Python 3.13 in ClusterFuzzLite",
-      "url": "https://github.com/OWASP/cornucopia/pull/2403",
-      "date": "2026-02-26T17:41:48Z",
-      "state": "open",
-      "ref": "#2403"
     },
     {
       "type": "commit",
@@ -112,7 +112,7 @@
       "type": "pull_request",
       "title": "Add Adarsh Kumar to acknowledgements",
       "url": "https://github.com/OWASP/cornucopia/pull/2402",
-      "date": "2026-02-26T15:30:52Z",
+      "date": "2026-02-26T15:54:52Z",
       "state": "merged",
       "ref": "#2402"
     },
