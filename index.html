@@ -757,8 +757,8 @@ function renderStats(data) {
   document.getElementById('s-issues').textContent  = data ? data.totalIssues : CONFIG.stats.issues;
 }
 
-function renderActivity() {
-  const items = CONFIG.activity || [];
+function renderActivity(data) {
+  const items = (data && data.recentActivity) ? data.recentActivity : (CONFIG.activity || []);
   const container = document.getElementById('act-list');
   if(!items.length){
     container.innerHTML = `<div class="empty" style="color:var(--muted)">No activity yet — add entries in the CONFIG section.</div>`;
@@ -831,10 +831,12 @@ function renderBlog() {
 
 // Boot
 renderProfile();
-renderStats();
-renderActivity();
 renderWeekly();
 renderBlog();
+fetch("data/github-contributions.json?t="+Date.now())
+  .then(r=>r.json())
+  .then(data=>{ renderStats(data); renderActivity(data); })
+  .catch(()=>{ renderStats(null); renderActivity(null); });
 </script>
 </body>
 </html>
