@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cornucopia Contributor Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+/* ================================================
+   CORNUCOPIA CONTRIBUTOR DASHBOARD
+   Single-file version — edit CONFIG section below
+   ================================================ */
+
+:root {
+  --bg:       #0d0d0f;
+  --bg2:      #14141c;
+  --bg3:      #1c1c28;
+  --border:   rgba(255,255,255,0.07);
+  --border-hi:rgba(255,255,255,0.15);
+  --red:      #e63946;
+  --gold:     #f4c542;
+  --green:    #2ec27e;
+  --blue:     #4ea8de;
+  --purple:   #c77dff;
+  --white:    #f0ede6;
+  --muted:    #6b6b80;
+  --font-d:   'Playfair Display', Georgia, serif;
+  --font-m:   'IBM Plex Mono', 'Courier New', monospace;
+  --font-b:   'IBM Plex Sans', system-ui, sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--white);
+  font-family:var(--font-b);
+  font-weight:300;
+  line-height:1.65;
+  min-height:100vh;
+  overflow-x:hidden;
+}
+
+/* ---- BG DECORATIVE SUITS ---- */
+.bg-suits{
+  position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden;
+}
+.bg-suit{
+  position:absolute;
+  font-size:22vw;
+  opacity:0.015;
+  color:var(--white);
+  font-family:var(--font-d);
+  user-select:none;
+  animation:floatSuit 22s ease-in-out infinite;
+}
+.bs1{top:-8%;left:-5%;animation-delay:0s}
+.bs2{top:25%;right:-5%;animation-delay:-6s;font-size:16vw}
+.bs3{bottom:-6%;left:15%;animation-delay:-12s}
+.bs4{bottom:15%;right:3%;font-size:14vw;animation-delay:-18s}
+@keyframes floatSuit{
+  0%,100%{transform:translateY(0) rotate(-6deg)}
+  50%{transform:translateY(-28px) rotate(6deg)}
+}
+
+/* ---- HEADER ---- */
+.header{
+  position:sticky;top:0;z-index:100;
+  border-bottom:1px solid var(--border);
+  background:rgba(13,13,15,0.97);
+  backdrop-filter:blur(16px);
+}
+.header-inner{
+  max-width:1200px;margin:0 auto;padding:0 28px;
+  height:62px;display:flex;align-items:center;gap:20px;
+}
+.owasp-pill{
+  display:flex;align-items:center;gap:6px;
+  font-family:var(--font-m);font-size:10px;font-weight:600;
+  letter-spacing:0.14em;color:var(--gold);text-transform:uppercase;
+  border:1px solid rgba(244,197,66,0.3);border-radius:4px;padding:3px 10px;
+  white-space:nowrap;flex-shrink:0;
+}
+.owasp-dot{
+  width:6px;height:6px;border-radius:50%;background:var(--gold);
+  animation:blink 2s ease-in-out infinite;
+}
+@keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.6)}}
+.header-brand{flex:1}
+.header-title{
+  font-family:var(--font-d);font-size:20px;font-weight:900;
+  display:flex;align-items:center;gap:8px;line-height:1;
+}
+.header-sub{
+  font-family:var(--font-m);font-size:9px;color:var(--muted);
+  letter-spacing:.12em;text-transform:uppercase;margin-top:2px;
+}
+.nav-links{display:flex;gap:16px;align-items:center}
+.nav-links a{
+  font-family:var(--font-m);font-size:12px;color:var(--muted);
+  text-decoration:none;transition:color .2s;
+  padding-bottom:2px;border-bottom:1px solid transparent;
+}
+.nav-links a:hover{color:var(--white);border-bottom-color:var(--gold)}
+
+/* ---- CONTAINER ---- */
+.wrap{max-width:1200px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+
+/* ---- HERO ---- */
+.hero{padding:52px 0 36px}
+.profile-card{
+  display:flex;align-items:center;gap:36px;
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:18px;padding:36px 44px;position:relative;overflow:hidden;
+  animation:fadeUp .6s ease both;
+}
+.profile-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:linear-gradient(90deg,var(--red),var(--gold),var(--green),var(--blue),var(--purple));
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.avatar-wrap{position:relative;flex-shrink:0}
+.avatar-img{
+  width:90px;height:90px;border-radius:50%;object-fit:cover;
+  display:block;position:relative;z-index:1;
+  background:var(--bg3);border:2px solid var(--border-hi);
+}
+.avatar-ring{
+  position:absolute;inset:-5px;border-radius:50%;
+  border:2px solid var(--gold);opacity:.5;
+  animation:spin 14s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+.profile-info{flex:1}
+.profile-name{
+  font-family:var(--font-d);font-size:30px;font-weight:700;
+  line-height:1.1;margin-bottom:6px;
+}
+.profile-bio{color:var(--muted);font-size:14px;margin-bottom:12px}
+.profile-links{display:flex;gap:14px;flex-wrap:wrap}
+.profile-links a{
+  font-family:var(--font-m);font-size:12px;color:var(--blue);
+  text-decoration:none;transition:color .2s;display:flex;align-items:center;gap:4px;
+}
+.profile-links a:hover{color:var(--gold)}
+.project-box{
+  background:var(--bg3);border:1px solid var(--border-hi);
+  border-radius:12px;padding:20px 28px;text-align:center;min-width:210px;flex-shrink:0;
+}
+.proj-label{
+  font-family:var(--font-m);font-size:10px;letter-spacing:.1em;
+  color:var(--muted);text-transform:uppercase;margin-bottom:4px;
+}
+.proj-name{font-family:var(--font-m);font-size:16px;font-weight:600;color:var(--gold)}
+.proj-desc{font-size:11px;color:var(--muted);margin-top:6px;line-height:1.5}
+.proj-timeline{font-family:var(--font-m);font-size:11px;color:var(--muted);margin-top:4px}
+
+/* ---- STATS ---- */
+.stats{padding:0 0 44px}
+.stats-grid{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;
+}
+.stat{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:12px;padding:24px 20px;text-align:center;
+  transition:border-color .2s,transform .2s;
+  animation:fadeUp .6s ease both;
+}
+.stat:hover{border-color:var(--border-hi);transform:translateY(-3px)}
+.stat.gold-stat{
+  border-color:rgba(244,197,66,.25);
+  background:linear-gradient(135deg,var(--bg2),rgba(244,197,66,.04));
+}
+.stat-ico{font-size:16px;color:var(--muted);margin-bottom:8px}
+.gold-stat .stat-ico{color:var(--gold)}
+.stat-num{
+  font-family:var(--font-d);font-size:38px;font-weight:700;line-height:1;
+  margin-bottom:4px;color:var(--white);
+}
+.gold-stat .stat-num{color:var(--gold)}
+.stat-lbl{
+  font-family:var(--font-m);font-size:11px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.08em;
+}
+
+/* ---- MAIN LAYOUT ---- */
+.main-grid{
+  display:grid;grid-template-columns:1fr 390px;gap:28px;
+  align-items:start;padding-bottom:64px;
+}
+.col-left,.col-right{display:flex;flex-direction:column;gap:28px}
+
+/* ---- PANEL ---- */
+.panel{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:16px;overflow:hidden;
+  animation:fadeUp .6s ease both;
+}
+.panel-head{
+  display:flex;align-items:center;gap:10px;
+  padding:18px 24px 16px;border-bottom:1px solid var(--border);
+}
+.ph-suit{font-size:17px;flex-shrink:0}
+.ph-title{font-family:var(--font-d);font-size:18px;font-weight:700;flex:1}
+.ph-tag{font-family:var(--font-m);font-size:10px;color:var(--muted);letter-spacing:.05em}
+
+/* ---- ACTIVITY ---- */
+.act-list{padding:6px 0}
+.act-item{
+  display:flex;align-items:flex-start;gap:12px;
+  padding:13px 24px;border-bottom:1px solid var(--border);
+  transition:background .15s;
+}
+.act-item:last-child{border-bottom:none}
+.act-item:hover{background:var(--bg3)}
+.act-ico{
+  width:30px;height:30px;border-radius:7px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;flex-shrink:0;margin-top:1px;
+}
+.type-commit .act-ico{background:rgba(78,168,222,.14);color:var(--blue)}
+.type-pull_request .act-ico{background:rgba(46,194,126,.14);color:var(--green)}
+.type-issue .act-ico{background:rgba(230,57,70,.14);color:var(--red)}
+.act-body{flex:1;min-width:0}
+.act-title{
+  font-size:13px;font-weight:500;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;margin-bottom:3px;
+}
+.act-title a{color:var(--white);text-decoration:none;transition:color .15s}
+.act-title a:hover{color:var(--gold)}
+.act-meta{
+  font-family:var(--font-m);font-size:11px;color:var(--muted);
+  display:flex;gap:8px;align-items:center;flex-wrap:wrap;
+}
+.badge{font-size:10px;padding:1px 6px;border-radius:4px;font-weight:600}
+.b-open{background:rgba(46,194,126,.14);color:var(--green)}
+.b-closed{background:rgba(107,107,128,.14);color:var(--muted)}
+.b-merged{background:rgba(199,125,255,.14);color:var(--purple)}
+
+/* ---- TIMELINE ---- */
+.timeline{padding:20px 24px;display:flex;flex-direction:column}
+.tl-item{display:flex;gap:16px;position:relative}
+.tl-item::before{
+  content:'';position:absolute;left:15px;top:32px;bottom:0;
+  width:1px;background:var(--border);
+}
+.tl-item:last-child::before{display:none}
+.tl-dot{
+  width:32px;height:32px;border-radius:50%;
+  background:var(--bg3);border:2px solid var(--border-hi);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-m);font-size:11px;color:var(--gold);
+  font-weight:600;flex-shrink:0;z-index:1;
+}
+.tl-body{flex:1;padding-bottom:28px}
+.tl-date{
+  font-family:var(--font-m);font-size:10px;color:var(--muted);
+  text-transform:uppercase;letter-spacing:.08em;margin-bottom:4px;
+}
+.tl-title{font-family:var(--font-d);font-size:15px;font-weight:700;margin-bottom:6px}
+.tl-summary{font-size:13px;color:rgba(240,237,230,.65);line-height:1.6;margin-bottom:8px}
+.tl-chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{
+  font-family:var(--font-m);font-size:10px;padding:2px 8px;
+  border-radius:4px;background:rgba(255,255,255,.04);
+  color:var(--muted);border:1px solid var(--border);
+}
+
+/* ---- BLOG ---- */
+.blog-list{padding:8px 0}
+.blog-item{
+  padding:16px 24px;border-bottom:1px solid var(--border);transition:background .15s;
+}
+.blog-item:last-child{border-bottom:none}
+.blog-item:hover{background:var(--bg3)}
+.blog-title{font-size:14px;font-weight:500;margin-bottom:5px}
+.blog-title a{color:var(--white);text-decoration:none;transition:color .15s;display:block}
+.blog-title a:hover{color:var(--gold)}
+.blog-excerpt{font-size:12px;color:var(--muted);line-height:1.55;margin-bottom:8px}
+.blog-footer{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.blog-date,.blog-read{font-family:var(--font-m);font-size:11px;color:var(--muted)}
+.tag{
+  font-family:var(--font-m);font-size:10px;padding:1px 6px;border-radius:3px;
+  background:rgba(78,168,222,.1);color:var(--blue);border:1px solid rgba(78,168,222,.2);
+}
+
+/* ---- SUITS LEGEND ---- */
+.suits-list{padding:8px 0}
+.suit-row{
+  display:flex;align-items:center;gap:14px;
+  padding:11px 24px;border-bottom:1px solid var(--border);transition:background .15s;
+}
+.suit-row:last-child{border-bottom:none}
+.suit-row:hover{background:var(--bg3)}
+.suit-sym{font-size:22px;flex-shrink:0;width:30px;text-align:center}
+.suit-name{font-size:13px;font-weight:500;margin-bottom:1px}
+.suit-code{font-family:var(--font-m);font-size:11px;color:var(--muted)}
+
+/* ---- EMPTY / LOADING ---- */
+.empty{
+  display:flex;align-items:center;gap:10px;
+  padding:28px 24px;color:var(--muted);font-family:var(--font-m);font-size:12px;
+}
+.spinner{
+  width:18px;height:18px;border:2px solid var(--border);
+  border-top-color:var(--gold);border-radius:50%;
+  animation:spin .8s linear infinite;flex-shrink:0;
+}
+
+/* ---- FOOTER ---- */
+.footer{
+  border-top:1px solid var(--border);padding:24px 0;margin-top:8px;
+}
+.footer-inner{
+  display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+  font-family:var(--font-m);font-size:12px;color:var(--muted);
+}
+.footer-inner a{color:var(--gold);text-decoration:none}
+.footer-inner a:hover{text-decoration:underline}
+.sep{opacity:.25}
+
+/* ---- RESPONSIVE ---- */
+@media(max-width:960px){
+  .main-grid{grid-template-columns:1fr}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:640px){
+  .profile-card{flex-direction:column;text-align:center}
+  .profile-links{justify-content:center}
+  .project-box{width:100%}
+  .stats-grid{grid-template-columns:repeat(2,1fr)}
+  .owasp-pill{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- ================================================
+  ✏️  EDIT YOUR INFO BELOW IN THE <script> CONFIG
+  ================================================ -->
+
+<!-- Background decorative suits -->
+<div class="bg-suits" aria-hidden="true">
+  <div class="bg-suit bs1">♠</div>
+  <div class="bg-suit bs2">♦</div>
+  <div class="bg-suit bs3">♣</div>
+  <div class="bg-suit bs4">♥</div>
+</div>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="header-inner">
+    <div class="owasp-pill"><span class="owasp-dot"></span>OWASP Project</div>
+    <div class="header-brand">
+      <div class="header-title">🃏 Cornucopia</div>
+      <div class="header-sub">Contributor Dashboard</div>
+    </div>
+    <nav class="nav-links" id="nav-links"></nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="profile-card">
+      <div class="avatar-wrap">
+        <img class="avatar-img" id="avatar" src="" alt="avatar"/>
+        <div class="avatar-ring"></div>
+      </div>
+      <div class="profile-info">
+        <div class="profile-name" id="p-name">—</div>
+        <div class="profile-bio" id="p-bio">—</div>
+        <div class="profile-links" id="p-links"></div>
+      </div>
+      <div class="project-box">
+        <div class="proj-label">Contributing to</div>
+        <div class="proj-name">OWASP / cornucopia</div>
+        <div class="proj-desc" id="proj-desc">—</div>
+        <div class="proj-timeline" id="proj-timeline">—</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="wrap">
+    <div class="stats-grid">
+      <div class="stat" style="animation-delay:.05s">
+        <div class="stat-ico">⬡</div>
+        <div class="stat-num" id="s-commits">—</div>
+        <div class="stat-lbl">Commits</div>
+      </div>
+      <div class="stat" style="animation-delay:.1s">
+        <div class="stat-ico">⬡</div>
+        <div class="stat-num" id="s-prs">—</div>
+        <div class="stat-lbl">Pull Requests</div>
+      </div>
+      <div class="stat gold-stat" style="animation-delay:.15s">
+        <div class="stat-ico">♠</div>
+        <div class="stat-num" id="s-merged">—</div>
+        <div class="stat-lbl">PRs Merged</div>
+      </div>
+      <div class="stat" style="animation-delay:.2s">
+        <div class="stat-ico">⬡</div>
+        <div class="stat-num" id="s-issues">—</div>
+        <div class="stat-lbl">Issues Opened</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MAIN GRID -->
+<main class="wrap">
+  <div class="main-grid">
+
+    <!-- LEFT -->
+    <div class="col-left">
+
+      <!-- Activity -->
+      <div class="panel">
+        <div class="panel-head">
+          <span class="ph-suit" style="color:var(--blue)">♠</span>
+          <span class="ph-title">Recent Activity</span>
+          <span class="ph-tag" id="sync-tag">Auto-synced via GitHub Actions</span>
+        </div>
+        <div class="act-list" id="act-list">
+          <div class="empty"><div class="spinner"></div>Loading…</div>
+        </div>
+      </div>
+
+      <!-- Weekly Updates -->
+      <div class="panel">
+        <div class="panel-head">
+          <span class="ph-suit" style="color:var(--gold)">♦</span>
+          <span class="ph-title">Weekly Updates</span>
+        </div>
+        <div class="timeline" id="timeline">
+          <div class="empty"><div class="spinner"></div>Loading…</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col-right">
+
+      <!-- Blog Posts -->
+      <div class="panel">
+        <div class="panel-head">
+          <span class="ph-suit" style="color:var(--green)">♣</span>
+          <span class="ph-title">Blog Posts</span>
+        </div>
+        <div class="blog-list" id="blog-list">
+          <div class="empty"><div class="spinner"></div>Loading…</div>
+        </div>
+      </div>
+
+      <!-- Suits Legend -->
+      <div class="panel">
+        <div class="panel-head">
+          <span class="ph-suit" style="color:var(--red)">♥</span>
+          <span class="ph-title">Cornucopia Suits</span>
+        </div>
+        <div class="suits-list">
+          <div class="suit-row">
+            <span class="suit-sym" style="color:#e63946">♠</span>
+            <div><div class="suit-name">Data Validation &amp; Encoding</div><div class="suit-code">VE — Input handling threats</div></div>
+          </div>
+          <div class="suit-row">
+            <span class="suit-sym" style="color:#2ec27e">♣</span>
+            <div><div class="suit-name">Authentication</div><div class="suit-code">AT — Identity &amp; verification</div></div>
+          </div>
+          <div class="suit-row">
+            <span class="suit-sym" style="color:#f4c542">♦</span>
+            <div><div class="suit-name">Session Management</div><div class="suit-code">SM — Session security</div></div>
+          </div>
+          <div class="suit-row">
+            <span class="suit-sym" style="color:#4ea8de">♥</span>
+            <div><div class="suit-name">Authorization</div><div class="suit-code">AZ — Access control</div></div>
+          </div>
+          <div class="suit-row">
+            <span class="suit-sym" style="color:#c77dff">★</span>
+            <div><div class="suit-name">Cryptography</div><div class="suit-code">CR — Crypto &amp; secrets</div></div>
+          </div>
+          <div class="suit-row">
+            <span class="suit-sym" style="color:#f77f00">✦</span>
+            <div><div class="suit-name">Cornucopia</div><div class="suit-code">C — Wildcard threats</div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-inner">
+      <span>Built for <a href="https://github.com/OWASP/cornucopia" target="_blank">OWASP Cornucopia</a></span>
+      <span class="sep">·</span>
+      <span>Inspired by <a href="https://github.com/OWASP-BLT/MY-GSOC-TOOL" target="_blank">MY-GSOC-TOOL</a></span>
+      <span class="sep">·</span>
+      <span>Auto-updated via GitHub Actions</span>
+      <span class="sep">·</span>
+      <span>AGPL-3.0</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ================================================================
+   ✏️  YOUR CONFIGURATION — EDIT THIS SECTION WITH YOUR DETAILS
+   ================================================================ */
+const CONFIG = {
+  contributor: {
+    name:           "Adarsh Kumar",               // ← update your full name if different
+    bio:            "OWASP Cornucopia Contributor | Security Enthusiast",
+    githubUsername: "Adarshkumar0509",
+    github:         "https://github.com/Adarshkumar0509",
+    blog:           "https://yourblog.dev",        // ← update with your blog URL
+    linkedin:       "https://linkedin.com/in/YOUR-PROFILE", // ← update with your LinkedIn
+  },
+  project: {
+    description:    "Contributing to the OWASP Cornucopia threat modelling card game — helping security teams identify threats during software development.",
+    timeline:       "2024 – Present",
+    repoUrl:        "https://github.com/OWASP/cornucopia",
+  },
+
+  /* ---- GitHub Contribution Stats --------------------------------
+     These are updated automatically when deployed with GitHub
+     Actions. When testing locally, update these numbers manually.  */
+  stats: {
+    commits: 0,
+    pullRequests: 0,
+    mergedPRs: 0,
+    issues: 0,
+  },
+
+  /* ---- Recent Activity ------------------------------------------
+     List your recent PRs, commits, and issues here.
+     type: "commit" | "pull_request" | "issue"
+     state: "open" | "closed" | "merged"                           */
+  activity: [
+    {
+      type:  "pull_request",
+      title: "Fix typo in VE2 card description",
+      url:   "https://github.com/OWASP/cornucopia/pull/1",
+      date:  "2024-06-10",
+      state: "merged",
+      ref:   "#1",
+    },
+    {
+      type:  "issue",
+      title: "Suggestion: add OWASP ASVS mapping to AT cards",
+      url:   "https://github.com/OWASP/cornucopia/issues/2",
+      date:  "2024-06-07",
+      state: "open",
+      ref:   "#2",
+    },
+    {
+      type:  "commit",
+      title: "docs: update README with contribution guide",
+      url:   "https://github.com/OWASP/cornucopia/commit/abc1234",
+      date:  "2024-06-05",
+      ref:   "#abc1234",
+    },
+  ],
+
+  /* ---- Weekly Updates -------------------------------------------
+     Add a new entry each week to track your progress.             */
+  weeklyUpdates: [
+    {
+      week:       1,
+      title:      "Onboarding & First PR",
+      date:       "2024-06-03",
+      summary:    "Set up dev environment, explored the Cornucopia card structure, and submitted first documentation fix.",
+      highlights: ["Opened first issue", "Submitted PR #1", "Read Cornucopia spec"],
+    },
+    {
+      week:       2,
+      title:      "Card Content Improvements",
+      date:       "2024-06-10",
+      summary:    "Reviewed existing card threat descriptions, identified inconsistencies, and proposed improvements to Authentication suit.",
+      highlights: ["PR #2 merged", "Reviewed 12 cards", "Joined contributor call"],
+    },
+  ],
+
+  /* ---- Blog Posts -----------------------------------------------
+     Add links to your blog posts, dev.to articles, etc.          */
+  blogPosts: [
+    {
+      title:    "Getting Started with OWASP Cornucopia",
+      excerpt:  "My first week contributing — understanding the card game mechanics and threat modelling workflow.",
+      url:      "https://yourblog.dev/cornucopia-intro",
+      date:     "2024-06-01",
+      readTime: "4 min read",
+      tags:     ["owasp", "cornucopia", "security"],
+    },
+    {
+      title:    "Deep Dive: Data Validation & Encoding Suit",
+      excerpt:  "Exploring the VE suit cards, their threat descriptions, and how I improved card content accuracy.",
+      url:      "https://yourblog.dev/cornucopia-ve-suit",
+      date:     "2024-06-15",
+      readTime: "6 min read",
+      tags:     ["threat-modelling", "data-validation"],
+    },
+  ],
+};
+/* ================================================================
+   END OF CONFIG — no need to edit below this line
+   ================================================================ */
+
+const esc = s => String(s||'')
+  .replace(/&/g,'&amp;')
+  .replace(/</g,'&lt;')
+  .replace(/>/g,'&gt;')
+  .replace(/"/g,'&quot;');
+
+function relTime(d) {
+  const diff = Date.now() - new Date(d).getTime();
+  const m = Math.floor(diff/60000);
+  if(m<60) return m+'m ago';
+  const h = Math.floor(m/60);
+  if(h<24) return h+'h ago';
+  const days = Math.floor(h/24);
+  if(days<30) return days+'d ago';
+  return new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+}
+
+function fmtDate(d) {
+  return new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+}
+
+function renderProfile() {
+  const c = CONFIG.contributor;
+  const p = CONFIG.project;
+
+  document.title = c.name + ' — Cornucopia Dashboard';
+
+  const av = document.getElementById('avatar');
+  av.src = `https://github.com/${c.githubUsername}.png`;
+  av.alt = c.name;
+  av.onerror = () => { av.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90"><rect width="90" height="90" rx="45" fill="%231c1c28"/><text x="45" y="56" text-anchor="middle" fill="%23f4c542" font-size="36" font-family="serif">?</text></svg>'; };
+
+  document.getElementById('p-name').textContent = c.name;
+  document.getElementById('p-bio').textContent = c.bio;
+  document.getElementById('proj-desc').textContent = p.description;
+  document.getElementById('proj-timeline').textContent = p.timeline;
+
+  const links = [];
+  if(c.github)   links.push(`<a href="${c.github}" target="_blank">⬡ GitHub</a>`);
+  if(c.blog)     links.push(`<a href="${c.blog}" target="_blank">✦ Blog</a>`);
+  if(c.linkedin) links.push(`<a href="${c.linkedin}" target="_blank">◈ LinkedIn</a>`);
+  document.getElementById('p-links').innerHTML = links.join('');
+
+  const nav = [];
+  if(c.github)     nav.push(`<a href="${c.github}" target="_blank">GitHub</a>`);
+  if(p.repoUrl)    nav.push(`<a href="${p.repoUrl}" target="_blank">Cornucopia Repo</a>`);
+  document.getElementById('nav-links').innerHTML = nav.join('');
+}
+
+function renderStats() {
+  const s = CONFIG.stats;
+  document.getElementById('s-commits').textContent = s.commits;
+  document.getElementById('s-prs').textContent     = s.pullRequests;
+  document.getElementById('s-merged').textContent  = s.mergedPRs;
+  document.getElementById('s-issues').textContent  = s.issues;
+}
+
+function renderActivity() {
+  const items = CONFIG.activity || [];
+  const container = document.getElementById('act-list');
+  if(!items.length){
+    container.innerHTML = `<div class="empty" style="color:var(--muted)">No activity yet — add entries in the CONFIG section.</div>`;
+    return;
+  }
+  const icons = {commit:'●', pull_request:'⤴', issue:'◎'};
+  container.innerHTML = items.map(it => {
+    const icon = icons[it.type] || '●';
+    const stateClass = it.state === 'merged' ? 'b-merged' : it.state === 'open' ? 'b-open' : 'b-closed';
+    const stateBadge = it.state ? `<span class="badge ${stateClass}">${esc(it.state)}</span>` : '';
+    return `
+    <div class="act-item type-${esc(it.type)}">
+      <div class="act-ico">${icon}</div>
+      <div class="act-body">
+        <div class="act-title"><a href="${esc(it.url)}" target="_blank">${esc(it.title)}</a></div>
+        <div class="act-meta">
+          <span>${esc(it.type.replace('_',' '))}</span>
+          ${it.ref ? `<span>${esc(it.ref)}</span>` : ''}
+          ${stateBadge}
+          <span>${relTime(it.date)}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderWeekly() {
+  const items = CONFIG.weeklyUpdates || [];
+  const container = document.getElementById('timeline');
+  if(!items.length){
+    container.innerHTML = `<p style="color:var(--muted);font-size:13px;">No weekly updates yet — add entries in the CONFIG section.</p>`;
+    return;
+  }
+  container.innerHTML = items.map(u => {
+    const chips = (u.highlights||[]).map(h=>`<span class="chip">${esc(h)}</span>`).join('');
+    return `
+    <div class="tl-item">
+      <div class="tl-dot">W${u.week}</div>
+      <div class="tl-body">
+        <div class="tl-date">${fmtDate(u.date)}</div>
+        <div class="tl-title">${esc(u.title)}</div>
+        <div class="tl-summary">${esc(u.summary)}</div>
+        ${chips ? `<div class="tl-chips">${chips}</div>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderBlog() {
+  const posts = CONFIG.blogPosts || [];
+  const container = document.getElementById('blog-list');
+  if(!posts.length){
+    container.innerHTML = `<p style="padding:16px 24px;color:var(--muted);font-size:13px;">No blog posts yet — add entries in the CONFIG section.</p>`;
+    return;
+  }
+  container.innerHTML = posts.map(p => {
+    const tags = (p.tags||[]).map(t=>`<span class="tag">${esc(t)}</span>`).join('');
+    return `
+    <div class="blog-item">
+      <div class="blog-title"><a href="${esc(p.url)}" target="_blank">${esc(p.title)}</a></div>
+      <div class="blog-excerpt">${esc(p.excerpt)}</div>
+      <div class="blog-footer">
+        <span class="blog-date">${fmtDate(p.date)}</span>
+        <span class="blog-read">${esc(p.readTime)}</span>
+        ${tags}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// Boot
+renderProfile();
+renderStats();
+renderActivity();
+renderWeekly();
+renderBlog();
+</script>
+</body>
+</html>
