@@ -750,12 +750,11 @@ function renderProfile() {
   document.getElementById('nav-links').innerHTML = nav.join('');
 }
 
-function renderStats() {
-  const s = CONFIG.stats;
-  document.getElementById('s-commits').textContent = s.commits;
-  document.getElementById('s-prs').textContent     = s.pullRequests;
-  document.getElementById('s-merged').textContent  = s.mergedPRs;
-  document.getElementById('s-issues').textContent  = s.issues;
+function renderStats(data) {
+  document.getElementById('s-commits').textContent = data ? data.totalCommits : CONFIG.stats.commits;
+  document.getElementById('s-prs').textContent     = data ? data.totalPRs     : CONFIG.stats.pullRequests;
+  document.getElementById('s-merged').textContent  = data ? data.mergedPRs   : CONFIG.stats.mergedPRs;
+  document.getElementById('s-issues').textContent  = data ? data.totalIssues : CONFIG.stats.issues;
 }
 
 function renderActivity() {

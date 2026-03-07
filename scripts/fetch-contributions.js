@@ -26,32 +26,35 @@ function request(path) {
 async function main() {
   console.log('Fetching for @' + USERNAME);
 
-  // Use search API to find PRs from forks too
-  const prSearch = await request(
-    '/search/issues?q=repo:OWASP/cornucopia+type:pr+author:' + USERNAME + '&per_page=100'
-  );
-  const myPRs = (prSearch.items || []);
+  // Use search API - fetches PRs from forks too
+  const mergedPRs = await request('/search/issues?q=repo:OWASP/cornucopia+type:pr+author:' + USERNAME + '+is:merged&per_page=100');
+  const openPRs = await request('/search/issues?q=repo:OWASP/cornucopia+type:pr+author:' + USERNAME + '+is:open&per_page=100');
+  const issues = await request('/search/issues?q=repo:OWASP/cornucopia+type:issue+author:' + USERNAME + '&per_page=100');
+  const commits = await request('/repos/OWASP/cornucopia/commits?author=' + USERNAME + '&per_page=100');
 
-  // Fetch issues
-  const issSearch = await request(
-    '/search/issues?q=repo:OWASP/cornucopia+type:issue+author:' + USERNAME + '&per_page=100'
-  );
-  const myIssues = (issSearch.items || []);
-
-  // Fetch commits
-  const comRes = await request(
-    '/repos/OWASP/cornucopia/commits?author=' + USERNAME + '&per_page=100'
-  );
-  const myCommits = Array.isArray(comRes) ? comRes : [];
+  const myMergedPRs = mergedPRs.items || [];
+  const myOpenPRs = openPRs.items || [];
+  const myIssues = issues.items || [];
+  const myCommits = Array.isArray(commits) ? commits : [];
+  const allPRs = [...myMergedPRs, ...myOpenPRs];
 
   const activity = [];
 
-  myPRs.slice(0, 8).forEach(pr => activity.push({
+  myMergedPRs.slice(0, 8).forEach(pr => activity.push({
     type: 'pull_request',
     title: pr.title,
     url: pr.html_url,
-    date: pr.created_at,
-    state: pr.pull_request && pr.pull_request.merged_at ? 'merged' : pr.state,
+    date: pr.updated_at,
+    state: 'merged',
+    ref: '#' + pr.number
+  }));
+
+  myOpenPRs.slice(0, 4).forEach(pr => activity.push({
+    type: 'pull_request',
+    title: pr.title,
+    url: pr.html_url,
+    date: pr.updated_at,
+    state: 'open',
     ref: '#' + pr.number
   }));
 
@@ -59,7 +62,7 @@ async function main() {
     type: 'issue',
     title: i.title,
     url: i.html_url,
-    date: i.created_at,
+    date: i.updated_at,
     state: i.state,
     ref: '#' + i.number
   }));
@@ -78,9 +81,9 @@ async function main() {
     lastUpdated: new Date().toISOString(),
     username: USERNAME,
     totalCommits: myCommits.length,
-    totalPRs: myPRs.length,
-    mergedPRs: myPRs.filter(pr => pr.pull_request && pr.pull_request.merged_at).length,
-    openPRs: myPRs.filter(pr => pr.state === 'open').length,
+    totalPRs: allPRs.length,
+    mergedPRs: myMergedPRs.length,
+    openPRs: myOpenPRs.length,
     totalIssues: myIssues.length,
     recentActivity: activity.slice(0, 15)
   };
