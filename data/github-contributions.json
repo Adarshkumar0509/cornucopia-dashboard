@@ -122,6 +122,14 @@
       "url": "https://github.com/OWASP/cornucopia/commit/c53e8cf6338ff30166dc11284c9bfbed95e09439",
       "date": "2026-02-26T15:27:43Z",
       "ref": "#c53e8cf"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add framed privacy notices to game and player forms",
+      "url": "https://github.com/OWASP/cornucopia/pull/2262",
+      "date": "2026-02-26T00:00:00Z",
+      "state": "merged",
+      "ref": "#2262"
     }
   ]
 }
