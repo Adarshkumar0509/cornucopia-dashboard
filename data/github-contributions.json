@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-03-07T16:47:38.264Z",
+  "lastUpdated": "2026-03-08T02:10:56.670Z",
   "username": "Adarshkumar0509",
   "totalCommits": 10,
   "totalPRs": 7,
   "mergedPRs": 3,
   "openPRs": 4,
-  "totalIssues": 14,
+  "totalIssues": 15,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "Bug: API play_card crashes with 500 error when player_id doesn't belong to game_id",
+      "url": "https://github.com/OWASP/cornucopia/issues/2562",
+      "date": "2026-03-08T00:54:53Z",
+      "state": "open",
+      "ref": "#2562"
+    },
     {
       "type": "pull_request",
       "title": "fix: pin outdated GitHub Actions versions in CI workflows",
@@ -156,14 +164,6 @@
       "date": "2026-03-01T16:49:57Z",
       "state": "closed",
       "ref": "#2457"
-    },
-    {
-      "type": "issue",
-      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
-      "url": "https://github.com/OWASP/cornucopia/issues/2442",
-      "date": "2026-03-01T07:43:58Z",
-      "state": "open",
-      "ref": "#2442"
     }
   ]
 }
