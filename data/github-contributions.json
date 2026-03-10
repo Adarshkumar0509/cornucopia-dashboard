@@ -1,12 +1,60 @@
 {
-  "lastUpdated": "2026-03-09T02:11:59.503Z",
+  "lastUpdated": "2026-03-10T02:04:27.009Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 10,
-  "totalPRs": 7,
-  "mergedPRs": 3,
+  "totalCommits": 11,
+  "totalPRs": 8,
+  "mergedPRs": 4,
   "openPRs": 4,
   "totalIssues": 15,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: handle nil player in play_card API to prevent 500 crash",
+      "url": "https://github.com/OWASP/cornucopia/pull/2576",
+      "date": "2026-03-09T22:05:21Z",
+      "state": "open",
+      "ref": "#2576"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: pin outdated GitHub Actions versions in CI workflows",
+      "url": "https://github.com/OWASP/cornucopia/pull/2552",
+      "date": "2026-03-09T19:26:21Z",
+      "state": "merged",
+      "ref": "#2552"
+    },
+    {
+      "type": "issue",
+      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
+      "url": "https://github.com/OWASP/cornucopia/issues/2542",
+      "date": "2026-03-09T13:52:58Z",
+      "state": "closed",
+      "ref": "#2542"
+    },
+    {
+      "type": "issue",
+      "title": "Feature: Add automated validation tests for all language translations",
+      "url": "https://github.com/OWASP/cornucopia/issues/2443",
+      "date": "2026-03-09T08:16:27Z",
+      "state": "open",
+      "ref": "#2443"
+    },
+    {
+      "type": "issue",
+      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
+      "url": "https://github.com/OWASP/cornucopia/issues/2442",
+      "date": "2026-03-09T08:15:15Z",
+      "state": "open",
+      "ref": "#2442"
+    },
+    {
+      "type": "issue",
+      "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
+      "url": "https://github.com/OWASP/cornucopia/issues/2444",
+      "date": "2026-03-09T08:14:44Z",
+      "state": "open",
+      "ref": "#2444"
+    },
     {
       "type": "issue",
       "title": "Bug: API play_card crashes with 500 error when player_id doesn't belong to game_id",
@@ -16,12 +64,11 @@
       "ref": "#2562"
     },
     {
-      "type": "pull_request",
+      "type": "commit",
       "title": "fix: pin outdated GitHub Actions versions in CI workflows",
-      "url": "https://github.com/OWASP/cornucopia/pull/2552",
-      "date": "2026-03-07T08:27:26Z",
-      "state": "open",
-      "ref": "#2552"
+      "url": "https://github.com/OWASP/cornucopia/commit/9b4def8bb4c338648bfd0616f40df2d71a699ab7",
+      "date": "2026-03-07T08:20:10Z",
+      "ref": "#9b4def8"
     },
     {
       "type": "pull_request",
@@ -40,14 +87,6 @@
       "ref": "#2527"
     },
     {
-      "type": "issue",
-      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
-      "url": "https://github.com/OWASP/cornucopia/issues/2542",
-      "date": "2026-03-06T13:44:50Z",
-      "state": "open",
-      "ref": "#2542"
-    },
-    {
       "type": "pull_request",
       "title": "fix: add authorization check in toggle_vote to prevent cross-game voting",
       "url": "https://github.com/OWASP/cornucopia/pull/2523",
@@ -62,14 +101,6 @@
       "date": "2026-03-05T13:37:42Z",
       "state": "open",
       "ref": "#2520"
-    },
-    {
-      "type": "issue",
-      "title": "Feature: Add automated validation tests for all language translations",
-      "url": "https://github.com/OWASP/cornucopia/issues/2443",
-      "date": "2026-03-04T20:43:12Z",
-      "state": "open",
-      "ref": "#2443"
     },
     {
       "type": "issue",
@@ -133,37 +164,6 @@
       "date": "2026-03-02T07:10:06Z",
       "state": "open",
       "ref": "#2473"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: correct game summary link in player live view",
-      "url": "https://github.com/OWASP/cornucopia/pull/2460",
-      "date": "2026-03-01T18:50:10Z",
-      "state": "open",
-      "ref": "#2460"
-    },
-    {
-      "type": "commit",
-      "title": "Merge branch 'master' of https://github.com/OWASP/cornucopia",
-      "url": "https://github.com/OWASP/cornucopia/commit/ef66a9d630638586a45dcf017337c70cf485fc4c",
-      "date": "2026-03-01T18:34:24Z",
-      "ref": "#ef66a9d"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: \"Go to game summary\" link navigates to wrong page after game finishes",
-      "url": "https://github.com/OWASP/cornucopia/issues/2458",
-      "date": "2026-03-01T18:00:22Z",
-      "state": "open",
-      "ref": "#2458"
-    },
-    {
-      "type": "issue",
-      "title": "Security: start_game event in GameLive.Show has no ownership or authorization check",
-      "url": "https://github.com/OWASP/cornucopia/issues/2457",
-      "date": "2026-03-01T16:49:57Z",
-      "state": "closed",
-      "ref": "#2457"
     }
   ]
 }
