@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T02:04:11.212Z",
+  "lastUpdated": "2026-03-12T02:10:37.858Z",
   "username": "Adarshkumar0509",
   "totalCommits": 16,
   "totalPRs": 8,
@@ -7,6 +7,14 @@
   "openPRs": 3,
   "totalIssues": 16,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "Bug: Any player can skip voting phase by  clicking \"Next Round\" button",
+      "url": "https://github.com/OWASP/cornucopia/issues/2592",
+      "date": "2026-03-11T15:02:26Z",
+      "state": "open",
+      "ref": "#2592"
+    },
     {
       "type": "pull_request",
       "title": "fix: correct game summary link in player live view",
@@ -30,14 +38,6 @@
       "date": "2026-03-10T20:31:11Z",
       "state": "merged",
       "ref": "#2403"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: Any player can skip voting phase by  clicking \"Next Round\" button",
-      "url": "https://github.com/OWASP/cornucopia/issues/2592",
-      "date": "2026-03-10T20:21:31Z",
-      "state": "open",
-      "ref": "#2592"
     },
     {
       "type": "pull_request",
