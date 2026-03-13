@@ -1,27 +1,51 @@
 {
-  "lastUpdated": "2026-03-12T02:10:37.858Z",
+  "lastUpdated": "2026-03-13T02:07:35.241Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 16,
+  "totalCommits": 18,
   "totalPRs": 8,
-  "mergedPRs": 5,
-  "openPRs": 3,
+  "mergedPRs": 7,
+  "openPRs": 1,
   "totalIssues": 16,
   "recentActivity": [
     {
       "type": "issue",
-      "title": "Bug: Any player can skip voting phase by  clicking \"Next Round\" button",
-      "url": "https://github.com/OWASP/cornucopia/issues/2592",
-      "date": "2026-03-11T15:02:26Z",
-      "state": "open",
-      "ref": "#2592"
+      "title": "Bug: \"Go to game summary\" link navigates to wrong page after game finishes",
+      "url": "https://github.com/OWASP/cornucopia/issues/2458",
+      "date": "2026-03-12T22:20:09Z",
+      "state": "closed",
+      "ref": "#2458"
     },
     {
       "type": "pull_request",
       "title": "fix: correct game summary link in player live view",
       "url": "https://github.com/OWASP/cornucopia/pull/2460",
-      "date": "2026-03-10T22:51:37Z",
-      "state": "open",
+      "date": "2026-03-12T22:20:07Z",
+      "state": "merged",
       "ref": "#2460"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: API play_card crashes with 500 error when player_id doesn't belong to game_id",
+      "url": "https://github.com/OWASP/cornucopia/issues/2562",
+      "date": "2026-03-12T21:36:18Z",
+      "state": "closed",
+      "ref": "#2562"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: handle nil player in play_card API to prevent 500 crash",
+      "url": "https://github.com/OWASP/cornucopia/pull/2576",
+      "date": "2026-03-12T21:36:16Z",
+      "state": "merged",
+      "ref": "#2576"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: Any player can skip voting phase by  clicking \"Next Round\" button",
+      "url": "https://github.com/OWASP/cornucopia/issues/2592",
+      "date": "2026-03-12T21:19:24Z",
+      "state": "closed",
+      "ref": "#2592"
     },
     {
       "type": "issue",
@@ -48,12 +72,11 @@
       "ref": "#2523"
     },
     {
-      "type": "pull_request",
+      "type": "commit",
       "title": "fix: handle nil player in play_card API to prevent 500 crash",
-      "url": "https://github.com/OWASP/cornucopia/pull/2576",
-      "date": "2026-03-09T22:05:21Z",
-      "state": "open",
-      "ref": "#2576"
+      "url": "https://github.com/OWASP/cornucopia/commit/c15ddb31bc48867acd1d99e09da987eb7e978b22",
+      "date": "2026-03-09T21:52:53Z",
+      "ref": "#c15ddb3"
     },
     {
       "type": "pull_request",
@@ -94,14 +117,6 @@
       "date": "2026-03-09T08:14:44Z",
       "state": "open",
       "ref": "#2444"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: API play_card crashes with 500 error when player_id doesn't belong to game_id",
-      "url": "https://github.com/OWASP/cornucopia/issues/2562",
-      "date": "2026-03-08T07:03:47Z",
-      "state": "open",
-      "ref": "#2562"
     },
     {
       "type": "commit",
@@ -147,22 +162,6 @@
       "date": "2026-03-03T19:05:15Z",
       "state": "open",
       "ref": "#2499"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: Application incorrectly renders HTTP 500 page for all errors (including 404)",
-      "url": "https://github.com/OWASP/cornucopia/issues/2497",
-      "date": "2026-03-03T18:14:31Z",
-      "state": "closed",
-      "ref": "#2497"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: Game deletion handler exists in code but delete button is missing from UI",
-      "url": "https://github.com/OWASP/cornucopia/issues/2483",
-      "date": "2026-03-03T08:10:50Z",
-      "state": "open",
-      "ref": "#2483"
     }
   ]
 }
