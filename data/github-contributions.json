@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T02:07:35.241Z",
+  "lastUpdated": "2026-03-14T02:05:35.902Z",
   "username": "Adarshkumar0509",
   "totalCommits": 18,
   "totalPRs": 8,
@@ -7,6 +7,14 @@
   "openPRs": 1,
   "totalIssues": 16,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
+      "url": "https://github.com/OWASP/cornucopia/issues/2520",
+      "date": "2026-03-14T00:59:44Z",
+      "state": "open",
+      "ref": "#2520"
+    },
     {
       "type": "issue",
       "title": "Bug: \"Go to game summary\" link navigates to wrong page after game finishes",
@@ -146,14 +154,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/ec6c705d287bb215581396212ebaf3581a88c342",
       "date": "2026-03-06T14:44:52Z",
       "ref": "#ec6c705"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
-      "url": "https://github.com/OWASP/cornucopia/issues/2520",
-      "date": "2026-03-05T13:37:42Z",
-      "state": "open",
-      "ref": "#2520"
     },
     {
       "type": "issue",
