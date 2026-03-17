@@ -1,12 +1,36 @@
 {
-  "lastUpdated": "2026-03-16T02:31:53.656Z",
+  "lastUpdated": "2026-03-17T02:10:46.509Z",
   "username": "Adarshkumar0509",
   "totalCommits": 18,
-  "totalPRs": 8,
+  "totalPRs": 9,
   "mergedPRs": 7,
-  "openPRs": 1,
-  "totalIssues": 16,
+  "openPRs": 2,
+  "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "Complete Hindi translation for webapp-cards-3.0-hi.yaml - 14 missing changelog tags",
+      "url": "https://github.com/OWASP/cornucopia/issues/2643",
+      "date": "2026-03-16T11:08:09Z",
+      "state": "open",
+      "ref": "#2643"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add Hindi translation for mobileapp-cards-1.1",
+      "url": "https://github.com/OWASP/cornucopia/pull/2642",
+      "date": "2026-03-16T10:21:38Z",
+      "state": "open",
+      "ref": "#2642"
+    },
+    {
+      "type": "issue",
+      "title": "Add Hindi translation for mobileapp-cards-1.1",
+      "url": "https://github.com/OWASP/cornucopia/issues/2641",
+      "date": "2026-03-16T09:51:57Z",
+      "state": "open",
+      "ref": "#2641"
+    },
     {
       "type": "issue",
       "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
@@ -139,29 +163,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/a535f0a7a95e8d9f4d69ae1d44be2f894af74997",
       "date": "2026-03-07T07:49:52Z",
       "ref": "#a535f0a"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: last_round? ends game prematurely when any player runs out of cards instead of all players",
-      "url": "https://github.com/OWASP/cornucopia/issues/2527",
-      "date": "2026-03-06T15:07:18Z",
-      "state": "closed",
-      "ref": "#2527"
-    },
-    {
-      "type": "commit",
-      "title": "fix: update CI pipeline to use Python 3.13",
-      "url": "https://github.com/OWASP/cornucopia/commit/ec6c705d287bb215581396212ebaf3581a88c342",
-      "date": "2026-03-06T14:44:52Z",
-      "ref": "#ec6c705"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
-      "url": "https://github.com/OWASP/cornucopia/issues/2499",
-      "date": "2026-03-03T19:05:15Z",
-      "state": "open",
-      "ref": "#2499"
     }
   ]
 }
