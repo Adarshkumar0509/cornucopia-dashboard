@@ -1,12 +1,64 @@
 {
-  "lastUpdated": "2026-03-18T02:22:38.947Z",
+  "lastUpdated": "2026-03-19T02:23:34.938Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 21,
-  "totalPRs": 11,
-  "mergedPRs": 10,
+  "totalCommits": 26,
+  "totalPRs": 12,
+  "mergedPRs": 11,
   "openPRs": 1,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "Fix: Integrate eslint-config-love and resolve ~1430 lint errors (#2647)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2675",
+      "date": "2026-03-19T01:23:43Z",
+      "state": "open",
+      "ref": "#2675"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: add authorization check in toggle_vote to prevent cross-game voting",
+      "url": "https://github.com/OWASP/cornucopia/pull/2523",
+      "date": "2026-03-18T23:15:27Z",
+      "state": "merged",
+      "ref": "#2523"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
+      "url": "https://github.com/OWASP/cornucopia/issues/2520",
+      "date": "2026-03-18T23:12:41Z",
+      "state": "closed",
+      "ref": "#2520"
+    },
+    {
+      "type": "commit",
+      "title": "fix: use direct card insertion in toggle_vote authorization tests",
+      "url": "https://github.com/OWASP/cornucopia/commit/a212369c543b085f934557967bf6c2738f8b53a6",
+      "date": "2026-03-18T22:56:29Z",
+      "ref": "#a212369"
+    },
+    {
+      "type": "commit",
+      "title": "fix: remove BOM from show_test.exs",
+      "url": "https://github.com/OWASP/cornucopia/commit/e61678db2b225a041d85e5b3ba894ad0b76ff27c",
+      "date": "2026-03-18T22:46:38Z",
+      "ref": "#e61678d"
+    },
+    {
+      "type": "commit",
+      "title": "fix: correct player live route in toggle_vote authorization tests",
+      "url": "https://github.com/OWASP/cornucopia/commit/820853235bfe3a5fb3659f93bd927783e82a92a3",
+      "date": "2026-03-18T22:37:52Z",
+      "ref": "#8208532"
+    },
+    {
+      "type": "commit",
+      "title": "test: add toggle_vote authorization tests for cross-game voting prevention",
+      "url": "https://github.com/OWASP/cornucopia/commit/f0a1f10dfa728e863ea5f9ecf849029d49dc0f57",
+      "date": "2026-03-18T22:07:24Z",
+      "ref": "#f0a1f10"
+    },
     {
       "type": "pull_request",
       "title": "Add playful description for MobileApp PC2 card",
@@ -14,14 +66,6 @@
       "date": "2026-03-18T00:09:16Z",
       "state": "merged",
       "ref": "#2650"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: add authorization check in toggle_vote to prevent cross-game voting",
-      "url": "https://github.com/OWASP/cornucopia/pull/2523",
-      "date": "2026-03-17T23:31:18Z",
-      "state": "open",
-      "ref": "#2523"
     },
     {
       "type": "commit",
@@ -78,14 +122,6 @@
     },
     {
       "type": "issue",
-      "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
-      "url": "https://github.com/OWASP/cornucopia/issues/2520",
-      "date": "2026-03-15T14:43:04Z",
-      "state": "open",
-      "ref": "#2520"
-    },
-    {
-      "type": "issue",
       "title": "Bug: \"Go to game summary\" link navigates to wrong page after game finishes",
       "url": "https://github.com/OWASP/cornucopia/issues/2458",
       "date": "2026-03-12T22:20:09Z",
@@ -123,45 +159,6 @@
       "date": "2026-03-12T21:19:24Z",
       "state": "closed",
       "ref": "#2592"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
-      "url": "https://github.com/OWASP/cornucopia/issues/2505",
-      "date": "2026-03-10T22:50:20Z",
-      "state": "open",
-      "ref": "#2505"
-    },
-    {
-      "type": "pull_request",
-      "title": "Upgrade to Python 3.13 and install Python 3.13 in ClusterFuzzLite",
-      "url": "https://github.com/OWASP/cornucopia/pull/2403",
-      "date": "2026-03-10T20:31:11Z",
-      "state": "merged",
-      "ref": "#2403"
-    },
-    {
-      "type": "commit",
-      "title": "fix: handle nil player in play_card API to prevent 500 crash",
-      "url": "https://github.com/OWASP/cornucopia/commit/c15ddb31bc48867acd1d99e09da987eb7e978b22",
-      "date": "2026-03-09T21:52:53Z",
-      "ref": "#c15ddb3"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: pin outdated GitHub Actions versions in CI workflows",
-      "url": "https://github.com/OWASP/cornucopia/pull/2552",
-      "date": "2026-03-09T19:26:21Z",
-      "state": "merged",
-      "ref": "#2552"
-    },
-    {
-      "type": "issue",
-      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
-      "url": "https://github.com/OWASP/cornucopia/issues/2542",
-      "date": "2026-03-09T13:52:58Z",
-      "state": "closed",
-      "ref": "#2542"
     }
   ]
 }
