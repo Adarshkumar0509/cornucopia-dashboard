@@ -1,19 +1,74 @@
 {
-  "lastUpdated": "2026-03-19T02:23:34.938Z",
+  "lastUpdated": "2026-03-20T02:09:12.430Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 26,
+  "totalCommits": 27,
   "totalPRs": 12,
-  "mergedPRs": 11,
-  "openPRs": 1,
+  "mergedPRs": 12,
+  "openPRs": 0,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
+      "url": "https://github.com/OWASP/cornucopia/issues/2499",
+      "date": "2026-03-19T14:46:08Z",
+      "state": "open",
+      "ref": "#2499"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
+      "url": "https://github.com/OWASP/cornucopia/issues/2505",
+      "date": "2026-03-19T14:28:26Z",
+      "state": "open",
+      "ref": "#2505"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: Game deletion handler exists in code but delete button is missing from UI",
+      "url": "https://github.com/OWASP/cornucopia/issues/2483",
+      "date": "2026-03-19T14:15:37Z",
+      "state": "closed",
+      "ref": "#2483"
+    },
+    {
+      "type": "issue",
+      "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
+      "url": "https://github.com/OWASP/cornucopia/issues/2473",
+      "date": "2026-03-19T14:11:14Z",
+      "state": "open",
+      "ref": "#2473"
+    },
+    {
+      "type": "issue",
+      "title": "Feature: Add automated validation tests for all language translations",
+      "url": "https://github.com/OWASP/cornucopia/issues/2443",
+      "date": "2026-03-19T14:03:42Z",
+      "state": "closed",
+      "ref": "#2443"
+    },
+    {
+      "type": "issue",
+      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
+      "url": "https://github.com/OWASP/cornucopia/issues/2442",
+      "date": "2026-03-19T14:01:49Z",
+      "state": "open",
+      "ref": "#2442"
+    },
     {
       "type": "pull_request",
       "title": "Fix: Integrate eslint-config-love and resolve ~1430 lint errors (#2647)",
       "url": "https://github.com/OWASP/cornucopia/pull/2675",
-      "date": "2026-03-19T01:23:43Z",
-      "state": "open",
+      "date": "2026-03-19T08:47:17Z",
+      "state": "merged",
       "ref": "#2675"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: Integrate ESLint config and resolve ~1430 lint errors (#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/68128e07bd567d1f531f9cdbd1467c8ab9ff0cac",
+      "date": "2026-03-19T00:45:23Z",
+      "ref": "#68128e0"
     },
     {
       "type": "pull_request",
@@ -104,61 +159,6 @@
       "date": "2026-03-17T06:05:50Z",
       "state": "closed",
       "ref": "#2641"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add Hindi translation for mobileapp-cards-1.1",
-      "url": "https://github.com/OWASP/cornucopia/pull/2642",
-      "date": "2026-03-17T06:05:49Z",
-      "state": "merged",
-      "ref": "#2642"
-    },
-    {
-      "type": "commit",
-      "title": "Add Hindi translation for mobileapp-cards-1.1",
-      "url": "https://github.com/OWASP/cornucopia/commit/f5ff2ddfef320e9c7af65e453c585892f085e132",
-      "date": "2026-03-16T09:55:39Z",
-      "ref": "#f5ff2dd"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: \"Go to game summary\" link navigates to wrong page after game finishes",
-      "url": "https://github.com/OWASP/cornucopia/issues/2458",
-      "date": "2026-03-12T22:20:09Z",
-      "state": "closed",
-      "ref": "#2458"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: correct game summary link in player live view",
-      "url": "https://github.com/OWASP/cornucopia/pull/2460",
-      "date": "2026-03-12T22:20:07Z",
-      "state": "merged",
-      "ref": "#2460"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: API play_card crashes with 500 error when player_id doesn't belong to game_id",
-      "url": "https://github.com/OWASP/cornucopia/issues/2562",
-      "date": "2026-03-12T21:36:18Z",
-      "state": "closed",
-      "ref": "#2562"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: handle nil player in play_card API to prevent 500 crash",
-      "url": "https://github.com/OWASP/cornucopia/pull/2576",
-      "date": "2026-03-12T21:36:16Z",
-      "state": "merged",
-      "ref": "#2576"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: Any player can skip voting phase by  clicking \"Next Round\" button",
-      "url": "https://github.com/OWASP/cornucopia/issues/2592",
-      "date": "2026-03-12T21:19:24Z",
-      "state": "closed",
-      "ref": "#2592"
     }
   ]
 }
