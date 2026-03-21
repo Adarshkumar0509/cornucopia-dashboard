@@ -1,19 +1,51 @@
 {
-  "lastUpdated": "2026-03-20T02:09:12.430Z",
+  "lastUpdated": "2026-03-21T02:03:28.500Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
-  "totalPRs": 12,
+  "totalPRs": 14,
   "mergedPRs": 12,
-  "openPRs": 0,
+  "openPRs": 2,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "issue",
+      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
+      "url": "https://github.com/OWASP/cornucopia/issues/2442",
+      "date": "2026-03-20T22:22:55Z",
+      "state": "open",
+      "ref": "#2442"
+    },
+    {
+      "type": "issue",
+      "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
+      "url": "https://github.com/OWASP/cornucopia/issues/2473",
+      "date": "2026-03-20T20:51:50Z",
+      "state": "open",
+      "ref": "#2473"
+    },
+    {
+      "type": "issue",
       "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
       "url": "https://github.com/OWASP/cornucopia/issues/2499",
-      "date": "2026-03-19T14:46:08Z",
+      "date": "2026-03-20T20:13:48Z",
       "state": "open",
       "ref": "#2499"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: remove unused scores field from DealtCard schema and database",
+      "url": "https://github.com/OWASP/cornucopia/pull/2711",
+      "date": "2026-03-20T20:07:07Z",
+      "state": "open",
+      "ref": "#2711"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: integrate strict ESLint config and restore build stability",
+      "url": "https://github.com/OWASP/cornucopia/pull/2709",
+      "date": "2026-03-20T18:52:49Z",
+      "state": "open",
+      "ref": "#2709"
     },
     {
       "type": "issue",
@@ -33,27 +65,11 @@
     },
     {
       "type": "issue",
-      "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
-      "url": "https://github.com/OWASP/cornucopia/issues/2473",
-      "date": "2026-03-19T14:11:14Z",
-      "state": "open",
-      "ref": "#2473"
-    },
-    {
-      "type": "issue",
       "title": "Feature: Add automated validation tests for all language translations",
       "url": "https://github.com/OWASP/cornucopia/issues/2443",
       "date": "2026-03-19T14:03:42Z",
       "state": "closed",
       "ref": "#2443"
-    },
-    {
-      "type": "issue",
-      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
-      "url": "https://github.com/OWASP/cornucopia/issues/2442",
-      "date": "2026-03-19T14:01:49Z",
-      "state": "open",
-      "ref": "#2442"
     },
     {
       "type": "pull_request",
@@ -144,21 +160,6 @@
       "date": "2026-03-17T15:21:38Z",
       "state": "merged",
       "ref": "#2649"
-    },
-    {
-      "type": "commit",
-      "title": "Fix missing changelog tags in webapp-cards-3.0-hi.yaml",
-      "url": "https://github.com/OWASP/cornucopia/commit/022d2640bcbd5abd7164157a5f00f3eba1639d7d",
-      "date": "2026-03-17T15:13:02Z",
-      "ref": "#022d264"
-    },
-    {
-      "type": "issue",
-      "title": "Add Hindi translation for mobileapp-cards-1.1",
-      "url": "https://github.com/OWASP/cornucopia/issues/2641",
-      "date": "2026-03-17T06:05:50Z",
-      "state": "closed",
-      "ref": "#2641"
     }
   ]
 }
