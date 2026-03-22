@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T02:03:28.500Z",
+  "lastUpdated": "2026-03-22T02:23:37.047Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
   "totalPRs": 14,
@@ -7,6 +7,22 @@
   "openPRs": 2,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: integrate strict ESLint config and restore build stability",
+      "url": "https://github.com/OWASP/cornucopia/pull/2709",
+      "date": "2026-03-21T21:35:23Z",
+      "state": "open",
+      "ref": "#2709"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: remove unused scores field from DealtCard schema and database",
+      "url": "https://github.com/OWASP/cornucopia/pull/2711",
+      "date": "2026-03-21T18:48:46Z",
+      "state": "open",
+      "ref": "#2711"
+    },
     {
       "type": "issue",
       "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
@@ -30,22 +46,6 @@
       "date": "2026-03-20T20:13:48Z",
       "state": "open",
       "ref": "#2499"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: remove unused scores field from DealtCard schema and database",
-      "url": "https://github.com/OWASP/cornucopia/pull/2711",
-      "date": "2026-03-20T20:07:07Z",
-      "state": "open",
-      "ref": "#2711"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: integrate strict ESLint config and restore build stability",
-      "url": "https://github.com/OWASP/cornucopia/pull/2709",
-      "date": "2026-03-20T18:52:49Z",
-      "state": "open",
-      "ref": "#2709"
     },
     {
       "type": "issue",
