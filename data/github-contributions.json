@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T02:21:40.524Z",
+  "lastUpdated": "2026-03-26T02:28:24.147Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
   "totalPRs": 14,
@@ -8,20 +8,20 @@
   "totalIssues": 18,
   "recentActivity": [
     {
+      "type": "pull_request",
+      "title": "fix: integrate strict ESLint config and restore build stability",
+      "url": "https://github.com/OWASP/cornucopia/pull/2709",
+      "date": "2026-03-25T20:30:05Z",
+      "state": "open",
+      "ref": "#2709"
+    },
+    {
       "type": "issue",
       "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
       "url": "https://github.com/OWASP/cornucopia/issues/2473",
       "date": "2026-03-24T21:23:16Z",
       "state": "open",
       "ref": "#2473"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: integrate strict ESLint config and restore build stability",
-      "url": "https://github.com/OWASP/cornucopia/pull/2709",
-      "date": "2026-03-23T09:56:46Z",
-      "state": "open",
-      "ref": "#2709"
     },
     {
       "type": "pull_request",
