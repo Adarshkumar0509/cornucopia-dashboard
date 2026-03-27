@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T02:28:24.147Z",
+  "lastUpdated": "2026-03-27T02:29:33.530Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
   "totalPRs": 14,
@@ -7,6 +7,22 @@
   "openPRs": 2,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: remove unused scores field from DealtCard schema and database",
+      "url": "https://github.com/OWASP/cornucopia/pull/2711",
+      "date": "2026-03-26T23:26:33Z",
+      "state": "open",
+      "ref": "#2711"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
+      "url": "https://github.com/OWASP/cornucopia/issues/2505",
+      "date": "2026-03-26T23:06:20Z",
+      "state": "open",
+      "ref": "#2505"
+    },
     {
       "type": "pull_request",
       "title": "fix: integrate strict ESLint config and restore build stability",
@@ -24,14 +40,6 @@
       "ref": "#2473"
     },
     {
-      "type": "pull_request",
-      "title": "fix: remove unused scores field from DealtCard schema and database",
-      "url": "https://github.com/OWASP/cornucopia/pull/2711",
-      "date": "2026-03-21T18:48:46Z",
-      "state": "open",
-      "ref": "#2711"
-    },
-    {
       "type": "issue",
       "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
       "url": "https://github.com/OWASP/cornucopia/issues/2442",
@@ -46,14 +54,6 @@
       "date": "2026-03-20T20:13:48Z",
       "state": "open",
       "ref": "#2499"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
-      "url": "https://github.com/OWASP/cornucopia/issues/2505",
-      "date": "2026-03-19T14:28:26Z",
-      "state": "open",
-      "ref": "#2505"
     },
     {
       "type": "issue",
