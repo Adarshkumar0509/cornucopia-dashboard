@@ -1,12 +1,28 @@
 {
-  "lastUpdated": "2026-03-27T02:29:33.530Z",
+  "lastUpdated": "2026-03-28T02:12:22.048Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
-  "totalPRs": 14,
+  "totalPRs": 15,
   "mergedPRs": 12,
-  "openPRs": 2,
+  "openPRs": 3,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "feat(security): encrypt game and player names with env-based key",
+      "url": "https://github.com/OWASP/cornucopia/pull/2743",
+      "date": "2026-03-27T20:48:56Z",
+      "state": "open",
+      "ref": "#2743"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
+      "url": "https://github.com/OWASP/cornucopia/issues/2505",
+      "date": "2026-03-27T14:20:32Z",
+      "state": "closed",
+      "ref": "#2505"
+    },
     {
       "type": "pull_request",
       "title": "fix: remove unused scores field from DealtCard schema and database",
@@ -14,14 +30,6 @@
       "date": "2026-03-26T23:26:33Z",
       "state": "open",
       "ref": "#2711"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
-      "url": "https://github.com/OWASP/cornucopia/issues/2505",
-      "date": "2026-03-26T23:06:20Z",
-      "state": "open",
-      "ref": "#2505"
     },
     {
       "type": "pull_request",
@@ -152,14 +160,6 @@
       "date": "2026-03-17T15:21:39Z",
       "state": "closed",
       "ref": "#2643"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix missing changelog tags in webapp-cards-3.0-hi.yaml",
-      "url": "https://github.com/OWASP/cornucopia/pull/2649",
-      "date": "2026-03-17T15:21:38Z",
-      "state": "merged",
-      "ref": "#2649"
     }
   ]
 }
