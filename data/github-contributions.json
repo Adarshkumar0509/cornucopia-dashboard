@@ -1,17 +1,25 @@
 {
-  "lastUpdated": "2026-03-28T02:12:22.048Z",
+  "lastUpdated": "2026-03-29T02:32:28.755Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
-  "totalPRs": 15,
+  "totalPRs": 16,
   "mergedPRs": 12,
-  "openPRs": 3,
+  "openPRs": 4,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: guide template page breaks and card back interleaving (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2746",
+      "date": "2026-03-29T00:24:57Z",
+      "state": "open",
+      "ref": "#2746"
+    },
+    {
+      "type": "pull_request",
       "title": "feat(security): encrypt game and player names with env-based key",
       "url": "https://github.com/OWASP/cornucopia/pull/2743",
-      "date": "2026-03-27T20:48:56Z",
+      "date": "2026-03-28T17:05:50Z",
       "state": "open",
       "ref": "#2743"
     },
@@ -152,14 +160,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/cb569fc08d5cd56d029f76c360db0aea68bb74ad",
       "date": "2026-03-17T20:48:51Z",
       "ref": "#cb569fc"
-    },
-    {
-      "type": "issue",
-      "title": "Complete Hindi translation for webapp-cards-3.0-hi.yaml - 14 missing changelog tags",
-      "url": "https://github.com/OWASP/cornucopia/issues/2643",
-      "date": "2026-03-17T15:21:39Z",
-      "state": "closed",
-      "ref": "#2643"
     }
   ]
 }
