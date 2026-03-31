@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T02:35:15.820Z",
+  "lastUpdated": "2026-03-31T02:30:02.874Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
   "totalPRs": 16,
@@ -7,6 +7,14 @@
   "openPRs": 4,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: integrate strict ESLint config and restore build stability",
+      "url": "https://github.com/OWASP/cornucopia/pull/2709",
+      "date": "2026-03-30T05:53:44Z",
+      "state": "open",
+      "ref": "#2709"
+    },
     {
       "type": "pull_request",
       "title": "fix: guide template page breaks and card back interleaving (#2133)",
@@ -38,14 +46,6 @@
       "date": "2026-03-26T23:26:33Z",
       "state": "open",
       "ref": "#2711"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: integrate strict ESLint config and restore build stability",
-      "url": "https://github.com/OWASP/cornucopia/pull/2709",
-      "date": "2026-03-25T20:30:05Z",
-      "state": "open",
-      "ref": "#2709"
     },
     {
       "type": "issue",
