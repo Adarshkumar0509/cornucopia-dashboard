@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-04-01T02:40:43.494Z",
+  "lastUpdated": "2026-04-01T22:35:20.973Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
-  "totalPRs": 15,
+  "totalPRs": 16,
   "mergedPRs": 12,
-  "openPRs": 3,
+  "openPRs": 4,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix(security): encrypt existing game and player names during migration",
+      "url": "https://github.com/OWASP/cornucopia/pull/2754",
+      "date": "2026-04-01T06:52:07Z",
+      "state": "open",
+      "ref": "#2754"
+    },
     {
       "type": "pull_request",
       "title": "fix: integrate strict ESLint config and restore build stability",
@@ -153,13 +161,6 @@
       "date": "2026-03-18T00:09:16Z",
       "state": "merged",
       "ref": "#2650"
-    },
-    {
-      "type": "commit",
-      "title": "Add playful description for MobileApp PC2 card",
-      "url": "https://github.com/OWASP/cornucopia/commit/cb569fc08d5cd56d029f76c360db0aea68bb74ad",
-      "date": "2026-03-17T20:48:51Z",
-      "ref": "#cb569fc"
     }
   ]
 }
