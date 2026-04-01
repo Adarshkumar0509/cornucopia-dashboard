@@ -29,7 +29,7 @@ const CONFIG = {
   },
   project: {
     description: "Contributing to the OWASP Cornucopia threat modelling card game.",
-    timeline:    "2024 – Present",
+    timeline:    "2026 – Present",
     repoUrl:     "https://github.com/OWASP/cornucopia",
   },
   // stats are auto-updated by GitHub Actions — leave as 0
