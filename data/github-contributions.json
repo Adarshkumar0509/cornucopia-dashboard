@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T02:26:29.486Z",
+  "lastUpdated": "2026-04-02T21:17:45.092Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
   "totalPRs": 16,
@@ -8,10 +8,18 @@
   "totalIssues": 18,
   "recentActivity": [
     {
+      "type": "issue",
+      "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
+      "url": "https://github.com/OWASP/cornucopia/issues/2444",
+      "date": "2026-04-02T11:06:39Z",
+      "state": "open",
+      "ref": "#2444"
+    },
+    {
       "type": "pull_request",
       "title": "fix(security): encrypt existing game and player names during migration",
       "url": "https://github.com/OWASP/cornucopia/pull/2754",
-      "date": "2026-04-01T06:52:07Z",
+      "date": "2026-04-02T11:04:02Z",
       "state": "open",
       "ref": "#2754"
     },
@@ -153,14 +161,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/f0a1f10dfa728e863ea5f9ecf849029d49dc0f57",
       "date": "2026-03-18T22:07:24Z",
       "ref": "#f0a1f10"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add playful description for MobileApp PC2 card",
-      "url": "https://github.com/OWASP/cornucopia/pull/2650",
-      "date": "2026-03-18T00:09:16Z",
-      "state": "merged",
-      "ref": "#2650"
     }
   ]
 }
