@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T02:34:39.118Z",
+  "lastUpdated": "2026-04-06T02:35:44.547Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
   "totalPRs": 16,
@@ -8,20 +8,20 @@
   "totalIssues": 18,
   "recentActivity": [
     {
+      "type": "pull_request",
+      "title": "fix(security): encrypt existing game and player names during migration",
+      "url": "https://github.com/OWASP/cornucopia/pull/2754",
+      "date": "2026-04-05T04:51:45Z",
+      "state": "open",
+      "ref": "#2754"
+    },
+    {
       "type": "issue",
       "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
       "url": "https://github.com/OWASP/cornucopia/issues/2444",
       "date": "2026-04-04T02:26:27Z",
       "state": "open",
       "ref": "#2444"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix(security): encrypt existing game and player names during migration",
-      "url": "https://github.com/OWASP/cornucopia/pull/2754",
-      "date": "2026-04-02T11:04:02Z",
-      "state": "open",
-      "ref": "#2754"
     },
     {
       "type": "pull_request",
