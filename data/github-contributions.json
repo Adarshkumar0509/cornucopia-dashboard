@@ -1,19 +1,43 @@
 {
-  "lastUpdated": "2026-04-08T02:31:55.184Z",
+  "lastUpdated": "2026-04-09T02:26:51.444Z",
   "username": "Adarshkumar0509",
   "totalCommits": 27,
-  "totalPRs": 16,
+  "totalPRs": 17,
   "mergedPRs": 12,
-  "openPRs": 4,
+  "openPRs": 5,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: add form-action 'self' to CSP header for copi.owasp.org",
+      "url": "https://github.com/OWASP/cornucopia/pull/2775",
+      "date": "2026-04-08T22:55:13Z",
+      "state": "open",
+      "ref": "#2775"
+    },
+    {
+      "type": "pull_request",
       "title": "fix(security): encrypt existing game and player names during migration",
       "url": "https://github.com/OWASP/cornucopia/pull/2754",
-      "date": "2026-04-05T04:51:45Z",
+      "date": "2026-04-08T21:01:13Z",
       "state": "open",
       "ref": "#2754"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: remove unused scores field from DealtCard schema and database",
+      "url": "https://github.com/OWASP/cornucopia/pull/2711",
+      "date": "2026-04-08T18:48:12Z",
+      "state": "open",
+      "ref": "#2711"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: guide template page breaks and card back interleaving (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2746",
+      "date": "2026-04-08T17:22:18Z",
+      "state": "open",
+      "ref": "#2746"
     },
     {
       "type": "issue",
@@ -33,14 +57,6 @@
     },
     {
       "type": "pull_request",
-      "title": "fix: guide template page breaks and card back interleaving (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2746",
-      "date": "2026-03-29T18:52:27Z",
-      "state": "open",
-      "ref": "#2746"
-    },
-    {
-      "type": "pull_request",
       "title": "feat(security): encrypt game and player names with env-based key",
       "url": "https://github.com/OWASP/cornucopia/pull/2743",
       "date": "2026-03-28T17:05:50Z",
@@ -54,14 +70,6 @@
       "date": "2026-03-27T14:20:32Z",
       "state": "closed",
       "ref": "#2505"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: remove unused scores field from DealtCard schema and database",
-      "url": "https://github.com/OWASP/cornucopia/pull/2711",
-      "date": "2026-03-26T23:26:33Z",
-      "state": "open",
-      "ref": "#2711"
     },
     {
       "type": "issue",
@@ -154,13 +162,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/820853235bfe3a5fb3659f93bd927783e82a92a3",
       "date": "2026-03-18T22:37:52Z",
       "ref": "#8208532"
-    },
-    {
-      "type": "commit",
-      "title": "test: add toggle_vote authorization tests for cross-game voting prevention",
-      "url": "https://github.com/OWASP/cornucopia/commit/f0a1f10dfa728e863ea5f9ecf849029d49dc0f57",
-      "date": "2026-03-18T22:07:24Z",
-      "ref": "#f0a1f10"
     }
   ]
 }
