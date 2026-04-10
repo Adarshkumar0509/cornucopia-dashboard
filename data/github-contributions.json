@@ -1,43 +1,142 @@
 {
-  "lastUpdated": "2026-04-09T02:26:51.444Z",
+  "lastUpdated": "2026-04-10T02:37:41.547Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 27,
+  "totalCommits": 49,
   "totalPRs": 17,
-  "mergedPRs": 12,
-  "openPRs": 5,
+  "mergedPRs": 14,
+  "openPRs": 3,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix: add form-action 'self' to CSP header for copi.owasp.org",
       "url": "https://github.com/OWASP/cornucopia/pull/2775",
-      "date": "2026-04-08T22:55:13Z",
+      "date": "2026-04-09T23:01:58Z",
       "state": "open",
       "ref": "#2775"
     },
     {
       "type": "pull_request",
-      "title": "fix(security): encrypt existing game and player names during migration",
-      "url": "https://github.com/OWASP/cornucopia/pull/2754",
-      "date": "2026-04-08T21:01:13Z",
+      "title": "fix: guide template page breaks and card back interleaving (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2746",
+      "date": "2026-04-09T21:49:21Z",
       "state": "open",
-      "ref": "#2754"
+      "ref": "#2746"
+    },
+    {
+      "type": "issue",
+      "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
+      "url": "https://github.com/OWASP/cornucopia/issues/2499",
+      "date": "2026-04-09T08:52:42Z",
+      "state": "closed",
+      "ref": "#2499"
     },
     {
       "type": "pull_request",
       "title": "fix: remove unused scores field from DealtCard schema and database",
       "url": "https://github.com/OWASP/cornucopia/pull/2711",
-      "date": "2026-04-08T18:48:12Z",
-      "state": "open",
+      "date": "2026-04-09T08:52:41Z",
+      "state": "merged",
       "ref": "#2711"
     },
     {
       "type": "pull_request",
-      "title": "fix: guide template page breaks and card back interleaving (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2746",
-      "date": "2026-04-08T17:22:18Z",
-      "state": "open",
-      "ref": "#2746"
+      "title": "fix(security): encrypt existing game and player names during migration",
+      "url": "https://github.com/OWASP/cornucopia/pull/2754",
+      "date": "2026-04-09T06:28:17Z",
+      "state": "merged",
+      "ref": "#2754"
+    },
+    {
+      "type": "commit",
+      "title": "test: improve test coverage for encrypted binary type",
+      "url": "https://github.com/OWASP/cornucopia/commit/bfe18c0c55ce178cce8e6f9fe81b8d33a174c4ce",
+      "date": "2026-04-08T20:53:58Z",
+      "ref": "#bfe18c0"
+    },
+    {
+      "type": "commit",
+      "title": "ci: force re-run of tests",
+      "url": "https://github.com/OWASP/cornucopia/commit/17cef40f4912b499010484ef6473b30928cafdae",
+      "date": "2026-04-08T20:30:27Z",
+      "ref": "#17cef40"
+    },
+    {
+      "type": "commit",
+      "title": "fix: correct binary test file structure",
+      "url": "https://github.com/OWASP/cornucopia/commit/714bf040000e5ee32efede961280a71b970061d7",
+      "date": "2026-04-08T20:23:32Z",
+      "ref": "#714bf04"
+    },
+    {
+      "type": "commit",
+      "title": "ci: trigger fresh CI run with corrected migration",
+      "url": "https://github.com/OWASP/cornucopia/commit/bac0ab7fa52a3cdd53031e827c3f8512eebd221d",
+      "date": "2026-04-08T20:14:13Z",
+      "ref": "#bac0ab7"
+    },
+    {
+      "type": "commit",
+      "title": "docs: add encryption key setup instructions to website copi page",
+      "url": "https://github.com/OWASP/cornucopia/commit/6f9e8cb1170552409c282e3b9c883652d42652c1",
+      "date": "2026-04-08T20:11:15Z",
+      "ref": "#6f9e8cb"
+    },
+    {
+      "type": "commit",
+      "title": "fix: use raw SQL queries in migration to avoid missing module error",
+      "url": "https://github.com/OWASP/cornucopia/commit/8791887469743104d76ee0e404d00763ba27716f",
+      "date": "2026-04-08T19:59:04Z",
+      "ref": "#8791887"
+    },
+    {
+      "type": "commit",
+      "title": "docs: add encryption key setup instructions to website copi page",
+      "url": "https://github.com/OWASP/cornucopia/commit/9279892ce13f7f4b8827774d503114201f37040b",
+      "date": "2026-04-08T19:50:31Z",
+      "ref": "#9279892"
+    },
+    {
+      "type": "commit",
+      "title": "fix: use raw SQL queries to avoid pin operator issue in migration",
+      "url": "https://github.com/OWASP/cornucopia/commit/e0c38e285594b156cc4daf509cb3e208122d5362",
+      "date": "2026-04-08T19:41:41Z",
+      "ref": "#e0c38e2"
+    },
+    {
+      "type": "commit",
+      "title": "docs: add encryption key setup instructions to SECURITY.md",
+      "url": "https://github.com/OWASP/cornucopia/commit/5d5bc3f6cfd38148bd8ca6f4a2e37645b0053675",
+      "date": "2026-04-08T19:34:30Z",
+      "ref": "#5d5bc3f"
+    },
+    {
+      "type": "commit",
+      "title": "docs: add encryption key setup instructions to README and SECURITY",
+      "url": "https://github.com/OWASP/cornucopia/commit/3eae7a375843323e0f6eb58dafb1ea3da29ead21",
+      "date": "2026-04-08T19:27:38Z",
+      "ref": "#3eae7a3"
+    },
+    {
+      "type": "commit",
+      "title": "fix: remove scores from original migration instead of adding drop migration",
+      "url": "https://github.com/OWASP/cornucopia/commit/c536cbc480b1cb43b940aca7a5867b5d54bf9ad0",
+      "date": "2026-04-08T18:39:05Z",
+      "ref": "#c536cbc"
+    },
+    {
+      "type": "commit",
+      "title": "Merge branch 'fix/encrypt-game-player-names-v2' of https://github.com/Adarshkumar0509/cornucopia into fix/encrypt-game-player-names-v2",
+      "url": "https://github.com/OWASP/cornucopia/commit/c97be3046d2f80f12763c4e0ec2c86570be3eb51",
+      "date": "2026-04-08T14:42:51Z",
+      "ref": "#c97be30"
+    },
+    {
+      "type": "commit",
+      "title": "fix: address copilot review comments on encryption migration and tests",
+      "url": "https://github.com/OWASP/cornucopia/commit/a14137a0d987e481ecf558af513e2bd1af99efb8",
+      "date": "2026-04-08T14:40:19Z",
+      "ref": "#a14137a"
     },
     {
       "type": "issue",
@@ -48,120 +147,11 @@
       "ref": "#2444"
     },
     {
-      "type": "pull_request",
-      "title": "fix: integrate strict ESLint config and restore build stability",
-      "url": "https://github.com/OWASP/cornucopia/pull/2709",
-      "date": "2026-03-30T05:53:44Z",
-      "state": "open",
-      "ref": "#2709"
-    },
-    {
-      "type": "pull_request",
-      "title": "feat(security): encrypt game and player names with env-based key",
-      "url": "https://github.com/OWASP/cornucopia/pull/2743",
-      "date": "2026-03-28T17:05:50Z",
-      "state": "open",
-      "ref": "#2743"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: {:ok, redirect()} used instead of {:noreply, redirect()} in PlayerLive.Show causing HTTP 500 on invalid player ID",
-      "url": "https://github.com/OWASP/cornucopia/issues/2505",
-      "date": "2026-03-27T14:20:32Z",
-      "state": "closed",
-      "ref": "#2505"
-    },
-    {
-      "type": "issue",
-      "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
-      "url": "https://github.com/OWASP/cornucopia/issues/2473",
-      "date": "2026-03-24T21:23:16Z",
-      "state": "open",
-      "ref": "#2473"
-    },
-    {
-      "type": "issue",
-      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
-      "url": "https://github.com/OWASP/cornucopia/issues/2442",
-      "date": "2026-03-20T22:22:55Z",
-      "state": "open",
-      "ref": "#2442"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
-      "url": "https://github.com/OWASP/cornucopia/issues/2499",
-      "date": "2026-03-20T20:13:48Z",
-      "state": "open",
-      "ref": "#2499"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: Game deletion handler exists in code but delete button is missing from UI",
-      "url": "https://github.com/OWASP/cornucopia/issues/2483",
-      "date": "2026-03-19T14:15:37Z",
-      "state": "closed",
-      "ref": "#2483"
-    },
-    {
-      "type": "issue",
-      "title": "Feature: Add automated validation tests for all language translations",
-      "url": "https://github.com/OWASP/cornucopia/issues/2443",
-      "date": "2026-03-19T14:03:42Z",
-      "state": "closed",
-      "ref": "#2443"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix: Integrate eslint-config-love and resolve ~1430 lint errors (#2647)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2675",
-      "date": "2026-03-19T08:47:17Z",
-      "state": "merged",
-      "ref": "#2675"
-    },
-    {
       "type": "commit",
-      "title": "Fix: Integrate ESLint config and resolve ~1430 lint errors (#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/68128e07bd567d1f531f9cdbd1467c8ab9ff0cac",
-      "date": "2026-03-19T00:45:23Z",
-      "ref": "#68128e0"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: add authorization check in toggle_vote to prevent cross-game voting",
-      "url": "https://github.com/OWASP/cornucopia/pull/2523",
-      "date": "2026-03-18T23:15:27Z",
-      "state": "merged",
-      "ref": "#2523"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: Missing authorization check in toggle_vote allows players to vote on cards from any game",
-      "url": "https://github.com/OWASP/cornucopia/issues/2520",
-      "date": "2026-03-18T23:12:41Z",
-      "state": "closed",
-      "ref": "#2520"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use direct card insertion in toggle_vote authorization tests",
-      "url": "https://github.com/OWASP/cornucopia/commit/a212369c543b085f934557967bf6c2738f8b53a6",
-      "date": "2026-03-18T22:56:29Z",
-      "ref": "#a212369"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove BOM from show_test.exs",
-      "url": "https://github.com/OWASP/cornucopia/commit/e61678db2b225a041d85e5b3ba894ad0b76ff27c",
-      "date": "2026-03-18T22:46:38Z",
-      "ref": "#e61678d"
-    },
-    {
-      "type": "commit",
-      "title": "fix: correct player live route in toggle_vote authorization tests",
-      "url": "https://github.com/OWASP/cornucopia/commit/820853235bfe3a5fb3659f93bd927783e82a92a3",
-      "date": "2026-03-18T22:37:52Z",
-      "ref": "#8208532"
+      "title": "fix: correct test.exs syntax",
+      "url": "https://github.com/OWASP/cornucopia/commit/8ac8bd80ce1a33458841644868c7cb5a0f7b2b16",
+      "date": "2026-04-01T06:46:00Z",
+      "ref": "#8ac8bd8"
     }
   ]
 }
