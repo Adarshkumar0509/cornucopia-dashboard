@@ -1,19 +1,26 @@
 {
-  "lastUpdated": "2026-04-14T02:38:16.970Z",
+  "lastUpdated": "2026-04-15T02:36:17.639Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 49,
+  "totalCommits": 57,
   "totalPRs": 17,
-  "mergedPRs": 14,
-  "openPRs": 3,
+  "mergedPRs": 15,
+  "openPRs": 2,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix: add form-action 'self' to CSP header for copi.owasp.org",
       "url": "https://github.com/OWASP/cornucopia/pull/2775",
-      "date": "2026-04-09T23:01:58Z",
-      "state": "open",
+      "date": "2026-04-14T17:48:34Z",
+      "state": "merged",
       "ref": "#2775"
+    },
+    {
+      "type": "commit",
+      "title": "fix: remove inline styles, add CSS class, increase test coverage",
+      "url": "https://github.com/OWASP/cornucopia/commit/95e24ea5a18397ed170a737da874707122be97b6",
+      "date": "2026-04-14T14:02:41Z",
+      "ref": "#95e24ea"
     },
     {
       "type": "pull_request",
@@ -22,6 +29,13 @@
       "date": "2026-04-09T21:49:21Z",
       "state": "open",
       "ref": "#2746"
+    },
+    {
+      "type": "commit",
+      "title": "fix: refactor CSP headers into SecurityHeaders module with live reload support",
+      "url": "https://github.com/OWASP/cornucopia/commit/7dd6436c736f25c3f955cc625538a6599fc9ea5f",
+      "date": "2026-04-09T14:18:27Z",
+      "ref": "#7dd6436"
     },
     {
       "type": "issue",
@@ -46,6 +60,48 @@
       "date": "2026-04-09T06:28:17Z",
       "state": "merged",
       "ref": "#2754"
+    },
+    {
+      "type": "commit",
+      "title": "test: verify form-action 'self' is present in CSP header",
+      "url": "https://github.com/OWASP/cornucopia/commit/471a815ba2e8515d437e6759b35ad9d874f7ae80",
+      "date": "2026-04-08T22:55:01Z",
+      "ref": "#471a815"
+    },
+    {
+      "type": "commit",
+      "title": "test: verify CSP header and form-action directive across routes",
+      "url": "https://github.com/OWASP/cornucopia/commit/c3d6f24ad2468243becd62c104c2161514617a16",
+      "date": "2026-04-08T22:52:59Z",
+      "ref": "#c3d6f24"
+    },
+    {
+      "type": "commit",
+      "title": "test: verify CSP header and form-action directive across routes",
+      "url": "https://github.com/OWASP/cornucopia/commit/8bd5ad3ea621c9e9ef02c8888c2f1699d3e46157",
+      "date": "2026-04-08T22:50:09Z",
+      "ref": "#8bd5ad3"
+    },
+    {
+      "type": "commit",
+      "title": "test: add security headers test for CSP form-action directive",
+      "url": "https://github.com/OWASP/cornucopia/commit/00b22506dba937b3eb91414c6310870aad8a82bd",
+      "date": "2026-04-08T22:40:16Z",
+      "ref": "#00b2250"
+    },
+    {
+      "type": "commit",
+      "title": "fix: remove BOM from router.ex encoding",
+      "url": "https://github.com/OWASP/cornucopia/commit/bd7d2c675e7451a93b583db9fd71c6336bc78981",
+      "date": "2026-04-08T22:25:49Z",
+      "ref": "#bd7d2c6"
+    },
+    {
+      "type": "commit",
+      "title": "fix: add form-action 'self' to CSP header for copi.owasp.org",
+      "url": "https://github.com/OWASP/cornucopia/commit/5e71bd0d649603917ca27ff32cf65f7734a65131",
+      "date": "2026-04-08T22:14:02Z",
+      "ref": "#5e71bd0"
     },
     {
       "type": "commit",
@@ -95,63 +151,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/9279892ce13f7f4b8827774d503114201f37040b",
       "date": "2026-04-08T19:50:31Z",
       "ref": "#9279892"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use raw SQL queries to avoid pin operator issue in migration",
-      "url": "https://github.com/OWASP/cornucopia/commit/e0c38e285594b156cc4daf509cb3e208122d5362",
-      "date": "2026-04-08T19:41:41Z",
-      "ref": "#e0c38e2"
-    },
-    {
-      "type": "commit",
-      "title": "docs: add encryption key setup instructions to SECURITY.md",
-      "url": "https://github.com/OWASP/cornucopia/commit/5d5bc3f6cfd38148bd8ca6f4a2e37645b0053675",
-      "date": "2026-04-08T19:34:30Z",
-      "ref": "#5d5bc3f"
-    },
-    {
-      "type": "commit",
-      "title": "docs: add encryption key setup instructions to README and SECURITY",
-      "url": "https://github.com/OWASP/cornucopia/commit/3eae7a375843323e0f6eb58dafb1ea3da29ead21",
-      "date": "2026-04-08T19:27:38Z",
-      "ref": "#3eae7a3"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove scores from original migration instead of adding drop migration",
-      "url": "https://github.com/OWASP/cornucopia/commit/c536cbc480b1cb43b940aca7a5867b5d54bf9ad0",
-      "date": "2026-04-08T18:39:05Z",
-      "ref": "#c536cbc"
-    },
-    {
-      "type": "commit",
-      "title": "Merge branch 'fix/encrypt-game-player-names-v2' of https://github.com/Adarshkumar0509/cornucopia into fix/encrypt-game-player-names-v2",
-      "url": "https://github.com/OWASP/cornucopia/commit/c97be3046d2f80f12763c4e0ec2c86570be3eb51",
-      "date": "2026-04-08T14:42:51Z",
-      "ref": "#c97be30"
-    },
-    {
-      "type": "commit",
-      "title": "fix: address copilot review comments on encryption migration and tests",
-      "url": "https://github.com/OWASP/cornucopia/commit/a14137a0d987e481ecf558af513e2bd1af99efb8",
-      "date": "2026-04-08T14:40:19Z",
-      "ref": "#a14137a"
-    },
-    {
-      "type": "issue",
-      "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
-      "url": "https://github.com/OWASP/cornucopia/issues/2444",
-      "date": "2026-04-04T02:26:27Z",
-      "state": "open",
-      "ref": "#2444"
-    },
-    {
-      "type": "commit",
-      "title": "fix: correct test.exs syntax",
-      "url": "https://github.com/OWASP/cornucopia/commit/8ac8bd80ce1a33458841644868c7cb5a0f7b2b16",
-      "date": "2026-04-01T06:46:00Z",
-      "ref": "#8ac8bd8"
     }
   ]
 }
