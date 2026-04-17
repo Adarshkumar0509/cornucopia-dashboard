@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-04-16T02:43:37.527Z",
+  "lastUpdated": "2026-04-17T02:38:46.756Z",
   "username": "Adarshkumar0509",
   "totalCommits": 57,
-  "totalPRs": 17,
+  "totalPRs": 18,
   "mergedPRs": 15,
-  "openPRs": 2,
+  "openPRs": 3,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2828",
+      "date": "2026-04-16T23:24:33Z",
+      "state": "open",
+      "ref": "#2828"
+    },
     {
       "type": "pull_request",
       "title": "fix: add form-action 'self' to CSP header for copi.owasp.org",
@@ -144,13 +152,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/8791887469743104d76ee0e404d00763ba27716f",
       "date": "2026-04-08T19:59:04Z",
       "ref": "#8791887"
-    },
-    {
-      "type": "commit",
-      "title": "docs: add encryption key setup instructions to website copi page",
-      "url": "https://github.com/OWASP/cornucopia/commit/9279892ce13f7f4b8827774d503114201f37040b",
-      "date": "2026-04-08T19:50:31Z",
-      "ref": "#9279892"
     }
   ]
 }
