@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T02:38:46.756Z",
+  "lastUpdated": "2026-04-18T02:30:09.991Z",
   "username": "Adarshkumar0509",
   "totalCommits": 57,
   "totalPRs": 18,
@@ -11,9 +11,17 @@
       "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
       "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-16T23:24:33Z",
+      "date": "2026-04-17T20:53:04Z",
       "state": "open",
       "ref": "#2828"
+    },
+    {
+      "type": "issue",
+      "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
+      "url": "https://github.com/OWASP/cornucopia/issues/2473",
+      "date": "2026-04-17T13:29:26Z",
+      "state": "open",
+      "ref": "#2473"
     },
     {
       "type": "pull_request",
@@ -145,13 +153,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/6f9e8cb1170552409c282e3b9c883652d42652c1",
       "date": "2026-04-08T20:11:15Z",
       "ref": "#6f9e8cb"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use raw SQL queries in migration to avoid missing module error",
-      "url": "https://github.com/OWASP/cornucopia/commit/8791887469743104d76ee0e404d00763ba27716f",
-      "date": "2026-04-08T19:59:04Z",
-      "ref": "#8791887"
     }
   ]
 }
