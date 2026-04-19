@@ -1,19 +1,92 @@
 {
-  "lastUpdated": "2026-04-18T02:30:09.991Z",
+  "lastUpdated": "2026-04-19T02:45:25.543Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 57,
-  "totalPRs": 18,
-  "mergedPRs": 15,
+  "totalCommits": 64,
+  "totalPRs": 20,
+  "mergedPRs": 17,
   "openPRs": 3,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: guide template page breaks and card back interleaving (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2746",
+      "date": "2026-04-18T22:51:39Z",
+      "state": "open",
+      "ref": "#2746"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: update pathspec to 1.0.0 and add librt to resolve ClusterFuzzLite failure (fixes #2167)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2835",
+      "date": "2026-04-18T21:44:59Z",
+      "state": "merged",
+      "ref": "#2835"
+    },
+    {
+      "type": "commit",
+      "title": "fix: handle SystemExit in fuzzer to prevent atheris crash (fixes #2167)",
+      "url": "https://github.com/OWASP/cornucopia/commit/3087dd7d90183bb50abb59fbd4fd36e1f31c79a8",
+      "date": "2026-04-18T18:28:42Z",
+      "ref": "#3087dd7"
+    },
+    {
+      "type": "commit",
+      "title": "fix: update pathspec to 1.0.0 and add librt==0.9.0 to resolve mypy dependency conflict",
+      "url": "https://github.com/OWASP/cornucopia/commit/dd6c580792f0020655c5250ce31b7ecd26ccd388",
+      "date": "2026-04-18T17:44:06Z",
+      "ref": "#dd6c580"
+    },
+    {
+      "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
       "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-17T20:53:04Z",
+      "date": "2026-04-18T14:51:32Z",
       "state": "open",
       "ref": "#2828"
+    },
+    {
+      "type": "pull_request",
+      "title": "test(fuzzer): add fuzzing tests for capec_map_enricher.py (fixes #2167)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2834",
+      "date": "2026-04-18T13:55:38Z",
+      "state": "merged",
+      "ref": "#2834"
+    },
+    {
+      "type": "commit",
+      "title": "refactor: rewrite fuzzer to follow convert_fuzzer.py pattern exactly",
+      "url": "https://github.com/OWASP/cornucopia/commit/dde0df6145de8e967cab0411de6b62dcaad551a9",
+      "date": "2026-04-18T12:42:56Z",
+      "ref": "#dde0df6"
+    },
+    {
+      "type": "commit",
+      "title": "test: improve branch coverage to 96.52% for website tests",
+      "url": "https://github.com/OWASP/cornucopia/commit/799a784ce54f15a810f00809f6b8ac49e9c810d2",
+      "date": "2026-04-18T11:08:05Z",
+      "ref": "#799a784"
+    },
+    {
+      "type": "commit",
+      "title": "fix: restore fuzzer with correct content and Black formatting",
+      "url": "https://github.com/OWASP/cornucopia/commit/5f25a97c85454d6768cbb9bae0dc96f6dc2eb04c",
+      "date": "2026-04-18T09:11:21Z",
+      "ref": "#5f25a97"
+    },
+    {
+      "type": "commit",
+      "title": "style: apply black formatting to capec_map_enricher_fuzzer.py",
+      "url": "https://github.com/OWASP/cornucopia/commit/c850f27f57b8e4955316f24ebffcb6787c9f4f47",
+      "date": "2026-04-18T07:49:09Z",
+      "ref": "#c850f27"
+    },
+    {
+      "type": "commit",
+      "title": "test(fuzzer): add fuzzing tests for capec_map_enricher.py (fixes #2167)",
+      "url": "https://github.com/OWASP/cornucopia/commit/945c5eea49f787d2862ac0f20b7020ddfca51584",
+      "date": "2026-04-18T07:28:56Z",
+      "ref": "#945c5ee"
     },
     {
       "type": "issue",
@@ -37,14 +110,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/95e24ea5a18397ed170a737da874707122be97b6",
       "date": "2026-04-14T14:02:41Z",
       "ref": "#95e24ea"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: guide template page breaks and card back interleaving (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2746",
-      "date": "2026-04-09T21:49:21Z",
-      "state": "open",
-      "ref": "#2746"
     },
     {
       "type": "commit",
@@ -90,69 +155,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/c3d6f24ad2468243becd62c104c2161514617a16",
       "date": "2026-04-08T22:52:59Z",
       "ref": "#c3d6f24"
-    },
-    {
-      "type": "commit",
-      "title": "test: verify CSP header and form-action directive across routes",
-      "url": "https://github.com/OWASP/cornucopia/commit/8bd5ad3ea621c9e9ef02c8888c2f1699d3e46157",
-      "date": "2026-04-08T22:50:09Z",
-      "ref": "#8bd5ad3"
-    },
-    {
-      "type": "commit",
-      "title": "test: add security headers test for CSP form-action directive",
-      "url": "https://github.com/OWASP/cornucopia/commit/00b22506dba937b3eb91414c6310870aad8a82bd",
-      "date": "2026-04-08T22:40:16Z",
-      "ref": "#00b2250"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove BOM from router.ex encoding",
-      "url": "https://github.com/OWASP/cornucopia/commit/bd7d2c675e7451a93b583db9fd71c6336bc78981",
-      "date": "2026-04-08T22:25:49Z",
-      "ref": "#bd7d2c6"
-    },
-    {
-      "type": "commit",
-      "title": "fix: add form-action 'self' to CSP header for copi.owasp.org",
-      "url": "https://github.com/OWASP/cornucopia/commit/5e71bd0d649603917ca27ff32cf65f7734a65131",
-      "date": "2026-04-08T22:14:02Z",
-      "ref": "#5e71bd0"
-    },
-    {
-      "type": "commit",
-      "title": "test: improve test coverage for encrypted binary type",
-      "url": "https://github.com/OWASP/cornucopia/commit/bfe18c0c55ce178cce8e6f9fe81b8d33a174c4ce",
-      "date": "2026-04-08T20:53:58Z",
-      "ref": "#bfe18c0"
-    },
-    {
-      "type": "commit",
-      "title": "ci: force re-run of tests",
-      "url": "https://github.com/OWASP/cornucopia/commit/17cef40f4912b499010484ef6473b30928cafdae",
-      "date": "2026-04-08T20:30:27Z",
-      "ref": "#17cef40"
-    },
-    {
-      "type": "commit",
-      "title": "fix: correct binary test file structure",
-      "url": "https://github.com/OWASP/cornucopia/commit/714bf040000e5ee32efede961280a71b970061d7",
-      "date": "2026-04-08T20:23:32Z",
-      "ref": "#714bf04"
-    },
-    {
-      "type": "commit",
-      "title": "ci: trigger fresh CI run with corrected migration",
-      "url": "https://github.com/OWASP/cornucopia/commit/bac0ab7fa52a3cdd53031e827c3f8512eebd221d",
-      "date": "2026-04-08T20:14:13Z",
-      "ref": "#bac0ab7"
-    },
-    {
-      "type": "commit",
-      "title": "docs: add encryption key setup instructions to website copi page",
-      "url": "https://github.com/OWASP/cornucopia/commit/6f9e8cb1170552409c282e3b9c883652d42652c1",
-      "date": "2026-04-08T20:11:15Z",
-      "ref": "#6f9e8cb"
     }
   ]
 }
