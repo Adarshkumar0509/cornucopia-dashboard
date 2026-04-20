@@ -1,19 +1,41 @@
 {
-  "lastUpdated": "2026-04-19T02:45:25.543Z",
+  "lastUpdated": "2026-04-20T02:46:27.505Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 64,
-  "totalPRs": 20,
-  "mergedPRs": 17,
+  "totalCommits": 78,
+  "totalPRs": 21,
+  "mergedPRs": 18,
   "openPRs": 3,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: section page breaks and card back interleaving - remaining issues (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2839",
+      "date": "2026-04-19T20:16:18Z",
+      "state": "open",
+      "ref": "#2839"
+    },
+    {
+      "type": "pull_request",
       "title": "fix: guide template page breaks and card back interleaving (#2133)",
       "url": "https://github.com/OWASP/cornucopia/pull/2746",
-      "date": "2026-04-18T22:51:39Z",
-      "state": "open",
+      "date": "2026-04-19T16:27:25Z",
+      "state": "merged",
       "ref": "#2746"
+    },
+    {
+      "type": "commit",
+      "title": "fix: add pinned librt==0.9.0 hash to satisfy mypy==1.20.0 require-hashes (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/210e1a1ffba0263bc2489b433880295875b071b1",
+      "date": "2026-04-18T22:29:33Z",
+      "ref": "#210e1a1"
+    },
+    {
+      "type": "commit",
+      "title": "fix: resolve merge conflict and add missing it/hu guide templates (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/d351636480b82d29e474ad1d1931278b5f55b658",
+      "date": "2026-04-18T22:19:30Z",
+      "ref": "#d351636"
     },
     {
       "type": "pull_request",
@@ -113,48 +135,24 @@
     },
     {
       "type": "commit",
-      "title": "fix: refactor CSP headers into SecurityHeaders module with live reload support",
-      "url": "https://github.com/OWASP/cornucopia/commit/7dd6436c736f25c3f955cc625538a6599fc9ea5f",
-      "date": "2026-04-09T14:18:27Z",
-      "ref": "#7dd6436"
-    },
-    {
-      "type": "issue",
-      "title": "Bug: `scores` field in DealtCard schema and database is never read or written",
-      "url": "https://github.com/OWASP/cornucopia/issues/2499",
-      "date": "2026-04-09T08:52:42Z",
-      "state": "closed",
-      "ref": "#2499"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: remove unused scores field from DealtCard schema and database",
-      "url": "https://github.com/OWASP/cornucopia/pull/2711",
-      "date": "2026-04-09T08:52:41Z",
-      "state": "merged",
-      "ref": "#2711"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix(security): encrypt existing game and player names during migration",
-      "url": "https://github.com/OWASP/cornucopia/pull/2754",
-      "date": "2026-04-09T06:28:17Z",
-      "state": "merged",
-      "ref": "#2754"
+      "title": "fix: update pathspec to 1.0.4 to resolve conflict with mypy 1.20.0",
+      "url": "https://github.com/OWASP/cornucopia/commit/2a3459bd35c34ab76c976921c9cbc71db52d01a2",
+      "date": "2026-04-09T21:08:22Z",
+      "ref": "#2a3459b"
     },
     {
       "type": "commit",
-      "title": "test: verify form-action 'self' is present in CSP header",
-      "url": "https://github.com/OWASP/cornucopia/commit/471a815ba2e8515d437e6759b35ad9d874f7ae80",
-      "date": "2026-04-08T22:55:01Z",
-      "ref": "#471a815"
+      "title": "style: apply black formatting to convert.py",
+      "url": "https://github.com/OWASP/cornucopia/commit/cc35569744fa16582407a6f69470815ce9adf057",
+      "date": "2026-04-09T20:22:00Z",
+      "ref": "#cc35569"
     },
     {
       "type": "commit",
-      "title": "test: verify CSP header and form-action directive across routes",
-      "url": "https://github.com/OWASP/cornucopia/commit/c3d6f24ad2468243becd62c104c2161514617a16",
-      "date": "2026-04-08T22:52:59Z",
-      "ref": "#c3d6f24"
+      "title": "fix: correct indentation in test_get_template_for_edition_default_docx",
+      "url": "https://github.com/OWASP/cornucopia/commit/21d70e1f3e01b3f7ca43a9d137f84cedf9a660b2",
+      "date": "2026-04-09T19:26:09Z",
+      "ref": "#21d70e1"
     }
   ]
 }
