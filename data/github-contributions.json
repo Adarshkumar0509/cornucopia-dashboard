@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-04-22T02:38:37.580Z",
+  "lastUpdated": "2026-04-23T02:41:53.887Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 78,
-  "totalPRs": 21,
-  "mergedPRs": 18,
+  "totalCommits": 79,
+  "totalPRs": 22,
+  "mergedPRs": 19,
   "openPRs": 3,
   "totalIssues": 18,
   "recentActivity": [
@@ -11,9 +11,32 @@
       "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
       "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-21T15:56:30Z",
+      "date": "2026-04-22T22:15:48Z",
       "state": "open",
       "ref": "#2828"
+    },
+    {
+      "type": "issue",
+      "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
+      "url": "https://github.com/OWASP/cornucopia/issues/2444",
+      "date": "2026-04-22T18:46:06Z",
+      "state": "open",
+      "ref": "#2444"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: update companion edition card colors per issue #2851",
+      "url": "https://github.com/OWASP/cornucopia/pull/2861",
+      "date": "2026-04-22T18:29:50Z",
+      "state": "merged",
+      "ref": "#2861"
+    },
+    {
+      "type": "commit",
+      "title": "fix: update companion edition card colors per issue #2851",
+      "url": "https://github.com/OWASP/cornucopia/commit/db13f90d114974f24a9922f7169bb9561f54628c",
+      "date": "2026-04-22T18:08:32Z",
+      "ref": "#db13f90"
     },
     {
       "type": "pull_request",
@@ -132,27 +155,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/95e24ea5a18397ed170a737da874707122be97b6",
       "date": "2026-04-14T14:02:41Z",
       "ref": "#95e24ea"
-    },
-    {
-      "type": "commit",
-      "title": "fix: update pathspec to 1.0.4 to resolve conflict with mypy 1.20.0",
-      "url": "https://github.com/OWASP/cornucopia/commit/2a3459bd35c34ab76c976921c9cbc71db52d01a2",
-      "date": "2026-04-09T21:08:22Z",
-      "ref": "#2a3459b"
-    },
-    {
-      "type": "commit",
-      "title": "style: apply black formatting to convert.py",
-      "url": "https://github.com/OWASP/cornucopia/commit/cc35569744fa16582407a6f69470815ce9adf057",
-      "date": "2026-04-09T20:22:00Z",
-      "ref": "#cc35569"
-    },
-    {
-      "type": "commit",
-      "title": "fix: correct indentation in test_get_template_for_edition_default_docx",
-      "url": "https://github.com/OWASP/cornucopia/commit/21d70e1f3e01b3f7ca43a9d137f84cedf9a660b2",
-      "date": "2026-04-09T19:26:09Z",
-      "ref": "#21d70e1"
     }
   ]
 }
