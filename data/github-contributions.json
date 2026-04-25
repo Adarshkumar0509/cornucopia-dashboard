@@ -1,19 +1,78 @@
 {
-  "lastUpdated": "2026-04-24T02:42:41.256Z",
+  "lastUpdated": "2026-04-25T02:31:31.166Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 79,
-  "totalPRs": 22,
-  "mergedPRs": 19,
-  "openPRs": 3,
+  "totalCommits": 97,
+  "totalPRs": 23,
+  "mergedPRs": 21,
+  "openPRs": 2,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: remove blank pages and fix image placement in all bridge_qr guid…",
+      "url": "https://github.com/OWASP/cornucopia/pull/2876",
+      "date": "2026-04-25T01:22:47Z",
+      "state": "open",
+      "ref": "#2876"
+    },
+    {
+      "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
       "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-22T22:15:48Z",
+      "date": "2026-04-24T23:07:45Z",
       "state": "open",
       "ref": "#2828"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: fix image size and paragraph spacing for es and uk guide templat…",
+      "url": "https://github.com/OWASP/cornucopia/pull/2870",
+      "date": "2026-04-24T11:49:48Z",
+      "state": "merged",
+      "ref": "#2870"
+    },
+    {
+      "type": "commit",
+      "title": "style: apply black formatting and fix flake8 warnings in convert_coverage_utest.py",
+      "url": "https://github.com/OWASP/cornucopia/commit/6a4767860e49541ffed333e9cb5911d4bcf72663",
+      "date": "2026-04-24T08:16:11Z",
+      "ref": "#6a47678"
+    },
+    {
+      "type": "commit",
+      "title": "test: add unit tests for security validation and XML replacement in convert.py (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/02895064884ca4f52f23cf76aceadb43be333b90",
+      "date": "2026-04-24T08:00:16Z",
+      "ref": "#0289506"
+    },
+    {
+      "type": "commit",
+      "title": "test: add unit tests for convert.py to improve coverage to 90% (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/50b77669549de03e9bdfd999636eb66ab6a3be81",
+      "date": "2026-04-24T07:45:17Z",
+      "ref": "#50b7766"
+    },
+    {
+      "type": "commit",
+      "title": "test: add unit tests for convert.py to improve coverage to 90% (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/b04ea417737b35e8de9456296e235c20545ba31f",
+      "date": "2026-04-24T07:39:07Z",
+      "ref": "#b04ea41"
+    },
+    {
+      "type": "commit",
+      "title": "fix: fix image size and paragraph spacing for es and uk guide templates (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/5fc9c576f42c1e4685fac6d5b357eda09c835d11",
+      "date": "2026-04-24T06:54:04Z",
+      "ref": "#5fc9c57"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: section page breaks and card back interleaving - remaining issues (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2839",
+      "date": "2026-04-24T03:52:22Z",
+      "state": "merged",
+      "ref": "#2839"
     },
     {
       "type": "issue",
@@ -39,122 +98,60 @@
       "ref": "#db13f90"
     },
     {
-      "type": "pull_request",
-      "title": "fix: section page breaks and card back interleaving - remaining issues (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2839",
-      "date": "2026-04-21T12:36:01Z",
-      "state": "open",
-      "ref": "#2839"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: guide template page breaks and card back interleaving (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2746",
-      "date": "2026-04-19T16:27:25Z",
-      "state": "merged",
-      "ref": "#2746"
+      "type": "commit",
+      "title": "fix: apply nl template structure to pt_pt, pt_br, no_nb and en fixes (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/38b4063dc76b16303a457c76a5e04d54b710c30e",
+      "date": "2026-04-21T11:48:21Z",
+      "ref": "#38b4063"
     },
     {
       "type": "commit",
-      "title": "fix: add pinned librt==0.9.0 hash to satisfy mypy==1.20.0 require-hashes (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/210e1a1ffba0263bc2489b433880295875b071b1",
-      "date": "2026-04-18T22:29:33Z",
-      "ref": "#210e1a1"
+      "title": "fix: FAQ/cards page separation for en, pt_pt and layout fix for no_nb (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/e6539ae41d482a281c958a48ba93a333057b05b0",
+      "date": "2026-04-21T11:26:59Z",
+      "ref": "#e6539ae"
     },
     {
       "type": "commit",
-      "title": "fix: resolve merge conflict and add missing it/hu guide templates (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/d351636480b82d29e474ad1d1931278b5f55b658",
-      "date": "2026-04-18T22:19:30Z",
-      "ref": "#d351636"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: update pathspec to 1.0.0 and add librt to resolve ClusterFuzzLite failure (fixes #2167)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2835",
-      "date": "2026-04-18T21:44:59Z",
-      "state": "merged",
-      "ref": "#2835"
+      "title": "fix: FAQ/cards page separation and layout fixes for en, no_nb, pt_pt (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/efb8fd2287c9ad6274e492c346e88c9820ad3bcb",
+      "date": "2026-04-21T07:54:23Z",
+      "ref": "#efb8fd2"
     },
     {
       "type": "commit",
-      "title": "fix: handle SystemExit in fuzzer to prevent atheris crash (fixes #2167)",
-      "url": "https://github.com/OWASP/cornucopia/commit/3087dd7d90183bb50abb59fbd4fd36e1f31c79a8",
-      "date": "2026-04-18T18:28:42Z",
-      "ref": "#3087dd7"
+      "title": "fix: remove blank pages and fix image placement in all guide templates",
+      "url": "https://github.com/OWASP/cornucopia/commit/66d7fe0a1dc28f85fe4fa19b80fb8968e208432a",
+      "date": "2026-04-21T06:53:54Z",
+      "ref": "#66d7fe0"
     },
     {
       "type": "commit",
-      "title": "fix: update pathspec to 1.0.0 and add librt==0.9.0 to resolve mypy dependency conflict",
-      "url": "https://github.com/OWASP/cornucopia/commit/dd6c580792f0020655c5250ce31b7ecd26ccd388",
-      "date": "2026-04-18T17:44:06Z",
-      "ref": "#dd6c580"
-    },
-    {
-      "type": "pull_request",
-      "title": "test(fuzzer): add fuzzing tests for capec_map_enricher.py (fixes #2167)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2834",
-      "date": "2026-04-18T13:55:38Z",
-      "state": "merged",
-      "ref": "#2834"
+      "title": "fix: add page break before contributors section for all language templates (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/500d1afc74959a3f59f9374f8352670beb6a91ac",
+      "date": "2026-04-20T20:35:15Z",
+      "ref": "#500d1af"
     },
     {
       "type": "commit",
-      "title": "refactor: rewrite fuzzer to follow convert_fuzzer.py pattern exactly",
-      "url": "https://github.com/OWASP/cornucopia/commit/dde0df6145de8e967cab0411de6b62dcaad551a9",
-      "date": "2026-04-18T12:42:56Z",
-      "ref": "#dde0df6"
+      "title": "refactor: extract _replace_element_text to reduce complexity of replace_text_in_xml_file (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/51f877a3405176bdac40d2935b5b82b67eae2528",
+      "date": "2026-04-20T10:50:31Z",
+      "ref": "#51f877a"
     },
     {
       "type": "commit",
-      "title": "test: improve branch coverage to 96.52% for website tests",
-      "url": "https://github.com/OWASP/cornucopia/commit/799a784ce54f15a810f00809f6b8ac49e9c810d2",
-      "date": "2026-04-18T11:08:05Z",
-      "ref": "#799a784"
+      "title": "fix: replace child.tail text in XML to fix tag replacement (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/b864d39ebda34f9147ac61b84c6472b91079d085",
+      "date": "2026-04-20T07:15:57Z",
+      "ref": "#b864d39"
     },
     {
       "type": "commit",
-      "title": "fix: restore fuzzer with correct content and Black formatting",
-      "url": "https://github.com/OWASP/cornucopia/commit/5f25a97c85454d6768cbb9bae0dc96f6dc2eb04c",
-      "date": "2026-04-18T09:11:21Z",
-      "ref": "#5f25a97"
-    },
-    {
-      "type": "commit",
-      "title": "style: apply black formatting to capec_map_enricher_fuzzer.py",
-      "url": "https://github.com/OWASP/cornucopia/commit/c850f27f57b8e4955316f24ebffcb6787c9f4f47",
-      "date": "2026-04-18T07:49:09Z",
-      "ref": "#c850f27"
-    },
-    {
-      "type": "commit",
-      "title": "test(fuzzer): add fuzzing tests for capec_map_enricher.py (fixes #2167)",
-      "url": "https://github.com/OWASP/cornucopia/commit/945c5eea49f787d2862ac0f20b7020ddfca51584",
-      "date": "2026-04-18T07:28:56Z",
-      "ref": "#945c5ee"
-    },
-    {
-      "type": "issue",
-      "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
-      "url": "https://github.com/OWASP/cornucopia/issues/2473",
-      "date": "2026-04-17T13:29:26Z",
-      "state": "open",
-      "ref": "#2473"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: add form-action 'self' to CSP header for copi.owasp.org",
-      "url": "https://github.com/OWASP/cornucopia/pull/2775",
-      "date": "2026-04-14T17:48:34Z",
-      "state": "merged",
-      "ref": "#2775"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove inline styles, add CSS class, increase test coverage",
-      "url": "https://github.com/OWASP/cornucopia/commit/95e24ea5a18397ed170a737da874707122be97b6",
-      "date": "2026-04-14T14:02:41Z",
-      "ref": "#95e24ea"
+      "title": "fix: page breaks, card back interleaving, remove blank page, fix child.tail tag replacement (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/1b443265ca3bd307acf8c5262fc04117a0a20f79",
+      "date": "2026-04-20T07:13:36Z",
+      "ref": "#1b44326"
     }
   ]
 }
