@@ -1,27 +1,55 @@
 {
-  "lastUpdated": "2026-04-25T02:31:31.166Z",
+  "lastUpdated": "2026-04-26T02:48:09.238Z",
   "username": "Adarshkumar0509",
-  "totalCommits": 97,
+  "totalCommits": 100,
   "totalPRs": 23,
-  "mergedPRs": 21,
-  "openPRs": 2,
+  "mergedPRs": 22,
+  "openPRs": 1,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
-      "title": "fix: remove blank pages and fix image placement in all bridge_qr guid…",
-      "url": "https://github.com/OWASP/cornucopia/pull/2876",
-      "date": "2026-04-25T01:22:47Z",
+      "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2828",
+      "date": "2026-04-25T22:31:10Z",
       "state": "open",
-      "ref": "#2876"
+      "ref": "#2828"
     },
     {
       "type": "pull_request",
-      "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-24T23:07:45Z",
-      "state": "open",
-      "ref": "#2828"
+      "title": "fix: remove blank pages and fix image placement in all bridge_qr guid…",
+      "url": "https://github.com/OWASP/cornucopia/pull/2876",
+      "date": "2026-04-25T11:18:50Z",
+      "state": "merged",
+      "ref": "#2876"
+    },
+    {
+      "type": "commit",
+      "title": "fix: fix page breaks in es and hu bridge_qr guide templates",
+      "url": "https://github.com/OWASP/cornucopia/commit/5bbec4bea99ffeace8a67471fff772a9fe83a515",
+      "date": "2026-04-25T10:56:47Z",
+      "ref": "#5bbec4b"
+    },
+    {
+      "type": "commit",
+      "title": "fix: fix page breaks in all bridge_qr guide templates for all languages",
+      "url": "https://github.com/OWASP/cornucopia/commit/00e47226f5c28793f40f90d77228e73a3522abbf",
+      "date": "2026-04-25T10:05:40Z",
+      "ref": "#00e4722"
+    },
+    {
+      "type": "commit",
+      "title": "fix: fix page breaks in all bridge_qr guide templates",
+      "url": "https://github.com/OWASP/cornucopia/commit/b58993e4fdca18368e9e6119a72cacfdfa4c1e11",
+      "date": "2026-04-25T09:43:23Z",
+      "ref": "#b58993e"
+    },
+    {
+      "type": "commit",
+      "title": "fix: remove blank pages and fix image placement in all bridge_qr guide templates (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/commit/60260221cd43ccde863af72f2f1f1c77e9de25bf",
+      "date": "2026-04-24T22:10:07Z",
+      "ref": "#6026022"
     },
     {
       "type": "pull_request",
@@ -124,34 +152,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/66d7fe0a1dc28f85fe4fa19b80fb8968e208432a",
       "date": "2026-04-21T06:53:54Z",
       "ref": "#66d7fe0"
-    },
-    {
-      "type": "commit",
-      "title": "fix: add page break before contributors section for all language templates (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/500d1afc74959a3f59f9374f8352670beb6a91ac",
-      "date": "2026-04-20T20:35:15Z",
-      "ref": "#500d1af"
-    },
-    {
-      "type": "commit",
-      "title": "refactor: extract _replace_element_text to reduce complexity of replace_text_in_xml_file (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/51f877a3405176bdac40d2935b5b82b67eae2528",
-      "date": "2026-04-20T10:50:31Z",
-      "ref": "#51f877a"
-    },
-    {
-      "type": "commit",
-      "title": "fix: replace child.tail text in XML to fix tag replacement (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/b864d39ebda34f9147ac61b84c6472b91079d085",
-      "date": "2026-04-20T07:15:57Z",
-      "ref": "#b864d39"
-    },
-    {
-      "type": "commit",
-      "title": "fix: page breaks, card back interleaving, remove blank page, fix child.tail tag replacement (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/1b443265ca3bd307acf8c5262fc04117a0a20f79",
-      "date": "2026-04-20T07:13:36Z",
-      "ref": "#1b44326"
     }
   ]
 }
