@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T02:51:22.415Z",
+  "lastUpdated": "2026-04-28T02:57:56.814Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 23,
@@ -11,9 +11,25 @@
       "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
       "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-26T22:56:53Z",
+      "date": "2026-04-27T23:06:35Z",
       "state": "open",
       "ref": "#2828"
+    },
+    {
+      "type": "issue",
+      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
+      "url": "https://github.com/OWASP/cornucopia/issues/2442",
+      "date": "2026-04-27T05:07:47Z",
+      "state": "closed",
+      "ref": "#2442"
+    },
+    {
+      "type": "issue",
+      "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
+      "url": "https://github.com/OWASP/cornucopia/issues/2444",
+      "date": "2026-04-27T04:55:39Z",
+      "state": "closed",
+      "ref": "#2444"
     },
     {
       "type": "pull_request",
@@ -103,14 +119,6 @@
       "ref": "#2839"
     },
     {
-      "type": "issue",
-      "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
-      "url": "https://github.com/OWASP/cornucopia/issues/2444",
-      "date": "2026-04-22T18:46:06Z",
-      "state": "open",
-      "ref": "#2444"
-    },
-    {
       "type": "pull_request",
       "title": "fix: update companion edition card colors per issue #2851",
       "url": "https://github.com/OWASP/cornucopia/pull/2861",
@@ -145,13 +153,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/efb8fd2287c9ad6274e492c346e88c9820ad3bcb",
       "date": "2026-04-21T07:54:23Z",
       "ref": "#efb8fd2"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove blank pages and fix image placement in all guide templates",
-      "url": "https://github.com/OWASP/cornucopia/commit/66d7fe0a1dc28f85fe4fa19b80fb8968e208432a",
-      "date": "2026-04-21T06:53:54Z",
-      "ref": "#66d7fe0"
     }
   ]
 }
