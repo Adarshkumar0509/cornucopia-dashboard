@@ -1,19 +1,91 @@
 {
-  "lastUpdated": "2026-04-28T02:57:56.814Z",
+  "lastUpdated": "2026-04-29T02:56:22.610Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 23,
-  "mergedPRs": 22,
-  "openPRs": 1,
+  "mergedPRs": 23,
+  "openPRs": 0,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
       "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-27T23:06:35Z",
-      "state": "open",
+      "date": "2026-04-28T21:13:04Z",
+      "state": "merged",
       "ref": "#2828"
+    },
+    {
+      "type": "issue",
+      "title": "Test: Missing test coverage for invalid inputs in ApiController.play_card",
+      "url": "https://github.com/OWASP/cornucopia/issues/2473",
+      "date": "2026-04-28T17:15:28Z",
+      "state": "closed",
+      "ref": "#2473"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: remove blank pages and fix image placement in all bridge_qr guid…",
+      "url": "https://github.com/OWASP/cornucopia/pull/2876",
+      "date": "2026-04-28T15:02:08Z",
+      "state": "merged",
+      "ref": "#2876"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: move eslint-disable comment inside script block in image.svelte (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/1f9f661cf92594db9fa23a920404bc4a6c63c0d5",
+      "date": "2026-04-27T22:27:51Z",
+      "ref": "#1f9f661"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: replace corrupted box-drawing characters with HTML entities in cards page (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/ccfea4cc5159d975437a4378c298166af7c50aaa",
+      "date": "2026-04-27T21:44:29Z",
+      "ref": "#ccfea4c"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: restore correct encoding in webAppCardTaxonomy.svelte and fix capecMapTable lint errors",
+      "url": "https://github.com/OWASP/cornucopia/commit/ac22adb473647175aafdc6b198178a43a3dea350",
+      "date": "2026-04-27T21:21:21Z",
+      "ref": "#ac22adb"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: replace corrupted arrow characters with -> in deckService.test.ts (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/fcd8abdf6d9e55938d6e7a31a56d383fa7405e62",
+      "date": "2026-04-27T18:04:52Z",
+      "ref": "#fcd8abd"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: restore correct emoji in cache.ts and add eslint-disable comments (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/15a104391d65f018183179e46438ea6f913b02df",
+      "date": "2026-04-27T17:58:50Z",
+      "ref": "#15a1043"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: regenerate pnpm-lock.yaml to match package.json (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/22923a795754bf45f7eaff2e4986505051bb2d64",
+      "date": "2026-04-27T12:10:21Z",
+      "ref": "#22923a7"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: resolve pnpm-lock.yaml conflict with upstream (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/4b6a059bfe8f842edc5126ebbb91d01d1b2dda0b",
+      "date": "2026-04-27T12:04:46Z",
+      "ref": "#4b6a059"
+    },
+    {
+      "type": "commit",
+      "title": "Fix: restore correct characters in cache.ts, deckService.test.ts and edition page (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/8b31b9e6ca6ffd359b1a13ed5211163d7776b393",
+      "date": "2026-04-27T11:36:09Z",
+      "ref": "#8b31b9e"
     },
     {
       "type": "issue",
@@ -32,127 +104,53 @@
       "ref": "#2444"
     },
     {
-      "type": "pull_request",
-      "title": "fix: remove blank pages and fix image placement in all bridge_qr guid…",
-      "url": "https://github.com/OWASP/cornucopia/pull/2876",
-      "date": "2026-04-25T11:18:50Z",
-      "state": "merged",
-      "ref": "#2876"
+      "type": "commit",
+      "title": "Fix: fix encoding of box-drawing characters in cards page (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/a181aa5fe95f4feae771feec63d62833068e282d",
+      "date": "2026-04-26T22:21:41Z",
+      "ref": "#a181aa5"
     },
     {
       "type": "commit",
-      "title": "fix: fix page breaks in es and hu bridge_qr guide templates",
-      "url": "https://github.com/OWASP/cornucopia/commit/5bbec4bea99ffeace8a67471fff772a9fe83a515",
-      "date": "2026-04-25T10:56:47Z",
-      "ref": "#5bbec4b"
+      "title": "Fix: remove resolve() from cards page - crashes on empty string URLs (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/ea53f015ca3fad5f6190bd677220b4eacd8302b2",
+      "date": "2026-04-26T21:09:28Z",
+      "ref": "#ea53f01"
     },
     {
       "type": "commit",
-      "title": "fix: fix page breaks in all bridge_qr guide templates for all languages",
-      "url": "https://github.com/OWASP/cornucopia/commit/00e47226f5c28793f40f90d77228e73a3522abbf",
-      "date": "2026-04-25T10:05:40Z",
-      "ref": "#00e4722"
+      "title": "Fix: revert heading.svelte to upstream - resolve() breaks hash anchor navigation (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/27bc731577944d63a4fb20d2394f3b6d348d69cb",
+      "date": "2026-04-26T20:56:04Z",
+      "ref": "#27bc731"
     },
     {
       "type": "commit",
-      "title": "fix: fix page breaks in all bridge_qr guide templates",
-      "url": "https://github.com/OWASP/cornucopia/commit/b58993e4fdca18368e9e6119a72cacfdfa4c1e11",
-      "date": "2026-04-25T09:43:23Z",
-      "ref": "#b58993e"
+      "title": "Fix: revert ASVSOverview.svelte to upstream and fix each-key lint error (OWASP#2647)",
+      "url": "https://github.com/OWASP/cornucopia/commit/d42adfcb5bbb84bdbdec9feced01a2e116e0f295",
+      "date": "2026-04-26T20:50:08Z",
+      "ref": "#d42adfc"
     },
     {
       "type": "commit",
-      "title": "fix: remove blank pages and fix image placement in all bridge_qr guide templates (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/60260221cd43ccde863af72f2f1f1c77e9de25bf",
-      "date": "2026-04-24T22:10:07Z",
-      "ref": "#6026022"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: fix image size and paragraph spacing for es and uk guide templat…",
-      "url": "https://github.com/OWASP/cornucopia/pull/2870",
-      "date": "2026-04-24T11:49:48Z",
-      "state": "merged",
-      "ref": "#2870"
+      "title": "Fix: revert capecMapTable.svelte to upstream and fix lint errors",
+      "url": "https://github.com/OWASP/cornucopia/commit/631755f0f850b4299112545f272d77e9e57e9fb6",
+      "date": "2026-04-26T20:21:56Z",
+      "ref": "#631755f"
     },
     {
       "type": "commit",
-      "title": "style: apply black formatting and fix flake8 warnings in convert_coverage_utest.py",
-      "url": "https://github.com/OWASP/cornucopia/commit/6a4767860e49541ffed333e9cb5911d4bcf72663",
-      "date": "2026-04-24T08:16:11Z",
-      "ref": "#6a47678"
+      "title": "Merge upstream/master into fix/eslint-pipeline-v2",
+      "url": "https://github.com/OWASP/cornucopia/commit/9a5712ba6d93893a9b2890fa5f925c2d164666ac",
+      "date": "2026-04-26T11:02:23Z",
+      "ref": "#9a5712b"
     },
     {
       "type": "commit",
-      "title": "test: add unit tests for security validation and XML replacement in convert.py (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/02895064884ca4f52f23cf76aceadb43be333b90",
-      "date": "2026-04-24T08:00:16Z",
-      "ref": "#0289506"
-    },
-    {
-      "type": "commit",
-      "title": "test: add unit tests for convert.py to improve coverage to 90% (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/50b77669549de03e9bdfd999636eb66ab6a3be81",
-      "date": "2026-04-24T07:45:17Z",
-      "ref": "#50b7766"
-    },
-    {
-      "type": "commit",
-      "title": "test: add unit tests for convert.py to improve coverage to 90% (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/b04ea417737b35e8de9456296e235c20545ba31f",
-      "date": "2026-04-24T07:39:07Z",
-      "ref": "#b04ea41"
-    },
-    {
-      "type": "commit",
-      "title": "fix: fix image size and paragraph spacing for es and uk guide templates (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/5fc9c576f42c1e4685fac6d5b357eda09c835d11",
-      "date": "2026-04-24T06:54:04Z",
-      "ref": "#5fc9c57"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: section page breaks and card back interleaving - remaining issues (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2839",
-      "date": "2026-04-24T03:52:22Z",
-      "state": "merged",
-      "ref": "#2839"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: update companion edition card colors per issue #2851",
-      "url": "https://github.com/OWASP/cornucopia/pull/2861",
-      "date": "2026-04-22T18:29:50Z",
-      "state": "merged",
-      "ref": "#2861"
-    },
-    {
-      "type": "commit",
-      "title": "fix: update companion edition card colors per issue #2851",
-      "url": "https://github.com/OWASP/cornucopia/commit/db13f90d114974f24a9922f7169bb9561f54628c",
-      "date": "2026-04-22T18:08:32Z",
-      "ref": "#db13f90"
-    },
-    {
-      "type": "commit",
-      "title": "fix: apply nl template structure to pt_pt, pt_br, no_nb and en fixes (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/38b4063dc76b16303a457c76a5e04d54b710c30e",
-      "date": "2026-04-21T11:48:21Z",
-      "ref": "#38b4063"
-    },
-    {
-      "type": "commit",
-      "title": "fix: FAQ/cards page separation for en, pt_pt and layout fix for no_nb (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/e6539ae41d482a281c958a48ba93a333057b05b0",
-      "date": "2026-04-21T11:26:59Z",
-      "ref": "#e6539ae"
-    },
-    {
-      "type": "commit",
-      "title": "fix: FAQ/cards page separation and layout fixes for en, no_nb, pt_pt (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/commit/efb8fd2287c9ad6274e492c346e88c9820ad3bcb",
-      "date": "2026-04-21T07:54:23Z",
-      "ref": "#efb8fd2"
+      "title": "fix: ignore edition path 500 errors during prerender",
+      "url": "https://github.com/OWASP/cornucopia/commit/7bfcaaf29e07f822036776febcb9533d3322991c",
+      "date": "2026-04-26T10:30:29Z",
+      "ref": "#7bfcaaf"
     }
   ]
 }
