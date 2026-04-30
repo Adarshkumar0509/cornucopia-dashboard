@@ -1,12 +1,27 @@
 {
-  "lastUpdated": "2026-04-29T02:56:22.610Z",
+  "lastUpdated": "2026-04-30T02:57:20.621Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 23,
-  "mergedPRs": 23,
+  "totalPRs": 24,
+  "mergedPRs": 24,
   "openPRs": 0,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: add missing backside tables to fallback lang ODT template",
+      "url": "https://github.com/OWASP/cornucopia/pull/2899",
+      "date": "2026-04-29T11:24:47Z",
+      "state": "merged",
+      "ref": "#2899"
+    },
+    {
+      "type": "commit",
+      "title": "fix: add missing backside tables to fallback lang ODT template",
+      "url": "https://github.com/OWASP/cornucopia/commit/00f805a2157980bf06a8632febc63c17210367cf",
+      "date": "2026-04-29T07:45:03Z",
+      "ref": "#00f805a"
+    },
     {
       "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
@@ -137,20 +152,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/631755f0f850b4299112545f272d77e9e57e9fb6",
       "date": "2026-04-26T20:21:56Z",
       "ref": "#631755f"
-    },
-    {
-      "type": "commit",
-      "title": "Merge upstream/master into fix/eslint-pipeline-v2",
-      "url": "https://github.com/OWASP/cornucopia/commit/9a5712ba6d93893a9b2890fa5f925c2d164666ac",
-      "date": "2026-04-26T11:02:23Z",
-      "ref": "#9a5712b"
-    },
-    {
-      "type": "commit",
-      "title": "fix: ignore edition path 500 errors during prerender",
-      "url": "https://github.com/OWASP/cornucopia/commit/7bfcaaf29e07f822036776febcb9533d3322991c",
-      "date": "2026-04-26T10:30:29Z",
-      "ref": "#7bfcaaf"
     }
   ]
 }
