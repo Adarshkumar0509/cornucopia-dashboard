@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T02:47:51.488Z",
+  "lastUpdated": "2026-05-06T02:54:02.364Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 25,
@@ -9,9 +9,17 @@
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: guide template page breaks and card back interleaving (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2746",
+      "date": "2026-05-05T12:52:20Z",
+      "state": "merged",
+      "ref": "#2746"
+    },
+    {
+      "type": "pull_request",
       "title": "fix: responsive foundation breakpoints, lang attribute, skip link, vw units",
       "url": "https://github.com/OWASP/cornucopia/pull/2906",
-      "date": "2026-05-04T23:23:42Z",
+      "date": "2026-05-05T06:40:35Z",
       "state": "open",
       "ref": "#2906"
     },
@@ -146,13 +154,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/27bc731577944d63a4fb20d2394f3b6d348d69cb",
       "date": "2026-04-26T20:56:04Z",
       "ref": "#27bc731"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: revert ASVSOverview.svelte to upstream and fix each-key lint error (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/d42adfcb5bbb84bdbdec9feced01a2e116e0f295",
-      "date": "2026-04-26T20:50:08Z",
-      "ref": "#d42adfc"
     }
   ]
 }
