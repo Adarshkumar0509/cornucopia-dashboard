@@ -1,12 +1,58 @@
 {
-  "lastUpdated": "2026-05-07T02:54:48.489Z",
+  "lastUpdated": "2026-05-08T02:57:18.621Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 25,
-  "mergedPRs": 24,
+  "totalPRs": 28,
+  "mergedPRs": 27,
   "openPRs": 1,
   "totalIssues": 18,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "Add copy link button to card browser (closes #2937)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2939",
+      "date": "2026-05-07T21:28:23Z",
+      "state": "open",
+      "ref": "#2939"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: align copy URL button to left of input field on game show page",
+      "url": "https://github.com/OWASP/cornucopia/pull/2938",
+      "date": "2026-05-07T20:25:44Z",
+      "state": "merged",
+      "ref": "#2938"
+    },
+    {
+      "type": "commit",
+      "title": "fix: align copy URL button to left of input field on game show page",
+      "url": "https://github.com/OWASP/cornucopia/commit/a3741f4c867b433f90021fd98edcdf39c7759dd1",
+      "date": "2026-05-07T15:41:57Z",
+      "ref": "#a3741f4"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: responsive foundation breakpoints, lang attribute, skip link, vw units",
+      "url": "https://github.com/OWASP/cornucopia/pull/2906",
+      "date": "2026-05-07T15:04:12Z",
+      "state": "merged",
+      "ref": "#2906"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add companion edition mapping API endpoint (closes #2929)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2934",
+      "date": "2026-05-07T14:53:09Z",
+      "state": "merged",
+      "ref": "#2934"
+    },
+    {
+      "type": "commit",
+      "title": "Add companion edition mapping API endpoint (closes #2929)",
+      "url": "https://github.com/OWASP/cornucopia/commit/c128a0fbe2ce1ebf3eb509763335e968e5963864",
+      "date": "2026-05-07T08:41:10Z",
+      "ref": "#c128a0f"
+    },
     {
       "type": "pull_request",
       "title": "fix: guide template page breaks and card back interleaving (#2133)",
@@ -16,12 +62,46 @@
       "ref": "#2746"
     },
     {
-      "type": "pull_request",
-      "title": "fix: responsive foundation breakpoints, lang attribute, skip link, vw units",
-      "url": "https://github.com/OWASP/cornucopia/pull/2906",
-      "date": "2026-05-05T06:40:35Z",
-      "state": "open",
-      "ref": "#2906"
+      "type": "commit",
+      "title": "fix: improve skip-link focus styles with white color and dark background",
+      "url": "https://github.com/OWASP/cornucopia/commit/065ddfd180a4f6107e9843acc7c53d7fa78f5653",
+      "date": "2026-05-05T05:37:42Z",
+      "ref": "#065ddfd"
+    },
+    {
+      "type": "commit",
+      "title": "fix: correct skip-link hidden position from -100% to -9999px",
+      "url": "https://github.com/OWASP/cornucopia/commit/613250fab96f6779cc405ba183d2a37bb5b534b5",
+      "date": "2026-05-04T22:52:11Z",
+      "ref": "#613250f"
+    },
+    {
+      "type": "commit",
+      "title": "fix: change breakpoint from 768px to 767px to preserve desktop nav at 768px landscape",
+      "url": "https://github.com/OWASP/cornucopia/commit/4cc785f83eceb7a47aaacac6a69184399b82fff2",
+      "date": "2026-05-04T10:17:31Z",
+      "ref": "#4cc785f"
+    },
+    {
+      "type": "commit",
+      "title": "Merge branch 'master' into fix/responsive-foundation",
+      "url": "https://github.com/OWASP/cornucopia/commit/01c30496fd5301ddac8cf4d9d44e53c13aa05446",
+      "date": "2026-05-03T21:12:59Z",
+      "ref": "#01c3049"
+    },
+    {
+      "type": "commit",
+      "title": "fix: replace max-aspect-ratio 1.5/1 with max-width 1024px in card components",
+      "url": "https://github.com/OWASP/cornucopia/commit/c3480597991acdee1994185dd4b510a0c6c0b010",
+      "date": "2026-05-03T20:42:45Z",
+      "ref": "#c348059"
+    },
+    {
+      "type": "commit",
+      "title": "fix: replace max-aspect-ratio with max-width breakpoints, fix dynamic lang attribute, add skip-to-content link, fix how-to-play vw units",
+      "url": "https://github.com/OWASP/cornucopia/commit/eee6952ad9fbf135f04b8201ae948125662197ca",
+      "date": "2026-05-03T15:14:31Z",
+      "ref": "#eee6952"
     },
     {
       "type": "pull_request",
@@ -30,6 +110,13 @@
       "date": "2026-04-29T11:24:47Z",
       "state": "merged",
       "ref": "#2899"
+    },
+    {
+      "type": "commit",
+      "title": "fix: add missing backside tables to fallback lang ODT template",
+      "url": "https://github.com/OWASP/cornucopia/commit/0addcb993fe98059f107f8c70e013fab7b53eff3",
+      "date": "2026-04-29T07:45:03Z",
+      "ref": "#0addcb9"
     },
     {
       "type": "commit",
@@ -68,92 +155,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/1f9f661cf92594db9fa23a920404bc4a6c63c0d5",
       "date": "2026-04-27T22:27:51Z",
       "ref": "#1f9f661"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: replace corrupted box-drawing characters with HTML entities in cards page (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/ccfea4cc5159d975437a4378c298166af7c50aaa",
-      "date": "2026-04-27T21:44:29Z",
-      "ref": "#ccfea4c"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: restore correct encoding in webAppCardTaxonomy.svelte and fix capecMapTable lint errors",
-      "url": "https://github.com/OWASP/cornucopia/commit/ac22adb473647175aafdc6b198178a43a3dea350",
-      "date": "2026-04-27T21:21:21Z",
-      "ref": "#ac22adb"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: replace corrupted arrow characters with -> in deckService.test.ts (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/fcd8abdf6d9e55938d6e7a31a56d383fa7405e62",
-      "date": "2026-04-27T18:04:52Z",
-      "ref": "#fcd8abd"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: restore correct emoji in cache.ts and add eslint-disable comments (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/15a104391d65f018183179e46438ea6f913b02df",
-      "date": "2026-04-27T17:58:50Z",
-      "ref": "#15a1043"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: regenerate pnpm-lock.yaml to match package.json (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/22923a795754bf45f7eaff2e4986505051bb2d64",
-      "date": "2026-04-27T12:10:21Z",
-      "ref": "#22923a7"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: resolve pnpm-lock.yaml conflict with upstream (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/4b6a059bfe8f842edc5126ebbb91d01d1b2dda0b",
-      "date": "2026-04-27T12:04:46Z",
-      "ref": "#4b6a059"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: restore correct characters in cache.ts, deckService.test.ts and edition page (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/8b31b9e6ca6ffd359b1a13ed5211163d7776b393",
-      "date": "2026-04-27T11:36:09Z",
-      "ref": "#8b31b9e"
-    },
-    {
-      "type": "issue",
-      "title": "Missing content: ${Common_T} placeholders not resolved in guide instructions",
-      "url": "https://github.com/OWASP/cornucopia/issues/2442",
-      "date": "2026-04-27T05:07:47Z",
-      "state": "closed",
-      "ref": "#2442"
-    },
-    {
-      "type": "issue",
-      "title": "PDF generation (-p flag) fails silently on Windows even with LibreOffice installed",
-      "url": "https://github.com/OWASP/cornucopia/issues/2444",
-      "date": "2026-04-27T04:55:39Z",
-      "state": "closed",
-      "ref": "#2444"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: fix encoding of box-drawing characters in cards page (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/a181aa5fe95f4feae771feec63d62833068e282d",
-      "date": "2026-04-26T22:21:41Z",
-      "ref": "#a181aa5"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: remove resolve() from cards page - crashes on empty string URLs (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/ea53f015ca3fad5f6190bd677220b4eacd8302b2",
-      "date": "2026-04-26T21:09:28Z",
-      "ref": "#ea53f01"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: revert heading.svelte to upstream - resolve() breaks hash anchor navigation (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/27bc731577944d63a4fb20d2394f3b6d348d69cb",
-      "date": "2026-04-26T20:56:04Z",
-      "ref": "#27bc731"
     }
   ]
 }
