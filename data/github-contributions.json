@@ -1,19 +1,26 @@
 {
-  "lastUpdated": "2026-05-08T02:57:18.621Z",
+  "lastUpdated": "2026-05-09T02:52:19.164Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 28,
-  "mergedPRs": 27,
-  "openPRs": 1,
+  "mergedPRs": 28,
+  "openPRs": 0,
   "totalIssues": 18,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "Add copy link button to card browser (closes #2937)",
       "url": "https://github.com/OWASP/cornucopia/pull/2939",
-      "date": "2026-05-07T21:28:23Z",
-      "state": "open",
+      "date": "2026-05-08T15:05:40Z",
+      "state": "merged",
       "ref": "#2939"
+    },
+    {
+      "type": "commit",
+      "title": "Add copy link button to card browser (closes #2937)",
+      "url": "https://github.com/OWASP/cornucopia/commit/06fab35cf778127b87852c3bc8c3e3ee31fc13bc",
+      "date": "2026-05-07T21:14:27Z",
+      "ref": "#06fab35"
     },
     {
       "type": "pull_request",
@@ -148,13 +155,6 @@
       "date": "2026-04-28T15:02:08Z",
       "state": "merged",
       "ref": "#2876"
-    },
-    {
-      "type": "commit",
-      "title": "Fix: move eslint-disable comment inside script block in image.svelte (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/commit/1f9f661cf92594db9fa23a920404bc4a6c63c0d5",
-      "date": "2026-04-27T22:27:51Z",
-      "ref": "#1f9f661"
     }
   ]
 }
