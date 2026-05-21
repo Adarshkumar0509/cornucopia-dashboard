@@ -1,19 +1,26 @@
 {
-  "lastUpdated": "2026-05-20T03:37:41.614Z",
+  "lastUpdated": "2026-05-21T03:47:00.276Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 29,
-  "mergedPRs": 28,
-  "openPRs": 1,
+  "mergedPRs": 29,
+  "openPRs": 0,
   "totalIssues": 19,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix: prevent game share URL from overflowing on mobile screens",
       "url": "https://github.com/OWASP/cornucopia/pull/2980",
-      "date": "2026-05-12T22:11:21Z",
-      "state": "open",
+      "date": "2026-05-20T10:41:20Z",
+      "state": "merged",
       "ref": "#2980"
+    },
+    {
+      "type": "commit",
+      "title": "fix: prevent game share URL from overflowing on mobile screens",
+      "url": "https://github.com/OWASP/cornucopia/commit/d7df953e584fd678a892f0a57cbcc83b938099c8",
+      "date": "2026-05-12T21:53:48Z",
+      "ref": "#d7df953"
     },
     {
       "type": "issue",
@@ -147,14 +154,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/00f805a2157980bf06a8632febc63c17210367cf",
       "date": "2026-04-29T07:45:03Z",
       "ref": "#00f805a"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-04-28T21:13:04Z",
-      "state": "merged",
-      "ref": "#2828"
     }
   ]
 }
