@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-06-03T04:11:35.935Z",
+  "lastUpdated": "2026-06-04T04:05:07.763Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 29,
+  "totalPRs": 30,
   "mergedPRs": 29,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 19,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix/mobile-navbar-improvements",
+      "url": "https://github.com/OWASP/cornucopia/pull/3062",
+      "date": "2026-06-03T18:41:09Z",
+      "state": "open",
+      "ref": "#3062"
+    },
     {
       "type": "pull_request",
       "title": "fix: prevent game share URL from overflowing on mobile screens",
@@ -147,13 +155,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/0addcb993fe98059f107f8c70e013fab7b53eff3",
       "date": "2026-04-29T07:45:03Z",
       "ref": "#0addcb9"
-    },
-    {
-      "type": "commit",
-      "title": "fix: add missing backside tables to fallback lang ODT template",
-      "url": "https://github.com/OWASP/cornucopia/commit/00f805a2157980bf06a8632febc63c17210367cf",
-      "date": "2026-04-29T07:45:03Z",
-      "ref": "#00f805a"
     }
   ]
 }
