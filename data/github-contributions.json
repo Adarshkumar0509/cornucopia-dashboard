@@ -1,19 +1,96 @@
 {
-  "lastUpdated": "2026-06-07T04:01:38.137Z",
+  "lastUpdated": "2026-06-08T04:04:34.225Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 30,
-  "mergedPRs": 29,
-  "openPRs": 1,
+  "mergedPRs": 30,
+  "openPRs": 0,
   "totalIssues": 19,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix/mobile-navbar-improvements",
       "url": "https://github.com/OWASP/cornucopia/pull/3062",
-      "date": "2026-06-06T17:25:38Z",
-      "state": "open",
+      "date": "2026-06-07T20:21:50Z",
+      "state": "merged",
       "ref": "#3062"
+    },
+    {
+      "type": "commit",
+      "title": "fix: equal button sizes and spacing in desktop navbar",
+      "url": "https://github.com/OWASP/cornucopia/commit/0a3df49f37a3299bd9b8bdb41d473b2c84c4c009",
+      "date": "2026-06-07T09:05:50Z",
+      "ref": "#0a3df49"
+    },
+    {
+      "type": "commit",
+      "title": "fix: navbar spacing, orange border, mobile hamburger alignment",
+      "url": "https://github.com/OWASP/cornucopia/commit/c3073fbc75bf0c6dc07b9e51bd9f5bc3f8dd4ae1",
+      "date": "2026-06-07T06:47:18Z",
+      "ref": "#c3073fb"
+    },
+    {
+      "type": "commit",
+      "title": "fix: orange navbar border, mobile hero logo position",
+      "url": "https://github.com/OWASP/cornucopia/commit/9995cc12609db7be8ff2b8f16f25c5a76a536a89",
+      "date": "2026-06-07T05:27:45Z",
+      "ref": "#9995cc1"
+    },
+    {
+      "type": "commit",
+      "title": "fix: improve mobile hero layout - logo position and text alignment",
+      "url": "https://github.com/OWASP/cornucopia/commit/d91ef424e743ca4b2aaceb594ff3bed009f3115b",
+      "date": "2026-06-07T05:20:52Z",
+      "ref": "#d91ef42"
+    },
+    {
+      "type": "commit",
+      "title": "fix: move hero logo to top, balance layout with card-container negative margin",
+      "url": "https://github.com/OWASP/cornucopia/commit/e4925d34996b7f8760d6379bb71ab1d6cfd93501",
+      "date": "2026-06-07T05:05:54Z",
+      "ref": "#e4925d3"
+    },
+    {
+      "type": "commit",
+      "title": "fix: use horn logo in navbar, text logo in hero section",
+      "url": "https://github.com/OWASP/cornucopia/commit/fbd776262f4a91cfe2407369502230de1b3ba8e9",
+      "date": "2026-06-06T17:25:16Z",
+      "ref": "#fbd7762"
+    },
+    {
+      "type": "commit",
+      "title": "fix: move Get Cornucopia button into nav-right for consistent spacing",
+      "url": "https://github.com/OWASP/cornucopia/commit/94998033053b352b5492404fd0391fe47bbedcf3",
+      "date": "2026-06-06T16:57:35Z",
+      "ref": "#9499803"
+    },
+    {
+      "type": "commit",
+      "title": "fix: swap logos - text logo in navbar, horn logo in hero section",
+      "url": "https://github.com/OWASP/cornucopia/commit/289f0c7ee8c083834fe85da546472fe519b2ba3f",
+      "date": "2026-06-06T12:11:55Z",
+      "ref": "#289f0c7"
+    },
+    {
+      "type": "commit",
+      "title": "fix: fix Play Online button spacing and rounded corners in mobile drawer",
+      "url": "https://github.com/OWASP/cornucopia/commit/44c0ca097dcbe033cdbc9631825c2c8aa70505ef",
+      "date": "2026-06-06T08:22:57Z",
+      "ref": "#44c0ca0"
+    },
+    {
+      "type": "commit",
+      "title": "feat(redesign): improve mobile navbar and hero section",
+      "url": "https://github.com/OWASP/cornucopia/commit/882970d11c6284c7ad933b0240fd711cc6a6c032",
+      "date": "2026-06-06T08:09:38Z",
+      "ref": "#882970d"
+    },
+    {
+      "type": "commit",
+      "title": "Redesign navigation with mobile drawer and OWASP wordmark logo",
+      "url": "https://github.com/OWASP/cornucopia/commit/9794845c3073520ece23a9ff1e52cb2847783206",
+      "date": "2026-06-03T17:40:50Z",
+      "ref": "#9794845"
     },
     {
       "type": "pull_request",
@@ -75,86 +152,6 @@
       "date": "2026-05-07T15:04:12Z",
       "state": "merged",
       "ref": "#2906"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add companion edition mapping API endpoint (closes #2929)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2934",
-      "date": "2026-05-07T14:53:09Z",
-      "state": "merged",
-      "ref": "#2934"
-    },
-    {
-      "type": "commit",
-      "title": "Add companion edition mapping API endpoint (closes #2929)",
-      "url": "https://github.com/OWASP/cornucopia/commit/c128a0fbe2ce1ebf3eb509763335e968e5963864",
-      "date": "2026-05-07T08:41:10Z",
-      "ref": "#c128a0f"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: guide template page breaks and card back interleaving (#2133)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2746",
-      "date": "2026-05-05T12:52:20Z",
-      "state": "merged",
-      "ref": "#2746"
-    },
-    {
-      "type": "commit",
-      "title": "fix: improve skip-link focus styles with white color and dark background",
-      "url": "https://github.com/OWASP/cornucopia/commit/065ddfd180a4f6107e9843acc7c53d7fa78f5653",
-      "date": "2026-05-05T05:37:42Z",
-      "ref": "#065ddfd"
-    },
-    {
-      "type": "commit",
-      "title": "fix: correct skip-link hidden position from -100% to -9999px",
-      "url": "https://github.com/OWASP/cornucopia/commit/613250fab96f6779cc405ba183d2a37bb5b534b5",
-      "date": "2026-05-04T22:52:11Z",
-      "ref": "#613250f"
-    },
-    {
-      "type": "commit",
-      "title": "fix: change breakpoint from 768px to 767px to preserve desktop nav at 768px landscape",
-      "url": "https://github.com/OWASP/cornucopia/commit/4cc785f83eceb7a47aaacac6a69184399b82fff2",
-      "date": "2026-05-04T10:17:31Z",
-      "ref": "#4cc785f"
-    },
-    {
-      "type": "commit",
-      "title": "Merge branch 'master' into fix/responsive-foundation",
-      "url": "https://github.com/OWASP/cornucopia/commit/01c30496fd5301ddac8cf4d9d44e53c13aa05446",
-      "date": "2026-05-03T21:12:59Z",
-      "ref": "#01c3049"
-    },
-    {
-      "type": "commit",
-      "title": "fix: replace max-aspect-ratio 1.5/1 with max-width 1024px in card components",
-      "url": "https://github.com/OWASP/cornucopia/commit/c3480597991acdee1994185dd4b510a0c6c0b010",
-      "date": "2026-05-03T20:42:45Z",
-      "ref": "#c348059"
-    },
-    {
-      "type": "commit",
-      "title": "fix: replace max-aspect-ratio with max-width breakpoints, fix dynamic lang attribute, add skip-to-content link, fix how-to-play vw units",
-      "url": "https://github.com/OWASP/cornucopia/commit/eee6952ad9fbf135f04b8201ae948125662197ca",
-      "date": "2026-05-03T15:14:31Z",
-      "ref": "#eee6952"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: add missing backside tables to fallback lang ODT template",
-      "url": "https://github.com/OWASP/cornucopia/pull/2899",
-      "date": "2026-04-29T11:24:47Z",
-      "state": "merged",
-      "ref": "#2899"
-    },
-    {
-      "type": "commit",
-      "title": "fix: add missing backside tables to fallback lang ODT template",
-      "url": "https://github.com/OWASP/cornucopia/commit/0addcb993fe98059f107f8c70e013fab7b53eff3",
-      "date": "2026-04-29T07:45:03Z",
-      "ref": "#0addcb9"
     }
   ]
 }
