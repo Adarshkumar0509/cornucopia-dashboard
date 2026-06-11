@@ -1,12 +1,164 @@
 {
-  "lastUpdated": "2026-06-10T03:47:45.372Z",
+  "lastUpdated": "2026-06-11T04:01:49.740Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 31,
+  "totalPRs": 32,
   "mergedPRs": 31,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 20,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: correct game summary link in player live view",
+      "url": "https://github.com/OWASP/cornucopia/pull/2460",
+      "date": "2026-06-10T14:02:52Z",
+      "state": "merged",
+      "ref": "#2460"
+    },
+    {
+      "type": "pull_request",
+      "title": "Upgrade to Python 3.13 and install Python 3.13 in ClusterFuzzLite",
+      "url": "https://github.com/OWASP/cornucopia/pull/2403",
+      "date": "2026-06-10T14:02:35Z",
+      "state": "merged",
+      "ref": "#2403"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add Adarsh Kumar to acknowledgements",
+      "url": "https://github.com/OWASP/cornucopia/pull/2402",
+      "date": "2026-06-10T14:02:12Z",
+      "state": "merged",
+      "ref": "#2402"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add framed privacy notices to game and player forms",
+      "url": "https://github.com/OWASP/cornucopia/pull/2262",
+      "date": "2026-06-10T14:01:37Z",
+      "state": "merged",
+      "ref": "#2262"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: remove incomplete delete game test from GameLiveTest",
+      "url": "https://github.com/OWASP/cornucopia/pull/2480",
+      "date": "2026-06-10T14:01:22Z",
+      "state": "merged",
+      "ref": "#2480"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: add authorization check in toggle_vote to prevent cross-game voting",
+      "url": "https://github.com/OWASP/cornucopia/pull/2523",
+      "date": "2026-06-10T14:01:10Z",
+      "state": "merged",
+      "ref": "#2523"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: responsive foundation breakpoints, lang attribute, skip link, vw units",
+      "url": "https://github.com/OWASP/cornucopia/pull/2906",
+      "date": "2026-06-10T14:00:00Z",
+      "state": "merged",
+      "ref": "#2906"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: add missing backside tables to fallback lang ODT template",
+      "url": "https://github.com/OWASP/cornucopia/pull/2899",
+      "date": "2026-06-10T13:59:43Z",
+      "state": "merged",
+      "ref": "#2899"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: fix image size and paragraph spacing for es and uk guide templat…",
+      "url": "https://github.com/OWASP/cornucopia/pull/2870",
+      "date": "2026-06-10T13:58:30Z",
+      "state": "merged",
+      "ref": "#2870"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: update companion edition card colors per issue #2851",
+      "url": "https://github.com/OWASP/cornucopia/pull/2861",
+      "date": "2026-06-10T13:58:17Z",
+      "state": "merged",
+      "ref": "#2861"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: section page breaks and card back interleaving - remaining issues (#2133)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2839",
+      "date": "2026-06-10T13:57:56Z",
+      "state": "merged",
+      "ref": "#2839"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: update pathspec to 1.0.0 and add librt to resolve ClusterFuzzLite failure (fixes #2167)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2835",
+      "date": "2026-06-10T13:57:33Z",
+      "state": "merged",
+      "ref": "#2835"
+    },
+    {
+      "type": "pull_request",
+      "title": "test(fuzzer): add fuzzing tests for capec_map_enricher.py (fixes #2167)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2834",
+      "date": "2026-06-10T13:57:20Z",
+      "state": "merged",
+      "ref": "#2834"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix(security): encrypt existing game and player names during migration",
+      "url": "https://github.com/OWASP/cornucopia/pull/2754",
+      "date": "2026-06-10T13:56:08Z",
+      "state": "merged",
+      "ref": "#2754"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: align copy URL button to left of input field on game show page",
+      "url": "https://github.com/OWASP/cornucopia/pull/2938",
+      "date": "2026-06-10T13:55:21Z",
+      "state": "merged",
+      "ref": "#2938"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add copy link button to card browser (closes #2937)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2939",
+      "date": "2026-06-10T13:55:05Z",
+      "state": "merged",
+      "ref": "#2939"
+    },
+    {
+      "type": "pull_request",
+      "title": "Add companion edition mapping API endpoint (closes #2929)",
+      "url": "https://github.com/OWASP/cornucopia/pull/2934",
+      "date": "2026-06-10T13:54:46Z",
+      "state": "merged",
+      "ref": "#2934"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: prevent sponsors link from being clipped on mobile navbar",
+      "url": "https://github.com/OWASP/cornucopia/pull/3086",
+      "date": "2026-06-10T13:54:22Z",
+      "state": "merged",
+      "ref": "#3086"
+    },
+    {
+      "type": "pull_request",
+      "title": "Fix/add dbd card deck",
+      "url": "https://github.com/OWASP/cornucopia/pull/3094",
+      "date": "2026-06-10T12:00:04Z",
+      "state": "open",
+      "ref": "#3094"
+    },
     {
       "type": "pull_request",
       "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
@@ -14,143 +166,6 @@
       "date": "2026-06-09T03:33:51Z",
       "state": "merged",
       "ref": "#2828"
-    },
-    {
-      "type": "issue",
-      "title": "fix: URL input overflows on mobile in game session view",
-      "url": "https://github.com/OWASP/cornucopia/issues/2979",
-      "date": "2026-06-08T18:36:48Z",
-      "state": "closed",
-      "ref": "#2979"
-    },
-    {
-      "type": "issue",
-      "title": "fix: In mobile navbar  Sponsors link disappear on small devices",
-      "url": "https://github.com/OWASP/cornucopia/issues/3085",
-      "date": "2026-06-08T18:36:27Z",
-      "state": "closed",
-      "ref": "#3085"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: prevent sponsors link from being clipped on mobile navbar",
-      "url": "https://github.com/OWASP/cornucopia/pull/3086",
-      "date": "2026-06-08T18:35:50Z",
-      "state": "merged",
-      "ref": "#3086"
-    },
-    {
-      "type": "commit",
-      "title": "fix: hide logos below 730px to prevent nav links from being clipped",
-      "url": "https://github.com/OWASP/cornucopia/commit/455371f1ca7c8c5ccb87082513c06f978938b3b3",
-      "date": "2026-06-08T17:58:01Z",
-      "ref": "#455371f"
-    },
-    {
-      "type": "commit",
-      "title": "fix: stretch nav container to full width so links spread evenly on mobile",
-      "url": "https://github.com/OWASP/cornucopia/commit/acdf628207c1ae0ea400343fc3b7db0c838f3c52",
-      "date": "2026-06-08T16:14:55Z",
-      "ref": "#acdf628"
-    },
-    {
-      "type": "commit",
-      "title": "fix: shrink mobile nav link padding and font size to fit in one line",
-      "url": "https://github.com/OWASP/cornucopia/commit/adc634614fe203f7ff641d15ee7cab3eb196f0b8",
-      "date": "2026-06-08T14:36:32Z",
-      "ref": "#adc6346"
-    },
-    {
-      "type": "commit",
-      "title": "fix: prevent sponsors link from being clipped on mobile navbar",
-      "url": "https://github.com/OWASP/cornucopia/commit/e338468c8eeb9b96e4e0bbd3ba81ddbe680a3e49",
-      "date": "2026-06-08T12:44:14Z",
-      "ref": "#e338468"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix/mobile-navbar-improvements",
-      "url": "https://github.com/OWASP/cornucopia/pull/3062",
-      "date": "2026-06-07T20:21:50Z",
-      "state": "merged",
-      "ref": "#3062"
-    },
-    {
-      "type": "commit",
-      "title": "fix: equal button sizes and spacing in desktop navbar",
-      "url": "https://github.com/OWASP/cornucopia/commit/0a3df49f37a3299bd9b8bdb41d473b2c84c4c009",
-      "date": "2026-06-07T09:05:50Z",
-      "ref": "#0a3df49"
-    },
-    {
-      "type": "commit",
-      "title": "fix: navbar spacing, orange border, mobile hamburger alignment",
-      "url": "https://github.com/OWASP/cornucopia/commit/c3073fbc75bf0c6dc07b9e51bd9f5bc3f8dd4ae1",
-      "date": "2026-06-07T06:47:18Z",
-      "ref": "#c3073fb"
-    },
-    {
-      "type": "commit",
-      "title": "fix: orange navbar border, mobile hero logo position",
-      "url": "https://github.com/OWASP/cornucopia/commit/9995cc12609db7be8ff2b8f16f25c5a76a536a89",
-      "date": "2026-06-07T05:27:45Z",
-      "ref": "#9995cc1"
-    },
-    {
-      "type": "commit",
-      "title": "fix: improve mobile hero layout - logo position and text alignment",
-      "url": "https://github.com/OWASP/cornucopia/commit/d91ef424e743ca4b2aaceb594ff3bed009f3115b",
-      "date": "2026-06-07T05:20:52Z",
-      "ref": "#d91ef42"
-    },
-    {
-      "type": "commit",
-      "title": "fix: move hero logo to top, balance layout with card-container negative margin",
-      "url": "https://github.com/OWASP/cornucopia/commit/e4925d34996b7f8760d6379bb71ab1d6cfd93501",
-      "date": "2026-06-07T05:05:54Z",
-      "ref": "#e4925d3"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use horn logo in navbar, text logo in hero section",
-      "url": "https://github.com/OWASP/cornucopia/commit/fbd776262f4a91cfe2407369502230de1b3ba8e9",
-      "date": "2026-06-06T17:25:16Z",
-      "ref": "#fbd7762"
-    },
-    {
-      "type": "commit",
-      "title": "fix: move Get Cornucopia button into nav-right for consistent spacing",
-      "url": "https://github.com/OWASP/cornucopia/commit/94998033053b352b5492404fd0391fe47bbedcf3",
-      "date": "2026-06-06T16:57:35Z",
-      "ref": "#9499803"
-    },
-    {
-      "type": "commit",
-      "title": "fix: swap logos - text logo in navbar, horn logo in hero section",
-      "url": "https://github.com/OWASP/cornucopia/commit/289f0c7ee8c083834fe85da546472fe519b2ba3f",
-      "date": "2026-06-06T12:11:55Z",
-      "ref": "#289f0c7"
-    },
-    {
-      "type": "commit",
-      "title": "fix: fix Play Online button spacing and rounded corners in mobile drawer",
-      "url": "https://github.com/OWASP/cornucopia/commit/44c0ca097dcbe033cdbc9631825c2c8aa70505ef",
-      "date": "2026-06-06T08:22:57Z",
-      "ref": "#44c0ca0"
-    },
-    {
-      "type": "commit",
-      "title": "feat(redesign): improve mobile navbar and hero section",
-      "url": "https://github.com/OWASP/cornucopia/commit/882970d11c6284c7ad933b0240fd711cc6a6c032",
-      "date": "2026-06-06T08:09:38Z",
-      "ref": "#882970d"
-    },
-    {
-      "type": "commit",
-      "title": "Redesign navigation with mobile drawer and OWASP wordmark logo",
-      "url": "https://github.com/OWASP/cornucopia/commit/9794845c3073520ece23a9ff1e52cb2847783206",
-      "date": "2026-06-03T17:40:50Z",
-      "ref": "#9794845"
     }
   ]
 }
