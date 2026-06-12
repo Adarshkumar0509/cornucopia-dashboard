@@ -1,12 +1,35 @@
 {
-  "lastUpdated": "2026-06-11T04:01:49.740Z",
+  "lastUpdated": "2026-06-12T04:02:10.486Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 32,
-  "mergedPRs": 31,
-  "openPRs": 1,
-  "totalIssues": 20,
+  "mergedPRs": 32,
+  "openPRs": 0,
+  "totalIssues": 21,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "Fix/add dbd card deck",
+      "url": "https://github.com/OWASP/cornucopia/pull/3094",
+      "date": "2026-06-11T20:58:24Z",
+      "state": "merged",
+      "ref": "#3094"
+    },
+    {
+      "type": "issue",
+      "title": "mobile navbar truncates Sponsors link",
+      "url": "https://github.com/OWASP/cornucopia/issues/3103",
+      "date": "2026-06-11T20:36:06Z",
+      "state": "open",
+      "ref": "#3103"
+    },
+    {
+      "type": "commit",
+      "title": "Fix extra closing brace in cards.scss",
+      "url": "https://github.com/OWASP/cornucopia/commit/5a7b8628de8bce1103bc453294e1bf3eeda16e0c",
+      "date": "2026-06-11T08:30:31Z",
+      "ref": "#5a7b862"
+    },
     {
       "type": "pull_request",
       "title": "fix: correct game summary link in player live view",
@@ -142,30 +165,6 @@
       "date": "2026-06-10T13:54:46Z",
       "state": "merged",
       "ref": "#2934"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: prevent sponsors link from being clipped on mobile navbar",
-      "url": "https://github.com/OWASP/cornucopia/pull/3086",
-      "date": "2026-06-10T13:54:22Z",
-      "state": "merged",
-      "ref": "#3086"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix/add dbd card deck",
-      "url": "https://github.com/OWASP/cornucopia/pull/3094",
-      "date": "2026-06-10T12:00:04Z",
-      "state": "open",
-      "ref": "#3094"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix: Integrate ESLint into build pipeline (OWASP#2647)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2828",
-      "date": "2026-06-09T03:33:51Z",
-      "state": "merged",
-      "ref": "#2828"
     }
   ]
 }
