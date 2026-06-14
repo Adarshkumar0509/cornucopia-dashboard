@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-06-13T03:50:19.944Z",
+  "lastUpdated": "2026-06-14T04:08:54.332Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 32,
+  "totalPRs": 33,
   "mergedPRs": 32,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 21,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: shorten nav labels to fit Sponsors link on mobile",
+      "url": "https://github.com/OWASP/cornucopia/pull/3107",
+      "date": "2026-06-13T12:31:02Z",
+      "state": "open",
+      "ref": "#3107"
+    },
     {
       "type": "pull_request",
       "title": "Fix/add dbd card deck",
@@ -157,14 +165,6 @@
       "date": "2026-06-10T13:55:05Z",
       "state": "merged",
       "ref": "#2939"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add companion edition mapping API endpoint (closes #2929)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2934",
-      "date": "2026-06-10T13:54:46Z",
-      "state": "merged",
-      "ref": "#2934"
     }
   ]
 }
