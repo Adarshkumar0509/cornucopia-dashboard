@@ -1,19 +1,41 @@
 {
-  "lastUpdated": "2026-06-18T04:02:23.298Z",
+  "lastUpdated": "2026-06-19T04:21:44.066Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 33,
-  "mergedPRs": 32,
-  "openPRs": 1,
+  "mergedPRs": 33,
+  "openPRs": 0,
   "totalIssues": 21,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "mobile navbar truncates Sponsors link",
+      "url": "https://github.com/OWASP/cornucopia/issues/3103",
+      "date": "2026-06-18T11:19:32Z",
+      "state": "closed",
+      "ref": "#3103"
+    },
     {
       "type": "pull_request",
       "title": "fix: shorten nav labels to fit Sponsors link on mobile",
       "url": "https://github.com/OWASP/cornucopia/pull/3107",
-      "date": "2026-06-13T12:31:02Z",
-      "state": "open",
+      "date": "2026-06-18T11:19:31Z",
+      "state": "merged",
       "ref": "#3107"
+    },
+    {
+      "type": "commit",
+      "title": "fix: update test to match renamed nav label 'Play' (#3103)",
+      "url": "https://github.com/OWASP/cornucopia/commit/bb47720930ce86adc8e65916e2542de856571cce",
+      "date": "2026-06-13T12:30:23Z",
+      "ref": "#bb47720"
+    },
+    {
+      "type": "commit",
+      "title": "fix: shorten nav labels to fit Sponsors link on mobile (#3103)",
+      "url": "https://github.com/OWASP/cornucopia/commit/f47875b9e64953cb323f02ac97bdf0e5c923a60c",
+      "date": "2026-06-13T11:56:55Z",
+      "ref": "#f47875b"
     },
     {
       "type": "pull_request",
@@ -22,14 +44,6 @@
       "date": "2026-06-12T13:04:32Z",
       "state": "merged",
       "ref": "#3094"
-    },
-    {
-      "type": "issue",
-      "title": "mobile navbar truncates Sponsors link",
-      "url": "https://github.com/OWASP/cornucopia/issues/3103",
-      "date": "2026-06-11T20:36:06Z",
-      "state": "open",
-      "ref": "#3103"
     },
     {
       "type": "commit",
@@ -149,22 +163,6 @@
       "date": "2026-06-10T13:56:08Z",
       "state": "merged",
       "ref": "#2754"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: align copy URL button to left of input field on game show page",
-      "url": "https://github.com/OWASP/cornucopia/pull/2938",
-      "date": "2026-06-10T13:55:21Z",
-      "state": "merged",
-      "ref": "#2938"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add copy link button to card browser (closes #2937)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2939",
-      "date": "2026-06-10T13:55:05Z",
-      "state": "merged",
-      "ref": "#2939"
     }
   ]
 }
