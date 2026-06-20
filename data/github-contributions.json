@@ -1,12 +1,34 @@
 {
-  "lastUpdated": "2026-06-19T04:21:44.066Z",
+  "lastUpdated": "2026-06-20T03:42:57.271Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 33,
-  "mergedPRs": 33,
+  "totalPRs": 34,
+  "mergedPRs": 34,
   "openPRs": 0,
   "totalIssues": 21,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "Fix/vote count display 3104",
+      "url": "https://github.com/OWASP/cornucopia/pull/3141",
+      "date": "2026-06-19T19:28:17Z",
+      "state": "merged",
+      "ref": "#3141"
+    },
+    {
+      "type": "commit",
+      "title": "fix vote count for own card view too",
+      "url": "https://github.com/OWASP/cornucopia/commit/2d4ee36b45c48fd79c1c6362588e6fdf4655541d",
+      "date": "2026-06-19T12:15:48Z",
+      "ref": "#2d4ee36"
+    },
+    {
+      "type": "commit",
+      "title": "fix vote count badge showing n-1 players",
+      "url": "https://github.com/OWASP/cornucopia/commit/b9b06e0101c28da4abf3e010b5138b51ea0dedd8",
+      "date": "2026-06-19T09:45:40Z",
+      "ref": "#b9b06e0"
+    },
     {
       "type": "issue",
       "title": "mobile navbar truncates Sponsors link",
@@ -139,30 +161,6 @@
       "date": "2026-06-10T13:57:56Z",
       "state": "merged",
       "ref": "#2839"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: update pathspec to 1.0.0 and add librt to resolve ClusterFuzzLite failure (fixes #2167)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2835",
-      "date": "2026-06-10T13:57:33Z",
-      "state": "merged",
-      "ref": "#2835"
-    },
-    {
-      "type": "pull_request",
-      "title": "test(fuzzer): add fuzzing tests for capec_map_enricher.py (fixes #2167)",
-      "url": "https://github.com/OWASP/cornucopia/pull/2834",
-      "date": "2026-06-10T13:57:20Z",
-      "state": "merged",
-      "ref": "#2834"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix(security): encrypt existing game and player names during migration",
-      "url": "https://github.com/OWASP/cornucopia/pull/2754",
-      "date": "2026-06-10T13:56:08Z",
-      "state": "merged",
-      "ref": "#2754"
     }
   ]
 }
