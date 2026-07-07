@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-07-06T03:35:25.275Z",
+  "lastUpdated": "2026-07-07T03:26:14.524Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 36,
-  "mergedPRs": 35,
-  "openPRs": 1,
+  "mergedPRs": 36,
+  "openPRs": 0,
   "totalIssues": 21,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: correct Links folder name for mobileapp output",
+      "url": "https://github.com/OWASP/cornucopia/pull/3151",
+      "date": "2026-07-06T15:31:29Z",
+      "state": "merged",
+      "ref": "#3151"
+    },
     {
       "type": "pull_request",
       "title": "Fix missing changelog tags in webapp-cards-3.0-hi.yaml",
@@ -24,12 +32,11 @@
       "ref": "#3150"
     },
     {
-      "type": "pull_request",
-      "title": "fix: correct Links folder name for mobileapp output",
-      "url": "https://github.com/OWASP/cornucopia/pull/3151",
-      "date": "2026-06-23T21:21:03Z",
-      "state": "open",
-      "ref": "#3151"
+      "type": "commit",
+      "title": "fix: correct Links folder name for mobileapp output (#3109)",
+      "url": "https://github.com/OWASP/cornucopia/commit/bee7644610c13281d8520c44309cd18982c384b4",
+      "date": "2026-06-23T20:58:57Z",
+      "ref": "#bee7644"
     },
     {
       "type": "commit",
@@ -151,14 +158,6 @@
       "date": "2026-06-10T14:01:37Z",
       "state": "merged",
       "ref": "#2262"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: remove incomplete delete game test from GameLiveTest",
-      "url": "https://github.com/OWASP/cornucopia/pull/2480",
-      "date": "2026-06-10T14:01:22Z",
-      "state": "merged",
-      "ref": "#2480"
     }
   ]
 }
