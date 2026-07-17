@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-07-16T02:37:14.571Z",
+  "lastUpdated": "2026-07-17T02:39:47.820Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 36,
+  "totalPRs": 37,
   "mergedPRs": 36,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 21,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: switch rate limiter to Fly-Client-IP for fly deployments (closes…",
+      "url": "https://github.com/OWASP/cornucopia/pull/3236",
+      "date": "2026-07-17T02:03:01Z",
+      "state": "open",
+      "ref": "#3236"
+    },
     {
       "type": "pull_request",
       "title": "fix: correct Links folder name for mobileapp output",
@@ -150,14 +158,6 @@
       "date": "2026-06-10T14:02:12Z",
       "state": "merged",
       "ref": "#2402"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add framed privacy notices to game and player forms",
-      "url": "https://github.com/OWASP/cornucopia/pull/2262",
-      "date": "2026-06-10T14:01:37Z",
-      "state": "merged",
-      "ref": "#2262"
     }
   ]
 }
