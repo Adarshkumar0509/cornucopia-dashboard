@@ -1,19 +1,63 @@
 {
-  "lastUpdated": "2026-07-17T02:39:47.820Z",
+  "lastUpdated": "2026-07-18T02:30:44.249Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 37,
-  "mergedPRs": 36,
-  "openPRs": 1,
+  "totalPRs": 39,
+  "mergedPRs": 39,
+  "openPRs": 0,
   "totalIssues": 21,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "upgrade node version to 26 in all workflow files",
+      "url": "https://github.com/OWASP/cornucopia/pull/3245",
+      "date": "2026-07-17T16:05:53Z",
+      "state": "merged",
+      "ref": "#3245"
+    },
+    {
+      "type": "pull_request",
       "title": "fix: switch rate limiter to Fly-Client-IP for fly deployments (closes…",
       "url": "https://github.com/OWASP/cornucopia/pull/3236",
-      "date": "2026-07-17T02:03:01Z",
-      "state": "open",
+      "date": "2026-07-17T14:54:06Z",
+      "state": "merged",
       "ref": "#3236"
+    },
+    {
+      "type": "pull_request",
+      "title": "Prevent self-voting server-side in toggle_vote handler",
+      "url": "https://github.com/OWASP/cornucopia/pull/3237",
+      "date": "2026-07-17T14:53:42Z",
+      "state": "merged",
+      "ref": "#3237"
+    },
+    {
+      "type": "commit",
+      "title": "upgrade node version to 26 in all workflow files",
+      "url": "https://github.com/OWASP/cornucopia/commit/68357f61323d3a09946ce7d6a9b2c54fc061a865",
+      "date": "2026-07-17T10:51:12Z",
+      "ref": "#68357f6"
+    },
+    {
+      "type": "commit",
+      "title": "prevent self-voting server-side in toggle_vote handler",
+      "url": "https://github.com/OWASP/cornucopia/commit/332760bc4097809787ef79ebc09953207e9c5cb0",
+      "date": "2026-07-17T05:34:32Z",
+      "ref": "#332760b"
+    },
+    {
+      "type": "commit",
+      "title": "test: add coverage for Fly-Client-IP rate limiter paths",
+      "url": "https://github.com/OWASP/cornucopia/commit/6badeea7e5394b3b1f904fd84fb2dbf56c8d19b5",
+      "date": "2026-07-17T02:02:41Z",
+      "ref": "#6badeea"
+    },
+    {
+      "type": "commit",
+      "title": "fix: switch rate limiter to Fly-Client-IP for fly deployments (closes #3227)",
+      "url": "https://github.com/OWASP/cornucopia/commit/bb8e5246c0195e9f1366275847bbb2d240cf5bc3",
+      "date": "2026-07-17T01:27:12Z",
+      "ref": "#bb8e524"
     },
     {
       "type": "pull_request",
@@ -112,52 +156,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/bb47720930ce86adc8e65916e2542de856571cce",
       "date": "2026-06-13T12:30:23Z",
       "ref": "#bb47720"
-    },
-    {
-      "type": "commit",
-      "title": "fix: shorten nav labels to fit Sponsors link on mobile (#3103)",
-      "url": "https://github.com/OWASP/cornucopia/commit/f47875b9e64953cb323f02ac97bdf0e5c923a60c",
-      "date": "2026-06-13T11:56:55Z",
-      "ref": "#f47875b"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix/add dbd card deck",
-      "url": "https://github.com/OWASP/cornucopia/pull/3094",
-      "date": "2026-06-12T13:04:32Z",
-      "state": "merged",
-      "ref": "#3094"
-    },
-    {
-      "type": "commit",
-      "title": "Fix extra closing brace in cards.scss",
-      "url": "https://github.com/OWASP/cornucopia/commit/5a7b8628de8bce1103bc453294e1bf3eeda16e0c",
-      "date": "2026-06-11T08:30:31Z",
-      "ref": "#5a7b862"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: correct game summary link in player live view",
-      "url": "https://github.com/OWASP/cornucopia/pull/2460",
-      "date": "2026-06-10T14:02:52Z",
-      "state": "merged",
-      "ref": "#2460"
-    },
-    {
-      "type": "pull_request",
-      "title": "Upgrade to Python 3.13 and install Python 3.13 in ClusterFuzzLite",
-      "url": "https://github.com/OWASP/cornucopia/pull/2403",
-      "date": "2026-06-10T14:02:35Z",
-      "state": "merged",
-      "ref": "#2403"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add Adarsh Kumar to acknowledgements",
-      "url": "https://github.com/OWASP/cornucopia/pull/2402",
-      "date": "2026-06-10T14:02:12Z",
-      "state": "merged",
-      "ref": "#2402"
     }
   ]
 }
