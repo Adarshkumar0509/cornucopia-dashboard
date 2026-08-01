@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-07-31T02:50:07.254Z",
+  "lastUpdated": "2026-08-01T02:48:35.485Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 39,
+  "totalPRs": 40,
   "mergedPRs": 39,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 21,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: mirror finished_at check in handle_info for requested_round",
+      "url": "https://github.com/OWASP/cornucopia/pull/3308",
+      "date": "2026-07-31T12:49:12Z",
+      "state": "open",
+      "ref": "#3308"
+    },
     {
       "type": "pull_request",
       "title": "upgrade node version to 26 in all workflow files",
@@ -149,13 +157,6 @@
       "date": "2026-06-18T11:19:31Z",
       "state": "merged",
       "ref": "#3107"
-    },
-    {
-      "type": "commit",
-      "title": "fix: update test to match renamed nav label 'Play' (#3103)",
-      "url": "https://github.com/OWASP/cornucopia/commit/bb47720930ce86adc8e65916e2542de856571cce",
-      "date": "2026-06-13T12:30:23Z",
-      "ref": "#bb47720"
     }
   ]
 }
