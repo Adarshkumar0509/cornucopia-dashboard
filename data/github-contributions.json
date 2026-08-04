@@ -1,19 +1,63 @@
 {
-  "lastUpdated": "2026-08-03T02:49:11.255Z",
+  "lastUpdated": "2026-08-04T02:32:21.168Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 40,
-  "mergedPRs": 39,
-  "openPRs": 1,
-  "totalIssues": 21,
+  "totalPRs": 41,
+  "mergedPRs": 41,
+  "openPRs": 0,
+  "totalIssues": 22,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix: mirror finished_at check in handle_info for requested_round",
       "url": "https://github.com/OWASP/cornucopia/pull/3308",
-      "date": "2026-07-31T12:49:12Z",
-      "state": "open",
+      "date": "2026-08-03T20:50:20Z",
+      "state": "merged",
       "ref": "#3308"
+    },
+    {
+      "type": "pull_request",
+      "title": "build(deps): bump virtualenv from 20.39.0 to 21.7.1",
+      "url": "https://github.com/OWASP/cornucopia/pull/3314",
+      "date": "2026-08-03T20:49:40Z",
+      "state": "merged",
+      "ref": "#3314"
+    },
+    {
+      "type": "issue",
+      "title": "build(deps): upgrade virtualenv from 20.39.0 to 21.7.1",
+      "url": "https://github.com/OWASP/cornucopia/issues/3313",
+      "date": "2026-08-03T13:53:43Z",
+      "state": "closed",
+      "ref": "#3313"
+    },
+    {
+      "type": "commit",
+      "title": "build(deps): add python-discovery 1.5.1 as required by virtualenv 21.7.1",
+      "url": "https://github.com/OWASP/cornucopia/commit/c076dd67285954e1e8ebfecebd87a3d1942c4fe0",
+      "date": "2026-08-03T12:59:29Z",
+      "ref": "#c076dd6"
+    },
+    {
+      "type": "commit",
+      "title": "build(deps): bump virtualenv from 20.39.0 to 21.7.1",
+      "url": "https://github.com/OWASP/cornucopia/commit/e35ec15d65ad219d6d102da5c2565131bc570847",
+      "date": "2026-08-03T12:32:50Z",
+      "ref": "#e35ec15"
+    },
+    {
+      "type": "commit",
+      "title": "test",
+      "url": "https://github.com/OWASP/cornucopia/commit/ba39214b8aa943d4687d804f39d32a16e8a1e882",
+      "date": "2026-07-31T12:34:02Z",
+      "ref": "#ba39214"
+    },
+    {
+      "type": "commit",
+      "title": "fix for the uissue",
+      "url": "https://github.com/OWASP/cornucopia/commit/ed23ce6065d1075e0f93679761aed01a5636f770",
+      "date": "2026-07-31T12:23:06Z",
+      "ref": "#ed23ce6"
     },
     {
       "type": "pull_request",
@@ -111,52 +155,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/3a340dc58887c99da285399241d979a0d93fc83c",
       "date": "2026-06-23T18:43:00Z",
       "ref": "#3a340dc"
-    },
-    {
-      "type": "issue",
-      "title": "Feature: Add automated validation tests for all language translations",
-      "url": "https://github.com/OWASP/cornucopia/issues/2443",
-      "date": "2026-06-21T07:43:31Z",
-      "state": "closed",
-      "ref": "#2443"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix/vote count display 3104",
-      "url": "https://github.com/OWASP/cornucopia/pull/3141",
-      "date": "2026-06-19T19:28:17Z",
-      "state": "merged",
-      "ref": "#3141"
-    },
-    {
-      "type": "commit",
-      "title": "fix vote count for own card view too",
-      "url": "https://github.com/OWASP/cornucopia/commit/2d4ee36b45c48fd79c1c6362588e6fdf4655541d",
-      "date": "2026-06-19T12:15:48Z",
-      "ref": "#2d4ee36"
-    },
-    {
-      "type": "commit",
-      "title": "fix vote count badge showing n-1 players",
-      "url": "https://github.com/OWASP/cornucopia/commit/b9b06e0101c28da4abf3e010b5138b51ea0dedd8",
-      "date": "2026-06-19T09:45:40Z",
-      "ref": "#b9b06e0"
-    },
-    {
-      "type": "issue",
-      "title": "mobile navbar truncates Sponsors link",
-      "url": "https://github.com/OWASP/cornucopia/issues/3103",
-      "date": "2026-06-18T11:19:32Z",
-      "state": "closed",
-      "ref": "#3103"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: shorten nav labels to fit Sponsors link on mobile",
-      "url": "https://github.com/OWASP/cornucopia/pull/3107",
-      "date": "2026-06-18T11:19:31Z",
-      "state": "merged",
-      "ref": "#3107"
     }
   ]
 }
