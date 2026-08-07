@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T02:34:16.342Z",
+  "lastUpdated": "2026-08-07T02:39:57.004Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 41,
@@ -7,6 +7,14 @@
   "openPRs": 0,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
+      "url": "https://github.com/OWASP/cornucopia/issues/2542",
+      "date": "2026-08-06T20:06:30Z",
+      "state": "closed",
+      "ref": "#2542"
+    },
     {
       "type": "pull_request",
       "title": "fix: mirror finished_at check in handle_info for requested_round",
@@ -148,13 +156,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/2877ec1be510575aff04d676a7ccb1cb78b9f00f",
       "date": "2026-06-23T20:05:50Z",
       "ref": "#2877ec1"
-    },
-    {
-      "type": "commit",
-      "title": "feat: add JSON-LD structured data to homepage and fix CSP nonce hook stripping script attributes",
-      "url": "https://github.com/OWASP/cornucopia/commit/3a340dc58887c99da285399241d979a0d93fc83c",
-      "date": "2026-06-23T18:43:00Z",
-      "ref": "#3a340dc"
     }
   ]
 }
