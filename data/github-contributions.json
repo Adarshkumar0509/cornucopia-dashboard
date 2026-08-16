@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-08-15T01:13:28.406Z",
+  "lastUpdated": "2026-08-16T01:17:42.863Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 41,
+  "totalPRs": 42,
   "mergedPRs": 41,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: redirect to game summary when finished game is refreshed",
+      "url": "https://github.com/OWASP/cornucopia/pull/3358",
+      "date": "2026-08-15T12:00:19Z",
+      "state": "open",
+      "ref": "#3358"
+    },
     {
       "type": "issue",
       "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
@@ -149,13 +157,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/bee7644610c13281d8520c44309cd18982c384b4",
       "date": "2026-06-23T20:58:57Z",
       "ref": "#bee7644"
-    },
-    {
-      "type": "commit",
-      "title": "refactor: simplify JSON-LD injection per review feedback",
-      "url": "https://github.com/OWASP/cornucopia/commit/2877ec1be510575aff04d676a7ccb1cb78b9f00f",
-      "date": "2026-06-23T20:05:50Z",
-      "ref": "#2877ec1"
     }
   ]
 }
