@@ -1,19 +1,26 @@
 {
-  "lastUpdated": "2026-08-16T01:17:42.863Z",
+  "lastUpdated": "2026-08-17T01:15:18.621Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 42,
-  "mergedPRs": 41,
-  "openPRs": 1,
+  "mergedPRs": 42,
+  "openPRs": 0,
   "totalIssues": 22,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix: redirect to game summary when finished game is refreshed",
       "url": "https://github.com/OWASP/cornucopia/pull/3358",
-      "date": "2026-08-15T12:00:19Z",
-      "state": "open",
+      "date": "2026-08-16T14:21:47Z",
+      "state": "merged",
       "ref": "#3358"
+    },
+    {
+      "type": "commit",
+      "title": "fix: redirect to game summary when finished game is refreshed (closes #3316)",
+      "url": "https://github.com/OWASP/cornucopia/commit/9e717b170072a6e2f625ae7e1648b5020da94486",
+      "date": "2026-08-15T11:49:56Z",
+      "ref": "#9e717b1"
     },
     {
       "type": "issue",
@@ -150,13 +157,6 @@
       "date": "2026-06-26T15:24:58Z",
       "state": "merged",
       "ref": "#3150"
-    },
-    {
-      "type": "commit",
-      "title": "fix: correct Links folder name for mobileapp output (#3109)",
-      "url": "https://github.com/OWASP/cornucopia/commit/bee7644610c13281d8520c44309cd18982c384b4",
-      "date": "2026-06-23T20:58:57Z",
-      "ref": "#bee7644"
     }
   ]
 }
