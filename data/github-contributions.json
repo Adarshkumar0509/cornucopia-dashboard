@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-08-17T01:15:18.621Z",
+  "lastUpdated": "2026-08-18T01:12:47.192Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 42,
+  "totalPRs": 43,
   "mergedPRs": 42,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "Add name format validation to player and game changesets",
+      "url": "https://github.com/OWASP/cornucopia/pull/3372",
+      "date": "2026-08-17T14:29:55Z",
+      "state": "open",
+      "ref": "#3372"
+    },
     {
       "type": "pull_request",
       "title": "fix: redirect to game summary when finished game is refreshed",
@@ -149,14 +157,6 @@
       "date": "2026-06-26T20:07:03Z",
       "state": "merged",
       "ref": "#2649"
-    },
-    {
-      "type": "pull_request",
-      "title": "feat: add JSON-LD structured data to homepage and fix CSP nonce hook …",
-      "url": "https://github.com/OWASP/cornucopia/pull/3150",
-      "date": "2026-06-26T15:24:58Z",
-      "state": "merged",
-      "ref": "#3150"
     }
   ]
 }
