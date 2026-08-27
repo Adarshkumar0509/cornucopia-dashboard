@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-08-26T01:17:51.588Z",
+  "lastUpdated": "2026-08-27T07:51:43.793Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 43,
+  "totalPRs": 44,
   "mergedPRs": 43,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: use page.data for dynamic SEO meta tags instead of duplicating t…",
+      "url": "https://github.com/OWASP/cornucopia/pull/3411",
+      "date": "2026-08-27T01:56:14Z",
+      "state": "open",
+      "ref": "#3411"
+    },
     {
       "type": "pull_request",
       "title": "Add name format validation to player and game changesets",
@@ -146,14 +154,6 @@
       "date": "2026-07-18T07:15:46Z",
       "state": "merged",
       "ref": "#3245"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: switch rate limiter to Fly-Client-IP for fly deployments (closes…",
-      "url": "https://github.com/OWASP/cornucopia/pull/3236",
-      "date": "2026-07-17T14:54:06Z",
-      "state": "merged",
-      "ref": "#3236"
     }
   ]
 }
