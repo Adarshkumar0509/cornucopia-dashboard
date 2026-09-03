@@ -1,159 +1,152 @@
 {
-  "lastUpdated": "2026-09-02T03:13:28.315Z",
+  "lastUpdated": "2026-09-03T03:14:58.582Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 44,
-  "mergedPRs": 43,
-  "openPRs": 1,
+  "mergedPRs": 44,
+  "openPRs": 0,
   "totalIssues": 22,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix: use page.data for dynamic SEO meta tags instead of duplicating t…",
       "url": "https://github.com/OWASP/cornucopia/pull/3411",
-      "date": "2026-09-01T20:51:33Z",
-      "state": "open",
+      "date": "2026-09-02T23:15:41Z",
+      "state": "merged",
       "ref": "#3411"
     },
     {
-      "type": "pull_request",
-      "title": "Add name format validation to player and game changesets",
-      "url": "https://github.com/OWASP/cornucopia/pull/3372",
-      "date": "2026-08-19T07:14:05Z",
-      "state": "merged",
-      "ref": "#3372"
+      "type": "commit",
+      "title": "fix: add pageMetadata helper and wire metadata to all missing routes",
+      "url": "https://github.com/OWASP/cornucopia/commit/6e484c0568bbade6933b00a616d3f35dc3f9c4c3",
+      "date": "2026-09-02T18:03:28Z",
+      "ref": "#6e484c0"
     },
     {
       "type": "commit",
-      "title": "Use Unicode property classes and add name validation tests",
-      "url": "https://github.com/OWASP/cornucopia/commit/0573cb038edd494c977115d60016aa2ff263691a",
-      "date": "2026-08-18T19:56:12Z",
-      "ref": "#0573cb0"
+      "title": "fix: remove layout fallback metadata, add Metadata to taxonomy page, stage remaining server fixes",
+      "url": "https://github.com/OWASP/cornucopia/commit/3835b0b689820842fd397d2055a9beed66db5ffc",
+      "date": "2026-09-02T04:21:13Z",
+      "ref": "#3835b0b"
     },
     {
       "type": "commit",
-      "title": "Fix indentation on validate_format lines",
-      "url": "https://github.com/OWASP/cornucopia/commit/699a50b4c52c6ba391729d0e5f9d3f8ed99a45de",
-      "date": "2026-08-18T10:07:25Z",
-      "ref": "#699a50b"
+      "title": "fix: pass event to getPageMetadata in taxonomy, roadmap, questionsandanswers, author routes",
+      "url": "https://github.com/OWASP/cornucopia/commit/a095fb33d34a5d4c0363a766ea87027d512c3f86",
+      "date": "2026-09-01T20:51:11Z",
+      "ref": "#a095fb3"
     },
     {
       "type": "commit",
-      "title": "Expand Unicode ranges in name format validation",
-      "url": "https://github.com/OWASP/cornucopia/commit/a7395d5079514b7b1c95ffb0ccd97792f6806f24",
-      "date": "2026-08-18T10:02:14Z",
-      "ref": "#a7395d5"
+      "title": "fix: correct home page metadata source and add head keys to home.json",
+      "url": "https://github.com/OWASP/cornucopia/commit/31304366e4a664eaae6e58776752cf1eae246b2e",
+      "date": "2026-09-01T20:48:19Z",
+      "ref": "#3130436"
     },
     {
       "type": "commit",
-      "title": "Fix indentation on validate_format lines in player.ex and game.ex",
-      "url": "https://github.com/OWASP/cornucopia/commit/df38807161019f60c2422459c01a3adfee6047c8",
-      "date": "2026-08-18T09:47:08Z",
-      "ref": "#df38807"
+      "title": "fix: use getPageMetadata utility across all static route server loads",
+      "url": "https://github.com/OWASP/cornucopia/commit/1dbb3c1a0fa130255ff3ce5003caf578ac85f074",
+      "date": "2026-09-01T13:29:51Z",
+      "ref": "#1dbb3c1"
     },
     {
       "type": "commit",
-      "title": "Fix indentation on validate_format line in game.ex",
-      "url": "https://github.com/OWASP/cornucopia/commit/b2b624d5cf6edc2c518cd7e2f1f588977c8ea68b",
-      "date": "2026-08-18T09:45:23Z",
-      "ref": "#b2b624d"
+      "title": "revert: add metadata.test.ts back to test.exclude to maintain coverage thresholds",
+      "url": "https://github.com/OWASP/cornucopia/commit/efc7ad797401b239c41b8867dc0574806440bf91",
+      "date": "2026-09-01T05:30:02Z",
+      "ref": "#efc7ad7"
     },
     {
       "type": "commit",
-      "title": "FIX",
-      "url": "https://github.com/OWASP/cornucopia/commit/e950670babce008d6487213ca9756fc1527591b4",
-      "date": "2026-08-18T09:32:27Z",
-      "ref": "#e950670"
+      "title": "fix: absolute og:image URL, fix test catch blocks swallowing assertions",
+      "url": "https://github.com/OWASP/cornucopia/commit/4d5d1c6377c676c813b1e7e75b6ea1bc7c7e4162",
+      "date": "2026-09-01T05:13:00Z",
+      "ref": "#4d5d1c6"
     },
     {
       "type": "commit",
-      "title": "Add name format validation to player and game changesets",
-      "url": "https://github.com/OWASP/cornucopia/commit/f37e6281a05616583f03899739490764846a1827",
-      "date": "2026-08-17T13:37:57Z",
-      "ref": "#f37e628"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: redirect to game summary when finished game is refreshed",
-      "url": "https://github.com/OWASP/cornucopia/pull/3358",
-      "date": "2026-08-16T14:21:47Z",
-      "state": "merged",
-      "ref": "#3358"
+      "title": "add metadata canonical URL and Test",
+      "url": "https://github.com/OWASP/cornucopia/commit/cde449d50966aa4b74053dd1f7e9e6a0b5d048c2",
+      "date": "2026-09-01T04:28:02Z",
+      "ref": "#cde449d"
     },
     {
       "type": "commit",
-      "title": "fix: redirect to game summary when finished game is refreshed (closes #3316)",
-      "url": "https://github.com/OWASP/cornucopia/commit/9e717b170072a6e2f625ae7e1648b5020da94486",
-      "date": "2026-08-15T11:49:56Z",
-      "ref": "#9e717b1"
-    },
-    {
-      "type": "issue",
-      "title": "Maintenance: Pin outdated GitHub Actions versions  in CI workflows for supply chain security",
-      "url": "https://github.com/OWASP/cornucopia/issues/2542",
-      "date": "2026-08-06T20:06:30Z",
-      "state": "closed",
-      "ref": "#2542"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: mirror finished_at check in handle_info for requested_round",
-      "url": "https://github.com/OWASP/cornucopia/pull/3308",
-      "date": "2026-08-03T20:50:20Z",
-      "state": "merged",
-      "ref": "#3308"
-    },
-    {
-      "type": "pull_request",
-      "title": "build(deps): bump virtualenv from 20.39.0 to 21.7.1",
-      "url": "https://github.com/OWASP/cornucopia/pull/3314",
-      "date": "2026-08-03T20:49:40Z",
-      "state": "merged",
-      "ref": "#3314"
-    },
-    {
-      "type": "issue",
-      "title": "build(deps): upgrade virtualenv from 20.39.0 to 21.7.1",
-      "url": "https://github.com/OWASP/cornucopia/issues/3313",
-      "date": "2026-08-03T13:53:43Z",
-      "state": "closed",
-      "ref": "#3313"
+      "title": "fix: replace encoding-corrupted glyphs with html entities",
+      "url": "https://github.com/OWASP/cornucopia/commit/3703d8723af818807b3bfcd4bf3ccf4f20884794",
+      "date": "2026-08-31T18:16:02Z",
+      "ref": "#3703d87"
     },
     {
       "type": "commit",
-      "title": "build(deps): add python-discovery 1.5.1 as required by virtualenv 21.7.1",
-      "url": "https://github.com/OWASP/cornucopia/commit/c076dd67285954e1e8ebfecebd87a3d1942c4fe0",
-      "date": "2026-08-03T12:59:29Z",
-      "ref": "#c076dd6"
+      "title": "fix: remove unused metadata object in card not-found branch",
+      "url": "https://github.com/OWASP/cornucopia/commit/731336b0c431ee442a093d2a73ff330ca5f7d91c",
+      "date": "2026-08-31T17:55:00Z",
+      "ref": "#731336b"
     },
     {
       "type": "commit",
-      "title": "build(deps): bump virtualenv from 20.39.0 to 21.7.1",
-      "url": "https://github.com/OWASP/cornucopia/commit/e35ec15d65ad219d6d102da5c2565131bc570847",
-      "date": "2026-08-03T12:32:50Z",
-      "ref": "#e35ec15"
+      "title": "fix: use card.id for canonical URL and add not-found metadata in cards route",
+      "url": "https://github.com/OWASP/cornucopia/commit/f441c6d3df24c262171d00733c3ec34627d35499",
+      "date": "2026-08-31T17:23:52Z",
+      "ref": "#f441c6d"
     },
     {
       "type": "commit",
-      "title": "test",
-      "url": "https://github.com/OWASP/cornucopia/commit/ba39214b8aa943d4687d804f39d32a16e8a1e882",
-      "date": "2026-07-31T12:34:02Z",
-      "ref": "#ba39214"
+      "title": "fix: use params.path with encodeURIComponent for taxonomy canonical URL",
+      "url": "https://github.com/OWASP/cornucopia/commit/14c3d533f35eae2568dd3b8d4a111a7d0e286a7f",
+      "date": "2026-08-31T06:14:12Z",
+      "ref": "#14c3d53"
     },
     {
       "type": "commit",
-      "title": "fix for the uissue",
-      "url": "https://github.com/OWASP/cornucopia/commit/ed23ce6065d1075e0f93679761aed01a5636f770",
-      "date": "2026-07-31T12:23:06Z",
-      "ref": "#ed23ce6"
+      "title": "fix: remove duplicate page import in layout and delete .orig file",
+      "url": "https://github.com/OWASP/cornucopia/commit/8195d8fd071153d44072cecf6b245cc5ee24b770",
+      "date": "2026-08-31T06:05:51Z",
+      "ref": "#8195d8f"
     },
     {
-      "type": "pull_request",
-      "title": "upgrade node version to 26 in all workflow files",
-      "url": "https://github.com/OWASP/cornucopia/pull/3245",
-      "date": "2026-07-18T07:15:46Z",
-      "state": "merged",
-      "ref": "#3245"
+      "type": "commit",
+      "title": "fix: resolve Copilot review issues in metadata and encoding",
+      "url": "https://github.com/OWASP/cornucopia/commit/218a9178f9d1788ebc35514635e746e3e2c7a076",
+      "date": "2026-08-31T05:57:54Z",
+      "ref": "#218a917"
+    },
+    {
+      "type": "commit",
+      "title": "fix: guard missing author and card with error(404)",
+      "url": "https://github.com/OWASP/cornucopia/commit/d7171bfb7d6a4db65bca5351a6e33589bbbe14ed",
+      "date": "2026-08-31T05:07:25Z",
+      "ref": "#d7171bf"
+    },
+    {
+      "type": "commit",
+      "title": "fix: render Metadata in each page component and use translation keys",
+      "url": "https://github.com/OWASP/cornucopia/commit/1879f637bf9c136314700ce84e181a6776a145ec",
+      "date": "2026-08-30T17:41:31Z",
+      "ref": "#1879f63"
+    },
+    {
+      "type": "commit",
+      "title": "fix for some Lint errors",
+      "url": "https://github.com/OWASP/cornucopia/commit/884983724703421a531479daaaca3a3b2cc0b6a8",
+      "date": "2026-08-29T07:25:00Z",
+      "ref": "#8849837"
+    },
+    {
+      "type": "commit",
+      "title": "refactor: centralise SEO meta tags via typed PageMetadata in layout",
+      "url": "https://github.com/OWASP/cornucopia/commit/3475f21bc6bfe5ef105e6bb655cb77ba01d49442",
+      "date": "2026-08-29T07:08:57Z",
+      "ref": "#3475f21"
+    },
+    {
+      "type": "commit",
+      "title": "fix: use page.data for dynamic SEO meta tags instead of duplicating them per page",
+      "url": "https://github.com/OWASP/cornucopia/commit/b8acbbcf0fb5b03e132ff4b897f6757c5d95743d",
+      "date": "2026-08-27T01:46:52Z",
+      "ref": "#b8acbbc"
     }
   ]
 }
