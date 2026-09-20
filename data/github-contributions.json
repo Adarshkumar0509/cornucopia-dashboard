@@ -1,12 +1,35 @@
 {
-  "lastUpdated": "2026-09-19T03:28:07.181Z",
+  "lastUpdated": "2026-09-20T03:44:40.498Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 44,
-  "mergedPRs": 44,
-  "openPRs": 0,
+  "totalPRs": 46,
+  "mergedPRs": 45,
+  "openPRs": 1,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "feat: read decks.yaml via src/lib/config.js",
+      "url": "https://github.com/OWASP/cornucopia/pull/3510",
+      "date": "2026-09-19T20:18:33Z",
+      "state": "open",
+      "ref": "#3510"
+    },
+    {
+      "type": "pull_request",
+      "title": "feat: migrate sveltekit-i18n from 2.4.2 to 3.0.0",
+      "url": "https://github.com/OWASP/cornucopia/pull/3512",
+      "date": "2026-09-19T20:14:02Z",
+      "state": "merged",
+      "ref": "#3512"
+    },
+    {
+      "type": "commit",
+      "title": "feat: migrate sveltekit-i18n from 2.4.2 to 3.0.0",
+      "url": "https://github.com/OWASP/cornucopia/commit/bed3ea8eca71dca189ebfbaeab25b0c5191135a5",
+      "date": "2026-09-19T15:32:44Z",
+      "ref": "#bed3ea8"
+    },
     {
       "type": "pull_request",
       "title": "fix: use page.data for dynamic SEO meta tags instead of duplicating t…",
@@ -126,27 +149,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/1879f637bf9c136314700ce84e181a6776a145ec",
       "date": "2026-08-30T17:41:31Z",
       "ref": "#1879f63"
-    },
-    {
-      "type": "commit",
-      "title": "fix for some Lint errors",
-      "url": "https://github.com/OWASP/cornucopia/commit/884983724703421a531479daaaca3a3b2cc0b6a8",
-      "date": "2026-08-29T07:25:00Z",
-      "ref": "#8849837"
-    },
-    {
-      "type": "commit",
-      "title": "refactor: centralise SEO meta tags via typed PageMetadata in layout",
-      "url": "https://github.com/OWASP/cornucopia/commit/3475f21bc6bfe5ef105e6bb655cb77ba01d49442",
-      "date": "2026-08-29T07:08:57Z",
-      "ref": "#3475f21"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use page.data for dynamic SEO meta tags instead of duplicating them per page",
-      "url": "https://github.com/OWASP/cornucopia/commit/b8acbbcf0fb5b03e132ff4b897f6757c5d95743d",
-      "date": "2026-08-27T01:46:52Z",
-      "ref": "#b8acbbc"
     }
   ]
 }
