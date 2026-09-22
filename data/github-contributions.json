@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T03:40:15.527Z",
+  "lastUpdated": "2026-09-22T03:38:33.505Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 46,
@@ -11,7 +11,7 @@
       "type": "pull_request",
       "title": "feat: read decks.yaml via src/lib/config.js",
       "url": "https://github.com/OWASP/cornucopia/pull/3510",
-      "date": "2026-09-19T20:18:33Z",
+      "date": "2026-09-21T16:28:37Z",
       "state": "open",
       "ref": "#3510"
     },
