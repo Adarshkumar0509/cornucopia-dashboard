@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T04:35:50.132Z",
+  "lastUpdated": "2026-09-30T04:19:23.761Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 46,
@@ -9,19 +9,19 @@
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "feat: read decks.yaml via src/lib/config.js",
+      "url": "https://github.com/OWASP/cornucopia/pull/3510",
+      "date": "2026-09-29T17:34:19Z",
+      "state": "open",
+      "ref": "#3510"
+    },
+    {
+      "type": "pull_request",
       "title": "feat: migrate sveltekit-i18n from 2.4.2 to 3.0.0",
       "url": "https://github.com/OWASP/cornucopia/pull/3512",
       "date": "2026-09-22T11:55:50Z",
       "state": "merged",
       "ref": "#3512"
-    },
-    {
-      "type": "pull_request",
-      "title": "feat: read decks.yaml via src/lib/config.js",
-      "url": "https://github.com/OWASP/cornucopia/pull/3510",
-      "date": "2026-09-22T07:38:54Z",
-      "state": "open",
-      "ref": "#3510"
     },
     {
       "type": "commit",
