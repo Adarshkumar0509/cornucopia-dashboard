@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-10-10T04:39:17.351Z",
+  "lastUpdated": "2026-10-11T04:23:59.209Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 46,
+  "totalPRs": 47,
   "mergedPRs": 45,
-  "openPRs": 1,
+  "openPRs": 2,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "fix: validate null bytes in capec_map_enricher CLI arguments",
+      "url": "https://github.com/OWASP/cornucopia/pull/3591",
+      "date": "2026-10-10T20:11:51Z",
+      "state": "open",
+      "ref": "#3591"
+    },
     {
       "type": "pull_request",
       "title": "feat: read decks.yaml via src/lib/config.js",
@@ -142,13 +150,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/d7171bfb7d6a4db65bca5351a6e33589bbbe14ed",
       "date": "2026-08-31T05:07:25Z",
       "ref": "#d7171bf"
-    },
-    {
-      "type": "commit",
-      "title": "fix: render Metadata in each page component and use translation keys",
-      "url": "https://github.com/OWASP/cornucopia/commit/1879f637bf9c136314700ce84e181a6776a145ec",
-      "date": "2026-08-30T17:41:31Z",
-      "ref": "#1879f63"
     }
   ]
 }
