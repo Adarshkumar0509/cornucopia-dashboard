@@ -1,27 +1,69 @@
 {
-  "lastUpdated": "2026-10-11T04:23:59.209Z",
+  "lastUpdated": "2026-10-12T04:40:04.485Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 47,
-  "mergedPRs": 45,
-  "openPRs": 2,
+  "mergedPRs": 46,
+  "openPRs": 1,
   "totalIssues": 22,
   "recentActivity": [
     {
       "type": "pull_request",
-      "title": "fix: validate null bytes in capec_map_enricher CLI arguments",
-      "url": "https://github.com/OWASP/cornucopia/pull/3591",
-      "date": "2026-10-10T20:11:51Z",
+      "title": "feat: read decks.yaml via src/lib/config.js",
+      "url": "https://github.com/OWASP/cornucopia/pull/3510",
+      "date": "2026-10-11T14:39:20Z",
       "state": "open",
-      "ref": "#3591"
+      "ref": "#3510"
     },
     {
       "type": "pull_request",
-      "title": "feat: read decks.yaml via src/lib/config.js",
-      "url": "https://github.com/OWASP/cornucopia/pull/3510",
-      "date": "2026-10-08T08:46:35Z",
-      "state": "open",
-      "ref": "#3510"
+      "title": "fix: validate null bytes in capec_map_enricher CLI arguments",
+      "url": "https://github.com/OWASP/cornucopia/pull/3591",
+      "date": "2026-10-11T07:31:34Z",
+      "state": "merged",
+      "ref": "#3591"
+    },
+    {
+      "type": "commit",
+      "title": "fix",
+      "url": "https://github.com/OWASP/cornucopia/commit/6e4b681277bd54e23fc43c0cdbfe034236b81b08",
+      "date": "2026-10-10T20:04:42Z",
+      "ref": "#6e4b681"
+    },
+    {
+      "type": "commit",
+      "title": "fix: add defensive null byte validation in main() for fuzz bypass protection",
+      "url": "https://github.com/OWASP/cornucopia/commit/0ffef036ff158055d3c3d8417b21170e91a2bd24",
+      "date": "2026-10-10T20:00:24Z",
+      "ref": "#0ffef03"
+    },
+    {
+      "type": "commit",
+      "title": "fix",
+      "url": "https://github.com/OWASP/cornucopia/commit/9d3f1e9bac312c119addf28547a6841cabcc7a2a",
+      "date": "2026-10-10T19:46:52Z",
+      "ref": "#9d3f1e9"
+    },
+    {
+      "type": "commit",
+      "title": "fix",
+      "url": "https://github.com/OWASP/cornucopia/commit/a21f71f228a84d5daba24980ab5b0bd4b3ed4c27",
+      "date": "2026-10-10T11:56:07Z",
+      "ref": "#a21f71f"
+    },
+    {
+      "type": "commit",
+      "title": "style: apply black formatting to capec_map_enricher and null byte tests",
+      "url": "https://github.com/OWASP/cornucopia/commit/5db3cbb61af7967d8b7186bb1f3160fbaa83d998",
+      "date": "2026-10-10T11:49:17Z",
+      "ref": "#5db3cbb"
+    },
+    {
+      "type": "commit",
+      "title": "fix: validate null bytes in capec_map_enricher CLI arguments",
+      "url": "https://github.com/OWASP/cornucopia/commit/7b14b0680043e523a9e8218bfb2396c539c79b04",
+      "date": "2026-10-10T11:32:44Z",
+      "ref": "#7b14b06"
     },
     {
       "type": "pull_request",
@@ -108,48 +150,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/3703d8723af818807b3bfcd4bf3ccf4f20884794",
       "date": "2026-08-31T18:16:02Z",
       "ref": "#3703d87"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove unused metadata object in card not-found branch",
-      "url": "https://github.com/OWASP/cornucopia/commit/731336b0c431ee442a093d2a73ff330ca5f7d91c",
-      "date": "2026-08-31T17:55:00Z",
-      "ref": "#731336b"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use card.id for canonical URL and add not-found metadata in cards route",
-      "url": "https://github.com/OWASP/cornucopia/commit/f441c6d3df24c262171d00733c3ec34627d35499",
-      "date": "2026-08-31T17:23:52Z",
-      "ref": "#f441c6d"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use params.path with encodeURIComponent for taxonomy canonical URL",
-      "url": "https://github.com/OWASP/cornucopia/commit/14c3d533f35eae2568dd3b8d4a111a7d0e286a7f",
-      "date": "2026-08-31T06:14:12Z",
-      "ref": "#14c3d53"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove duplicate page import in layout and delete .orig file",
-      "url": "https://github.com/OWASP/cornucopia/commit/8195d8fd071153d44072cecf6b245cc5ee24b770",
-      "date": "2026-08-31T06:05:51Z",
-      "ref": "#8195d8f"
-    },
-    {
-      "type": "commit",
-      "title": "fix: resolve Copilot review issues in metadata and encoding",
-      "url": "https://github.com/OWASP/cornucopia/commit/218a9178f9d1788ebc35514635e746e3e2c7a076",
-      "date": "2026-08-31T05:57:54Z",
-      "ref": "#218a917"
-    },
-    {
-      "type": "commit",
-      "title": "fix: guard missing author and card with error(404)",
-      "url": "https://github.com/OWASP/cornucopia/commit/d7171bfb7d6a4db65bca5351a6e33589bbbe14ed",
-      "date": "2026-08-31T05:07:25Z",
-      "ref": "#d7171bf"
     }
   ]
 }
