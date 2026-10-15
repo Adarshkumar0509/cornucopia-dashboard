@@ -1,17 +1,25 @@
 {
-  "lastUpdated": "2026-10-14T03:48:35.984Z",
+  "lastUpdated": "2026-10-15T03:30:18.687Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 47,
+  "totalPRs": 48,
   "mergedPRs": 46,
-  "openPRs": 1,
+  "openPRs": 2,
   "totalIssues": 22,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "Add rule-based threat modeling prototype to Copi",
+      "url": "https://github.com/OWASP/cornucopia/pull/3618",
+      "date": "2026-10-14T22:44:31Z",
+      "state": "open",
+      "ref": "#3618"
+    },
+    {
+      "type": "pull_request",
       "title": "feat: read decks.yaml via src/lib/config.js",
       "url": "https://github.com/OWASP/cornucopia/pull/3510",
-      "date": "2026-10-11T14:39:20Z",
+      "date": "2026-10-14T21:27:55Z",
       "state": "open",
       "ref": "#3510"
     },
@@ -143,13 +151,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/cde449d50966aa4b74053dd1f7e9e6a0b5d048c2",
       "date": "2026-09-01T04:28:02Z",
       "ref": "#cde449d"
-    },
-    {
-      "type": "commit",
-      "title": "fix: replace encoding-corrupted glyphs with html entities",
-      "url": "https://github.com/OWASP/cornucopia/commit/3703d8723af818807b3bfcd4bf3ccf4f20884794",
-      "date": "2026-08-31T18:16:02Z",
-      "ref": "#3703d87"
     }
   ]
 }
