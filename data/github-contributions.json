@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T03:30:18.687Z",
+  "lastUpdated": "2026-10-16T03:25:57.328Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 48,
@@ -9,19 +9,19 @@
   "recentActivity": [
     {
       "type": "pull_request",
-      "title": "Add rule-based threat modeling prototype to Copi",
-      "url": "https://github.com/OWASP/cornucopia/pull/3618",
-      "date": "2026-10-14T22:44:31Z",
+      "title": "feat: read decks.yaml via src/lib/config.js",
+      "url": "https://github.com/OWASP/cornucopia/pull/3510",
+      "date": "2026-10-15T12:10:05Z",
       "state": "open",
-      "ref": "#3618"
+      "ref": "#3510"
     },
     {
       "type": "pull_request",
-      "title": "feat: read decks.yaml via src/lib/config.js",
-      "url": "https://github.com/OWASP/cornucopia/pull/3510",
-      "date": "2026-10-14T21:27:55Z",
+      "title": "Add rule-based threat modeling prototype to Copi",
+      "url": "https://github.com/OWASP/cornucopia/pull/3618",
+      "date": "2026-10-15T05:51:38Z",
       "state": "open",
-      "ref": "#3510"
+      "ref": "#3618"
     },
     {
       "type": "pull_request",
