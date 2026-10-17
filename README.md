@@ -3,7 +3,7 @@
 A personal dashboard to track and showcase your contributions to [OWASP/cornucopia](https://github.com/OWASP/cornucopia).  
 Inspired by [OWASP-BLT/MY-GSOC-TOOL](https://github.com/OWASP-BLT/MY-GSOC-TOOL).
 
-**Live demo:** `https://YOUR-USERNAME.github.io/cornucopia-dashboard/`
+**Live demo:** `https://Adarshkumar0509.github.io/cornucopia-dashboard/`
 
 ---
 
