@@ -62,7 +62,7 @@ Go to **Actions → Deploy Cornucopia Dashboard → Run workflow**.
 
 Your dashboard will be live at:
 ```
-https://YOUR-USERNAME.github.io/cornucopia-dashboard/
+https://Adarshkumar0509.github.io/cornucopia-dashboard/
 ```
 
 ---
