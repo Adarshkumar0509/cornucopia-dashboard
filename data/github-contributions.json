@@ -1,19 +1,34 @@
 {
-  "lastUpdated": "2026-10-20T03:43:08.986Z",
+  "lastUpdated": "2026-10-21T03:34:47.604Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 47,
-  "mergedPRs": 46,
+  "totalPRs": 48,
+  "mergedPRs": 47,
   "openPRs": 1,
   "totalIssues": 22,
   "recentActivity": [
     {
       "type": "pull_request",
+      "title": "fix: add missing backslash in ZAP website nightly scan workflow",
+      "url": "https://github.com/OWASP/cornucopia/pull/3643",
+      "date": "2026-10-20T18:58:04Z",
+      "state": "open",
+      "ref": "#3643"
+    },
+    {
+      "type": "pull_request",
       "title": "feat: read decks.yaml via src/lib/config.js",
       "url": "https://github.com/OWASP/cornucopia/pull/3510",
-      "date": "2026-10-16T19:40:15Z",
-      "state": "open",
+      "date": "2026-10-20T16:42:28Z",
+      "state": "merged",
       "ref": "#3510"
+    },
+    {
+      "type": "commit",
+      "title": "refactor: simplify config exports and rename validateDeckConfigs",
+      "url": "https://github.com/OWASP/cornucopia/commit/1f6bc4c9ce284100ce1755b6321dee9a4978a4e6",
+      "date": "2026-10-16T15:28:17Z",
+      "ref": "#1f6bc4c"
     },
     {
       "type": "pull_request",
@@ -89,6 +104,13 @@
       "ref": "#bed3ea8"
     },
     {
+      "type": "commit",
+      "title": "feat: read decks.yaml via src/lib/config.js",
+      "url": "https://github.com/OWASP/cornucopia/commit/d6f7f96920e2dc958c87ca7f8b020e0094f9e37f",
+      "date": "2026-09-19T07:36:55Z",
+      "ref": "#d6f7f96"
+    },
+    {
       "type": "pull_request",
       "title": "fix: use page.data for dynamic SEO meta tags instead of duplicating t…",
       "url": "https://github.com/OWASP/cornucopia/pull/3411",
@@ -130,27 +152,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/1dbb3c1a0fa130255ff3ce5003caf578ac85f074",
       "date": "2026-09-01T13:29:51Z",
       "ref": "#1dbb3c1"
-    },
-    {
-      "type": "commit",
-      "title": "revert: add metadata.test.ts back to test.exclude to maintain coverage thresholds",
-      "url": "https://github.com/OWASP/cornucopia/commit/efc7ad797401b239c41b8867dc0574806440bf91",
-      "date": "2026-09-01T05:30:02Z",
-      "ref": "#efc7ad7"
-    },
-    {
-      "type": "commit",
-      "title": "fix: absolute og:image URL, fix test catch blocks swallowing assertions",
-      "url": "https://github.com/OWASP/cornucopia/commit/4d5d1c6377c676c813b1e7e75b6ea1bc7c7e4162",
-      "date": "2026-09-01T05:13:00Z",
-      "ref": "#4d5d1c6"
-    },
-    {
-      "type": "commit",
-      "title": "add metadata canonical URL and Test",
-      "url": "https://github.com/OWASP/cornucopia/commit/cde449d50966aa4b74053dd1f7e9e6a0b5d048c2",
-      "date": "2026-09-01T04:28:02Z",
-      "ref": "#cde449d"
     }
   ]
 }
