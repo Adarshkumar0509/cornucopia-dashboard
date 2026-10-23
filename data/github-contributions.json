@@ -1,19 +1,33 @@
 {
-  "lastUpdated": "2026-10-22T03:34:26.475Z",
+  "lastUpdated": "2026-10-23T03:39:22.050Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 48,
-  "mergedPRs": 47,
-  "openPRs": 1,
+  "mergedPRs": 48,
+  "openPRs": 0,
   "totalIssues": 22,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "fix: add missing backslash in ZAP website nightly scan workflow",
       "url": "https://github.com/OWASP/cornucopia/pull/3643",
-      "date": "2026-10-21T06:35:10Z",
-      "state": "open",
+      "date": "2026-10-22T18:38:03Z",
+      "state": "merged",
       "ref": "#3643"
+    },
+    {
+      "type": "commit",
+      "title": "fix: copy patches directory into Docker build context for pnpm install",
+      "url": "https://github.com/OWASP/cornucopia/commit/329add458b2d003bac7d028a3e154a9ab0586bf6",
+      "date": "2026-10-21T06:04:01Z",
+      "ref": "#329add4"
+    },
+    {
+      "type": "commit",
+      "title": "fix: add missing backslash in ZAP website nightly scan workflow",
+      "url": "https://github.com/OWASP/cornucopia/commit/b57d607b052448c1b34fec141fbe2714f61251cf",
+      "date": "2026-10-20T17:18:12Z",
+      "ref": "#b57d607"
     },
     {
       "type": "pull_request",
@@ -138,20 +152,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/a095fb33d34a5d4c0363a766ea87027d512c3f86",
       "date": "2026-09-01T20:51:11Z",
       "ref": "#a095fb3"
-    },
-    {
-      "type": "commit",
-      "title": "fix: correct home page metadata source and add head keys to home.json",
-      "url": "https://github.com/OWASP/cornucopia/commit/31304366e4a664eaae6e58776752cf1eae246b2e",
-      "date": "2026-09-01T20:48:19Z",
-      "ref": "#3130436"
-    },
-    {
-      "type": "commit",
-      "title": "fix: use getPageMetadata utility across all static route server loads",
-      "url": "https://github.com/OWASP/cornucopia/commit/1dbb3c1a0fa130255ff3ce5003caf578ac85f074",
-      "date": "2026-09-01T13:29:51Z",
-      "ref": "#1dbb3c1"
     }
   ]
 }
