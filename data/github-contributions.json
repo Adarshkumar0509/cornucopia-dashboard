@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-10-25T03:29:57.722Z",
+  "lastUpdated": "2026-10-26T03:32:34.424Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 48,
+  "totalPRs": 49,
   "mergedPRs": 48,
-  "openPRs": 0,
+  "openPRs": 1,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "feat: consolidate website config and add translation route smoke tests",
+      "url": "https://github.com/OWASP/cornucopia/pull/3670",
+      "date": "2026-10-25T07:42:56Z",
+      "state": "open",
+      "ref": "#3670"
+    },
     {
       "type": "pull_request",
       "title": "fix: add missing backslash in ZAP website nightly scan workflow",
@@ -145,13 +153,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/3835b0b689820842fd397d2055a9beed66db5ffc",
       "date": "2026-09-02T04:21:13Z",
       "ref": "#3835b0b"
-    },
-    {
-      "type": "commit",
-      "title": "fix: pass event to getPageMetadata in taxonomy, roadmap, questionsandanswers, author routes",
-      "url": "https://github.com/OWASP/cornucopia/commit/a095fb33d34a5d4c0363a766ea87027d512c3f86",
-      "date": "2026-09-01T20:51:11Z",
-      "ref": "#a095fb3"
     }
   ]
 }
