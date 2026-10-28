@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-10-27T03:58:04.318Z",
+  "lastUpdated": "2026-10-28T04:21:28.622Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 49,
+  "totalPRs": 50,
   "mergedPRs": 48,
-  "openPRs": 1,
+  "openPRs": 2,
   "totalIssues": 22,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "Fix/race condition game start",
+      "url": "https://github.com/OWASP/cornucopia/pull/3693",
+      "date": "2026-10-27T06:54:12Z",
+      "state": "open",
+      "ref": "#3693"
+    },
     {
       "type": "pull_request",
       "title": "feat: consolidate website config and add translation route smoke tests",
@@ -146,13 +154,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/6e484c0568bbade6933b00a616d3f35dc3f9c4c3",
       "date": "2026-09-02T18:03:28Z",
       "ref": "#6e484c0"
-    },
-    {
-      "type": "commit",
-      "title": "fix: remove layout fallback metadata, add Metadata to taxonomy page, stage remaining server fixes",
-      "url": "https://github.com/OWASP/cornucopia/commit/3835b0b689820842fd397d2055a9beed66db5ffc",
-      "date": "2026-09-02T04:21:13Z",
-      "ref": "#3835b0b"
     }
   ]
 }
