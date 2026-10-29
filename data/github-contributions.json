@@ -1,17 +1,25 @@
 {
-  "lastUpdated": "2026-10-28T04:21:28.622Z",
+  "lastUpdated": "2026-10-29T04:41:00.148Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 50,
   "mergedPRs": 48,
   "openPRs": 2,
-  "totalIssues": 22,
+  "totalIssues": 23,
   "recentActivity": [
+    {
+      "type": "issue",
+      "title": "zap nightly scan for the cornucopia website is failing",
+      "url": "https://github.com/OWASP/cornucopia/issues/3700",
+      "date": "2026-10-29T02:16:35Z",
+      "state": "open",
+      "ref": "#3700"
+    },
     {
       "type": "pull_request",
       "title": "Fix/race condition game start",
       "url": "https://github.com/OWASP/cornucopia/pull/3693",
-      "date": "2026-10-27T06:54:12Z",
+      "date": "2026-10-28T14:30:06Z",
       "state": "open",
       "ref": "#3693"
     },
@@ -147,13 +155,6 @@
       "date": "2026-09-02T23:15:41Z",
       "state": "merged",
       "ref": "#3411"
-    },
-    {
-      "type": "commit",
-      "title": "fix: add pageMetadata helper and wire metadata to all missing routes",
-      "url": "https://github.com/OWASP/cornucopia/commit/6e484c0568bbade6933b00a616d3f35dc3f9c4c3",
-      "date": "2026-09-02T18:03:28Z",
-      "ref": "#6e484c0"
     }
   ]
 }
