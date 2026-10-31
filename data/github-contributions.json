@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T04:41:01.685Z",
+  "lastUpdated": "2026-10-31T04:24:42.927Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 50,
@@ -11,9 +11,17 @@
       "type": "issue",
       "title": "zap nightly scan for the cornucopia website is failing",
       "url": "https://github.com/OWASP/cornucopia/issues/3700",
-      "date": "2026-10-29T02:16:35Z",
+      "date": "2026-10-30T22:07:11Z",
       "state": "open",
       "ref": "#3700"
+    },
+    {
+      "type": "pull_request",
+      "title": "feat: consolidate website config and add translation route smoke tests",
+      "url": "https://github.com/OWASP/cornucopia/pull/3670",
+      "date": "2026-10-30T21:08:02Z",
+      "state": "open",
+      "ref": "#3670"
     },
     {
       "type": "pull_request",
@@ -22,14 +30,6 @@
       "date": "2026-10-28T14:30:06Z",
       "state": "open",
       "ref": "#3693"
-    },
-    {
-      "type": "pull_request",
-      "title": "feat: consolidate website config and add translation route smoke tests",
-      "url": "https://github.com/OWASP/cornucopia/pull/3670",
-      "date": "2026-10-26T17:45:00Z",
-      "state": "open",
-      "ref": "#3670"
     },
     {
       "type": "pull_request",
