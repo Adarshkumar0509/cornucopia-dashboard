@@ -1,43 +1,127 @@
 {
-  "lastUpdated": "2026-11-03T05:37:00.776Z",
+  "lastUpdated": "2026-11-04T05:05:27.818Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 51,
-  "mergedPRs": 48,
-  "openPRs": 3,
+  "mergedPRs": 50,
+  "openPRs": 1,
   "totalIssues": 23,
   "recentActivity": [
     {
       "type": "pull_request",
-      "title": "fix: add disk cleanup step to prevent runner out of space in ZAP scan",
-      "url": "https://github.com/OWASP/cornucopia/pull/3721",
-      "date": "2026-11-02T19:01:13Z",
-      "state": "open",
-      "ref": "#3721"
-    },
-    {
-      "type": "issue",
-      "title": "zap nightly scan for the cornucopia website is failing",
-      "url": "https://github.com/OWASP/cornucopia/issues/3700",
-      "date": "2026-10-30T22:07:11Z",
-      "state": "open",
-      "ref": "#3700"
-    },
-    {
-      "type": "pull_request",
       "title": "feat: consolidate website config and add translation route smoke tests",
       "url": "https://github.com/OWASP/cornucopia/pull/3670",
-      "date": "2026-10-30T21:08:02Z",
-      "state": "open",
+      "date": "2026-11-03T22:18:03Z",
+      "state": "merged",
       "ref": "#3670"
     },
     {
       "type": "pull_request",
       "title": "Fix/race condition game start",
       "url": "https://github.com/OWASP/cornucopia/pull/3693",
-      "date": "2026-10-28T14:30:06Z",
+      "date": "2026-11-03T22:16:04Z",
       "state": "open",
       "ref": "#3693"
+    },
+    {
+      "type": "issue",
+      "title": "zap nightly scan for the cornucopia website is failing",
+      "url": "https://github.com/OWASP/cornucopia/issues/3700",
+      "date": "2026-11-03T22:14:50Z",
+      "state": "closed",
+      "ref": "#3700"
+    },
+    {
+      "type": "pull_request",
+      "title": "fix: add disk cleanup step to prevent runner out of space in ZAP scan",
+      "url": "https://github.com/OWASP/cornucopia/pull/3721",
+      "date": "2026-11-03T22:14:48Z",
+      "state": "merged",
+      "ref": "#3721"
+    },
+    {
+      "type": "commit",
+      "title": "fix: more aggressive disk cleanup to free up runner space",
+      "url": "https://github.com/OWASP/cornucopia/commit/c741adac05afd51a88e17db54d33830e254b525d",
+      "date": "2026-11-02T11:16:22Z",
+      "ref": "#c741ada"
+    },
+    {
+      "type": "commit",
+      "title": "Reduce ZAP scan duration to 60 mins to prevent disk disc exhaustion",
+      "url": "https://github.com/OWASP/cornucopia/commit/292b88d158f77c3a7b8e1ce7fa900659a51a8c14",
+      "date": "2026-11-01T19:11:21Z",
+      "ref": "#292b88d"
+    },
+    {
+      "type": "commit",
+      "title": "fix: add disk cleanup step to prevent runner out of space error",
+      "url": "https://github.com/OWASP/cornucopia/commit/eac8ed0cba74f5fa14fc5fd08118490fcb11be01",
+      "date": "2026-11-01T06:31:18Z",
+      "ref": "#eac8ed0"
+    },
+    {
+      "type": "commit",
+      "title": "fix",
+      "url": "https://github.com/OWASP/cornucopia/commit/1804ccc371d354d45e01c7434c1b0f2e5a4342ce",
+      "date": "2026-10-30T20:54:27Z",
+      "ref": "#1804ccc"
+    },
+    {
+      "type": "commit",
+      "title": "fix for build failure",
+      "url": "https://github.com/OWASP/cornucopia/commit/8b6eb1b448d1630daa2f87da8fce4636ab613c96",
+      "date": "2026-10-30T20:49:59Z",
+      "ref": "#8b6eb1b"
+    },
+    {
+      "type": "commit",
+      "title": "fix",
+      "url": "https://github.com/OWASP/cornucopia/commit/4b67893b908b434189c461fe277e652340314d62",
+      "date": "2026-10-30T20:43:12Z",
+      "ref": "#4b67893"
+    },
+    {
+      "type": "commit",
+      "title": "Rename decks.yaml to application.yaml and update all references",
+      "url": "https://github.com/OWASP/cornucopia/commit/64093bb9153d37efe809b5e3edb7929f5225ad46",
+      "date": "2026-10-30T20:37:38Z",
+      "ref": "#64093bb"
+    },
+    {
+      "type": "commit",
+      "title": "refactor: move card entries to decks.yaml and read via getAppConfig",
+      "url": "https://github.com/OWASP/cornucopia/commit/b7a0861a5a3d8937525b7ee0869f0b9c780f5dd2",
+      "date": "2026-10-30T20:26:55Z",
+      "ref": "#b7a0861"
+    },
+    {
+      "type": "commit",
+      "title": "refactor: move headers to decks.yaml and rename deck-config to app-config",
+      "url": "https://github.com/OWASP/cornucopia/commit/f6622d6502b5cb400dea463ffaa2004436d8f456",
+      "date": "2026-10-26T14:55:41Z",
+      "ref": "#f6622d6"
+    },
+    {
+      "type": "commit",
+      "title": "fix: update smoke-test.js to use deck-config instead of parsing svelte.config.js",
+      "url": "https://github.com/OWASP/cornucopia/commit/d7aa73c6d0a8fd9aedf9b97ac4ba4b4853ba918b",
+      "date": "2026-10-26T06:00:19Z",
+      "ref": "#d7aa73c"
+    },
+    {
+      "type": "commit",
+      "title": "fix",
+      "url": "https://github.com/OWASP/cornucopia/commit/ac7d8ff6371c39cecf4a5ee19078838a8f570644",
+      "date": "2026-10-26T05:06:49Z",
+      "ref": "#ac7d8ff"
+    },
+    {
+      "type": "commit",
+      "title": "feat: consolidate website config and add translation route smoke tests",
+      "url": "https://github.com/OWASP/cornucopia/commit/96df51febdec492a763e04ba371f49a37c6b0386",
+      "date": "2026-10-25T06:57:40Z",
+      "ref": "#96df51f"
     },
     {
       "type": "pull_request",
@@ -68,93 +152,6 @@
       "date": "2026-10-20T16:42:28Z",
       "state": "merged",
       "ref": "#3510"
-    },
-    {
-      "type": "commit",
-      "title": "refactor: simplify config exports and rename validateDeckConfigs",
-      "url": "https://github.com/OWASP/cornucopia/commit/1f6bc4c9ce284100ce1755b6321dee9a4978a4e6",
-      "date": "2026-10-16T15:28:17Z",
-      "ref": "#1f6bc4c"
-    },
-    {
-      "type": "pull_request",
-      "title": "Add rule-based threat modeling prototype to Copi",
-      "url": "https://github.com/OWASP/cornucopia/pull/3618",
-      "date": "2026-10-15T05:51:38Z",
-      "state": "open",
-      "ref": "#3618"
-    },
-    {
-      "type": "pull_request",
-      "title": "fix: validate null bytes in capec_map_enricher CLI arguments",
-      "url": "https://github.com/OWASP/cornucopia/pull/3591",
-      "date": "2026-10-11T07:31:34Z",
-      "state": "merged",
-      "ref": "#3591"
-    },
-    {
-      "type": "commit",
-      "title": "fix",
-      "url": "https://github.com/OWASP/cornucopia/commit/6e4b681277bd54e23fc43c0cdbfe034236b81b08",
-      "date": "2026-10-10T20:04:42Z",
-      "ref": "#6e4b681"
-    },
-    {
-      "type": "commit",
-      "title": "fix: add defensive null byte validation in main() for fuzz bypass protection",
-      "url": "https://github.com/OWASP/cornucopia/commit/0ffef036ff158055d3c3d8417b21170e91a2bd24",
-      "date": "2026-10-10T20:00:24Z",
-      "ref": "#0ffef03"
-    },
-    {
-      "type": "commit",
-      "title": "fix",
-      "url": "https://github.com/OWASP/cornucopia/commit/9d3f1e9bac312c119addf28547a6841cabcc7a2a",
-      "date": "2026-10-10T19:46:52Z",
-      "ref": "#9d3f1e9"
-    },
-    {
-      "type": "commit",
-      "title": "fix",
-      "url": "https://github.com/OWASP/cornucopia/commit/a21f71f228a84d5daba24980ab5b0bd4b3ed4c27",
-      "date": "2026-10-10T11:56:07Z",
-      "ref": "#a21f71f"
-    },
-    {
-      "type": "commit",
-      "title": "style: apply black formatting to capec_map_enricher and null byte tests",
-      "url": "https://github.com/OWASP/cornucopia/commit/5db3cbb61af7967d8b7186bb1f3160fbaa83d998",
-      "date": "2026-10-10T11:49:17Z",
-      "ref": "#5db3cbb"
-    },
-    {
-      "type": "commit",
-      "title": "fix: validate null bytes in capec_map_enricher CLI arguments",
-      "url": "https://github.com/OWASP/cornucopia/commit/7b14b0680043e523a9e8218bfb2396c539c79b04",
-      "date": "2026-10-10T11:32:44Z",
-      "ref": "#7b14b06"
-    },
-    {
-      "type": "pull_request",
-      "title": "feat: migrate sveltekit-i18n from 2.4.2 to 3.0.0",
-      "url": "https://github.com/OWASP/cornucopia/pull/3512",
-      "date": "2026-09-22T11:55:50Z",
-      "state": "merged",
-      "ref": "#3512"
-    },
-    {
-      "type": "commit",
-      "title": "feat: migrate sveltekit-i18n from 2.4.2 to 3.0.0",
-      "url": "https://github.com/OWASP/cornucopia/commit/bed3ea8eca71dca189ebfbaeab25b0c5191135a5",
-      "date": "2026-09-19T15:32:44Z",
-      "ref": "#bed3ea8"
-    },
-    {
-      "type": "commit",
-      "title": "feat: read decks.yaml via src/lib/config.js",
-      "url": "https://github.com/OWASP/cornucopia/commit/d6f7f96920e2dc958c87ca7f8b020e0094f9e37f",
-      "date": "2026-09-19T07:36:55Z",
-      "ref": "#d6f7f96"
     }
   ]
 }
