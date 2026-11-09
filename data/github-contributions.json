@@ -1,12 +1,20 @@
 {
-  "lastUpdated": "2026-11-08T04:47:26.794Z",
+  "lastUpdated": "2026-11-09T04:56:22.371Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
-  "totalPRs": 51,
+  "totalPRs": 52,
   "mergedPRs": 50,
-  "openPRs": 1,
+  "openPRs": 2,
   "totalIssues": 23,
   "recentActivity": [
+    {
+      "type": "pull_request",
+      "title": "integrate pdf-decks into pre-release and release pipelines",
+      "url": "https://github.com/OWASP/cornucopia/pull/3750",
+      "date": "2026-11-09T04:44:14Z",
+      "state": "open",
+      "ref": "#3750"
+    },
     {
       "type": "pull_request",
       "title": "feat: consolidate website config and add translation route smoke tests",
@@ -144,14 +152,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/b57d607b052448c1b34fec141fbe2714f61251cf",
       "date": "2026-10-20T17:18:12Z",
       "ref": "#b57d607"
-    },
-    {
-      "type": "pull_request",
-      "title": "feat: read decks.yaml via src/lib/config.js",
-      "url": "https://github.com/OWASP/cornucopia/pull/3510",
-      "date": "2026-10-20T16:42:28Z",
-      "state": "merged",
-      "ref": "#3510"
     }
   ]
 }
