@@ -1,19 +1,34 @@
 {
-  "lastUpdated": "2026-11-09T04:56:22.371Z",
+  "lastUpdated": "2026-11-10T06:12:04.375Z",
   "username": "Adarshkumar0509",
   "totalCommits": 100,
   "totalPRs": 52,
-  "mergedPRs": 50,
-  "openPRs": 2,
+  "mergedPRs": 51,
+  "openPRs": 1,
   "totalIssues": 23,
   "recentActivity": [
     {
       "type": "pull_request",
       "title": "integrate pdf-decks into pre-release and release pipelines",
       "url": "https://github.com/OWASP/cornucopia/pull/3750",
-      "date": "2026-11-09T04:44:14Z",
-      "state": "open",
+      "date": "2026-11-09T06:57:17Z",
+      "state": "merged",
       "ref": "#3750"
+    },
+    {
+      "type": "pull_request",
+      "title": "Fix/race condition game start",
+      "url": "https://github.com/OWASP/cornucopia/pull/3693",
+      "date": "2026-11-09T05:10:34Z",
+      "state": "open",
+      "ref": "#3693"
+    },
+    {
+      "type": "commit",
+      "title": "integrate pdf-decks into pre-release and release pipelines",
+      "url": "https://github.com/OWASP/cornucopia/commit/cece98546b97f254ce40c6736c3a6a39e3967743",
+      "date": "2026-11-08T12:27:50Z",
+      "ref": "#cece985"
     },
     {
       "type": "pull_request",
@@ -22,14 +37,6 @@
       "date": "2026-11-04T05:13:43Z",
       "state": "merged",
       "ref": "#3670"
-    },
-    {
-      "type": "pull_request",
-      "title": "Fix/race condition game start",
-      "url": "https://github.com/OWASP/cornucopia/pull/3693",
-      "date": "2026-11-03T22:16:04Z",
-      "state": "open",
-      "ref": "#3693"
     },
     {
       "type": "issue",
@@ -145,13 +152,6 @@
       "url": "https://github.com/OWASP/cornucopia/commit/329add458b2d003bac7d028a3e154a9ab0586bf6",
       "date": "2026-10-21T06:04:01Z",
       "ref": "#329add4"
-    },
-    {
-      "type": "commit",
-      "title": "fix: add missing backslash in ZAP website nightly scan workflow",
-      "url": "https://github.com/OWASP/cornucopia/commit/b57d607b052448c1b34fec141fbe2714f61251cf",
-      "date": "2026-10-20T17:18:12Z",
-      "ref": "#b57d607"
     }
   ]
 }
